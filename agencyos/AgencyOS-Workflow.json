@@ -1,0 +1,6351 @@
+{
+  "name": "\ud83c\udfe2 AgencyOS \u2014 Intelligent Agency Operations Engine",
+  "nodes": [
+    {
+      "parameters": {
+        "content": "\ud83d\udce5 CLIENT INTAKE \u2014 Auto-captures leads from forms, calls, and referrals. AI profiles each client and detects duplicates.",
+        "height": 200,
+        "width": 500,
+        "color": 1
+      },
+      "id": "b0531714-a7f0-4a66-8d64-6ea9c662a5e9",
+      "name": "S-M1",
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [
+        -200,
+        -1200
+      ]
+    },
+    {
+      "parameters": {
+        "content": "\ud83d\udccb AI PROPOSAL ENGINE \u2014 Claude writes proposals, tracks opens, auto-follows up. Converts 40% more leads.",
+        "height": 200,
+        "width": 500,
+        "color": 2
+      },
+      "id": "2fffc3df-14cf-4fbb-afba-ef44411e88b6",
+      "name": "S-M2",
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [
+        1100,
+        -1200
+      ]
+    },
+    {
+      "parameters": {
+        "content": "\ud83d\udcca PROJECT AUTOPILOT \u2014 Auto-creates project boards, tracks milestones, alerts on deadlines, keeps clients informed.",
+        "height": 200,
+        "width": 500,
+        "color": 3
+      },
+      "id": "e40a3f4e-05ae-495d-9ca8-e85285dfa427",
+      "name": "S-M3",
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [
+        2400,
+        -1200
+      ]
+    },
+    {
+      "parameters": {
+        "content": "\ud83d\udcac COMMUNICATION HUB \u2014 Centralizes all client comms. AI classifies urgency, auto-responds to FAQs, escalates the rest.",
+        "height": 200,
+        "width": 500,
+        "color": 4
+      },
+      "id": "80038f4f-c40c-47c8-9e3d-a9d384be67b8",
+      "name": "S-M4",
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [
+        -200,
+        200
+      ]
+    },
+    {
+      "parameters": {
+        "content": "\ud83d\udcb0 SMART INVOICING \u2014 Auto-generates invoices, tracks payments, sends AI-written reminders that get progressively firmer.",
+        "height": 200,
+        "width": 500,
+        "color": 5
+      },
+      "id": "48dfdad6-a254-47a8-81de-60a96823353c",
+      "name": "S-M5",
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [
+        1100,
+        200
+      ]
+    },
+    {
+      "parameters": {
+        "content": "\ud83d\udcc5 SMART SCHEDULING \u2014 Cal.com booking + auto-confirmation + no-show detection + meeting prep briefs.",
+        "height": 200,
+        "width": 500,
+        "color": 6
+      },
+      "id": "78df8e8c-c42f-4b42-985b-d016e81ad5b0",
+      "name": "S-M6",
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [
+        2400,
+        200
+      ]
+    },
+    {
+      "parameters": {
+        "content": "\u2b50 REVIEW HARVESTER \u2014 Post-project satisfaction survey \u2192 happy clients get review requests, unhappy get intervention.",
+        "height": 200,
+        "width": 500,
+        "color": 1
+      },
+      "id": "02943859-0123-46d9-b458-ac72b6c5e6c6",
+      "name": "S-M7",
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [
+        -200,
+        1600
+      ]
+    },
+    {
+      "parameters": {
+        "content": "\ud83e\udec0 PULSE ENGINE \u2014 AI-powered Client Intelligence. Predicts churn, calculates true profitability, detects upsell opportunities. Your agency's nervous system.",
+        "height": 200,
+        "width": 600,
+        "color": 2
+      },
+      "id": "8be412c2-da4c-4f98-8944-358f4c385de0",
+      "name": "S-M8",
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [
+        1100,
+        1600
+      ]
+    },
+    {
+      "parameters": {
+        "content": "\ud83d\udd04 SMART NURTURE \u2014 Leads who didn't convert get warm, value-first follow-ups. Churned clients get win-back campaigns.",
+        "height": 200,
+        "width": 500,
+        "color": 3
+      },
+      "id": "6ae8fbde-f320-4ef0-8430-c5d8250a71c0",
+      "name": "S-M9",
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [
+        2400,
+        1600
+      ]
+    },
+    {
+      "parameters": {
+        "content": "\ud83d\udcca FINANCIAL COMMAND CENTER \u2014 Revenue tracking, forecasting, expense monitoring. Weekly P&L delivered to your inbox.",
+        "height": 200,
+        "width": 500,
+        "color": 4
+      },
+      "id": "7f9b121a-ac94-46ff-aebe-5da298534a07",
+      "name": "S-M10",
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [
+        -200,
+        3000
+      ]
+    },
+    {
+      "parameters": {
+        "content": "\ud83d\ude80 ONBOARDING AUTOPILOT \u2014 New client signed \u2192 automatic welcome sequence, access setup, kickoff scheduling.",
+        "height": 200,
+        "width": 500,
+        "color": 5
+      },
+      "id": "2158d4c8-af82-4433-98b7-ce2cca8fa605",
+      "name": "S-M11",
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [
+        1100,
+        3000
+      ]
+    },
+    {
+      "parameters": {
+        "content": "\u274c GLOBAL ERROR HANDLER \u2014 Catches all failures, logs everything, alerts on critical issues.",
+        "height": 200,
+        "width": 500,
+        "color": 6
+      },
+      "id": "cd69781c-474b-4b06-86b9-629f4c393edc",
+      "name": "S-M12",
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [
+        2400,
+        3000
+      ]
+    },
+    {
+      "parameters": {
+        "path": "client-intake",
+        "httpMethod": "POST",
+        "options": {}
+      },
+      "id": "99ea6ce2-950b-45dc-8deb-f3ca3bd052e6",
+      "name": "\ud83d\udce5 Intake Webhook",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2,
+      "position": [
+        0,
+        -1000
+      ]
+    },
+    {
+      "parameters": {
+        "jsCode": "const d = $input.first().json.body || $input.first().json;\nconst required = ['email','company_name','contact_name'];\nconst missing = required.filter(f => !d[f]);\nif (missing.length) throw new Error('Missing: ' + missing.join(', '));\nreturn [{json: {\n  email: d.email.toLowerCase().trim(),\n  company_name: d.company_name.trim(),\n  contact_name: d.contact_name.trim(),\n  phone: d.phone || '',\n  services_needed: d.services_needed || '',\n  budget_range: d.budget_range || '',\n  message: d.message || '',\n  source: d.source || 'Form',\n  received_at: new Date().toISOString()\n}}];"
+      },
+      "id": "b9a8d3eb-5edf-4141-984d-e82ad7210ad6",
+      "name": "\ud83e\uddf9 Parse & Validate",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        300,
+        -1000
+      ]
+    },
+    {
+      "parameters": {
+        "operation": "search",
+        "base": {
+          "__rl": true,
+          "value": "appAGENCYOS",
+          "mode": "id"
+        },
+        "table": {
+          "__rl": true,
+          "value": "tbl49823389",
+          "mode": "id"
+        },
+        "filterByFormula": "=LOWER({email})='{{ $json.email }}'",
+        "options": {}
+      },
+      "id": "62547759-606a-4ef1-a8bb-8b8f8a2538c1",
+      "name": "\ud83d\udd0d Duplicate Check",
+      "type": "n8n-nodes-base.airtable",
+      "typeVersion": 2.1,
+      "position": [
+        600,
+        -1000
+      ],
+      "credentials": {
+        "airtableTokenApi": {
+          "id": "AGENCYOS_AT",
+          "name": "Airtable"
+        }
+      },
+      "alwaysOutputData": true
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict"
+          },
+          "conditions": [
+            {
+              "id": "c1",
+              "leftValue": "={{ $json.length }}",
+              "rightValue": 0,
+              "operator": {
+                "type": "number",
+                "operation": "gt"
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "id": "8478de7a-77cc-4b24-ad24-a6067afe31cf",
+      "name": "\ud83d\udd00 Duplicate?",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2,
+      "position": [
+        900,
+        -1000
+      ]
+    },
+    {
+      "parameters": {
+        "operation": "update",
+        "base": {
+          "__rl": true,
+          "value": "appAGENCYOS",
+          "mode": "id"
+        },
+        "table": {
+          "__rl": true,
+          "value": "tbl49823389",
+          "mode": "id"
+        },
+        "columns": {
+          "mappingMode": "defineBelow",
+          "value": [
+            {
+              "name": "services",
+              "value": "={{ $('\ud83e\uddf9 Parse & Validate').first().json.services_needed }}"
+            },
+            {
+              "name": "last_communication",
+              "value": "={{ $now }}"
+            },
+            {
+              "name": "notes",
+              "value": "=Returning lead: {{ $('\ud83e\uddf9 Parse & Validate').first().json.message }}"
+            }
+          ],
+          "matchingColumns": [
+            "id"
+          ],
+          "schema": []
+        }
+      },
+      "id": "331080ae-f17c-439d-b35d-5b56c190573b",
+      "name": "\ud83d\udcbe Merge Existing",
+      "type": "n8n-nodes-base.airtable",
+      "typeVersion": 2.1,
+      "position": [
+        1200,
+        -1200
+      ],
+      "credentials": {
+        "airtableTokenApi": {
+          "id": "AGENCYOS_AT",
+          "name": "Airtable"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "resource": "message",
+        "operation": "post",
+        "channelId": {
+          "__rl": true,
+          "value": "C034679524",
+          "mode": "id"
+        },
+        "text": "=\ud83d\udd04 Returning client: {{ $('\ud83e\uddf9 Parse & Validate').first().json.company_name }} ({{ $('\ud83e\uddf9 Parse & Validate').first().json.email }})",
+        "options": {}
+      },
+      "id": "a1e33557-5ebe-4abd-a922-fb496cb5763c",
+      "name": "\ud83d\udcac Returning Client",
+      "type": "n8n-nodes-base.slack",
+      "typeVersion": 2.2,
+      "position": [
+        1500,
+        -1200
+      ],
+      "credentials": {
+        "slackApi": {
+          "id": "AGENCYOS_SLACK",
+          "name": "Slack"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.openai.com/v1/chat/completions",
+        "options": {},
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "Authorization",
+              "value": "Bearer YOUR_OPENAI_KEY"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={\n  \"model\": \"gpt-4o-mini\",\n  \"messages\": [\n    {\"role\": \"system\", \"content\": \"You are a client profiler for a digital agency. Analyze the inquiry and return JSON: {business_type, budget_tier, service_match, priority_score, summary}. business_type: ecom/saas/local/agency/other. budget_tier: S(<$2k)/M($2-5k)/L($5-15k)/XL($15k+). priority_score: 0-100.\"},\n    {\"role\": \"user\", \"content\": \"{{ $('\ud83e\uddf9 Parse & Validate').first().json.toJsonString() }}\"}\n  ],\n  \"temperature\": 0.7,\n  \"response_format\": {\"type\": \"json_object\"}\n}"
+      },
+      "id": "b385ba4d-e571-4fee-a802-3abd20a0b2c3",
+      "name": "\ud83e\udde0 AI Client Profiler",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        1200,
+        -800
+      ],
+      "onError": "continueRegularOutput"
+    },
+    {
+      "parameters": {
+        "jsCode": "const resp = JSON.parse($input.first().json.choices[0].message.content);\nconst intake = $('\ud83e\uddf9 Parse & Validate').first().json;\nreturn [{json: {\n  ...intake,\n  business_type: resp.business_type || 'other',\n  budget_tier: resp.budget_tier || 'M',\n  services: resp.service_match || intake.services_needed,\n  priority_score: resp.priority_score || 50,\n  ai_summary: resp.summary || '',\n  stage: 'Lead',\n  health_score: 70,\n  risk_level: '\ud83d\udfe2 Healthy',\n  created_at: new Date().toISOString()\n}}];"
+      },
+      "id": "be89ba8d-ed48-4d1a-9a47-ef6926f73933",
+      "name": "\ud83d\udcca Parse AI Profile",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        1500,
+        -800
+      ]
+    },
+    {
+      "parameters": {
+        "operation": "create",
+        "base": {
+          "__rl": true,
+          "value": "appAGENCYOS",
+          "mode": "id"
+        },
+        "table": {
+          "__rl": true,
+          "value": "tbl49823389",
+          "mode": "id"
+        },
+        "columns": {
+          "mappingMode": "defineBelow",
+          "value": [
+            {
+              "name": "company_name",
+              "value": "={{ $json.company_name }}"
+            },
+            {
+              "name": "contact_name",
+              "value": "={{ $json.contact_name }}"
+            },
+            {
+              "name": "email",
+              "value": "={{ $json.email }}"
+            },
+            {
+              "name": "phone",
+              "value": "={{ $json.phone }}"
+            },
+            {
+              "name": "source",
+              "value": "={{ $json.source }}"
+            },
+            {
+              "name": "business_type",
+              "value": "={{ $json.business_type }}"
+            },
+            {
+              "name": "budget_tier",
+              "value": "={{ $json.budget_tier }}"
+            },
+            {
+              "name": "services",
+              "value": "={{ $json.services }}"
+            },
+            {
+              "name": "stage",
+              "value": "Lead"
+            },
+            {
+              "name": "health_score",
+              "value": "=70"
+            },
+            {
+              "name": "risk_level",
+              "value": "\ud83d\udfe2 Healthy"
+            },
+            {
+              "name": "priority_score",
+              "value": "={{ $json.priority_score }}"
+            }
+          ],
+          "matchingColumns": [],
+          "schema": []
+        }
+      },
+      "id": "a5d47083-b418-4435-9c73-6f43a8278735",
+      "name": "\ud83d\udcbe Create Client",
+      "type": "n8n-nodes-base.airtable",
+      "typeVersion": 2.1,
+      "position": [
+        1800,
+        -800
+      ],
+      "credentials": {
+        "airtableTokenApi": {
+          "id": "AGENCYOS_AT",
+          "name": "Airtable"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "sendTo": "={{ $json.email }}",
+        "subject": "=Welcome to [Agency] \u2014 {{ $json.company_name }}",
+        "message": "=Hi {{ $json.contact_name }},\n\nThank you for reaching out! We've received your inquiry and our team is reviewing it.\n\nWe'll get back to you within 24 hours with a tailored proposal.\n\nBest regards,\n[Agency Team]",
+        "options": {}
+      },
+      "id": "27ba4e5c-9105-4d31-85dd-68e7ddcd93da",
+      "name": "\ud83d\udce7 Welcome Email",
+      "type": "n8n-nodes-base.gmail",
+      "typeVersion": 2.1,
+      "position": [
+        2100,
+        -800
+      ],
+      "credentials": {
+        "gmailOAuth2": {
+          "id": "AGENCYOS_GMAIL",
+          "name": "Gmail"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "resource": "message",
+        "operation": "post",
+        "channelId": {
+          "__rl": true,
+          "value": "C034679524",
+          "mode": "id"
+        },
+        "text": "=\ud83c\udd95 New lead: {{ $json.company_name }} \u2014 {{ $json.business_type }} \u2014 Budget: {{ $json.budget_tier }} \u2014 Score: {{ $json.priority_score }}/100",
+        "options": {}
+      },
+      "id": "2e28ca47-1bfc-4272-aabf-bfdd7143e6c0",
+      "name": "\ud83d\udcac New Lead Alert",
+      "type": "n8n-nodes-base.slack",
+      "typeVersion": 2.2,
+      "position": [
+        2100,
+        -600
+      ],
+      "credentials": {
+        "slackApi": {
+          "id": "AGENCYOS_SLACK",
+          "name": "Slack"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "operation": "create",
+        "base": {
+          "__rl": true,
+          "value": "appAGENCYOS",
+          "mode": "id"
+        },
+        "table": {
+          "__rl": true,
+          "value": "tbl50058103",
+          "mode": "id"
+        },
+        "columns": {
+          "mappingMode": "defineBelow",
+          "value": [
+            {
+              "name": "event",
+              "value": "lead_received"
+            },
+            {
+              "name": "client_email",
+              "value": "={{ $json.email }}"
+            },
+            {
+              "name": "timestamp",
+              "value": "={{ $now }}"
+            }
+          ],
+          "matchingColumns": [],
+          "schema": []
+        }
+      },
+      "id": "f322843f-619d-4374-9b8d-e005166c7222",
+      "name": "\ud83d\udcca Update Analytics",
+      "type": "n8n-nodes-base.airtable",
+      "typeVersion": 2.1,
+      "position": [
+        2400,
+        -800
+      ],
+      "credentials": {
+        "airtableTokenApi": {
+          "id": "AGENCYOS_AT",
+          "name": "Airtable"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "cronExpression",
+              "expression": "*/30 * * * *"
+            }
+          ]
+        }
+      },
+      "id": "3993671a-c902-4dc2-9d59-210312aa8e81",
+      "name": "\u23f0 Check Proposal Queue",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [
+        1400,
+        -1000
+      ]
+    },
+    {
+      "parameters": {
+        "operation": "search",
+        "base": {
+          "__rl": true,
+          "value": "appAGENCYOS",
+          "mode": "id"
+        },
+        "table": {
+          "__rl": true,
+          "value": "tbl49823389",
+          "mode": "id"
+        },
+        "filterByFormula": "{stage}='Proposal'",
+        "options": {}
+      },
+      "id": "3f608d82-68ff-4b0c-ab14-11cb073703c1",
+      "name": "\ud83d\udccb Get Proposal Clients",
+      "type": "n8n-nodes-base.airtable",
+      "typeVersion": 2.1,
+      "position": [
+        1700,
+        -1000
+      ],
+      "credentials": {
+        "airtableTokenApi": {
+          "id": "AGENCYOS_AT",
+          "name": "Airtable"
+        }
+      },
+      "alwaysOutputData": true
+    },
+    {
+      "parameters": {
+        "operation": "search",
+        "base": {
+          "__rl": true,
+          "value": "appAGENCYOS",
+          "mode": "id"
+        },
+        "table": {
+          "__rl": true,
+          "value": "tbl32151973",
+          "mode": "id"
+        },
+        "filterByFormula": "",
+        "options": {}
+      },
+      "id": "523403e6-29d6-4d90-9298-50107b68fd2f",
+      "name": "\ud83d\udccb Service Templates",
+      "type": "n8n-nodes-base.airtable",
+      "typeVersion": 2.1,
+      "position": [
+        2000,
+        -1000
+      ],
+      "credentials": {
+        "airtableTokenApi": {
+          "id": "AGENCYOS_AT",
+          "name": "Airtable"
+        }
+      },
+      "alwaysOutputData": true
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.anthropic.com/v1/messages",
+        "options": {},
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "x-api-key",
+              "value": "YOUR_ANTHROPIC_KEY"
+            },
+            {
+              "name": "anthropic-version",
+              "value": "2023-06-01"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={\n  \"model\": \"claude-3-5-sonnet-20241022\",\n  \"max_tokens\": 4096,\n  \"system\": \"You are a senior proposal writer for a digital agency. Write a professional, compelling proposal. Include: Executive Summary, Scope of Work, Timeline & Milestones, Deliverables, Investment (pricing), Terms. Tone: confident, clear, not salesy. Format in clean markdown sections.\",\n  \"messages\": [\n    {\"role\": \"user\", \"content\": \"{{ $('\ud83d\udccb Get Proposal Clients').first().json.fields.toJsonString() + ' | Services: ' + $('\ud83d\udccb Service Templates').all().map(i=>i.json.fields.service_name).join(', ') }}\"}\n  ]\n}"
+      },
+      "id": "32410cab-d92f-46f5-b410-0e3581cbd003",
+      "name": "\ud83e\udde0 Claude Proposal Writer",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        2300,
+        -1000
+      ],
+      "onError": "continueRegularOutput"
+    },
+    {
+      "parameters": {
+        "jsCode": "const resp = $input.first().json.content[0].text;\nconst client = $('\ud83d\udccb Get Proposal Clients').first().json.fields;\nreturn [{json: {\n  proposal_text: resp,\n  client_name: client.company_name,\n  client_email: client.email,\n  client_id: $('\ud83d\udccb Get Proposal Clients').first().json.id,\n  created_at: new Date().toISOString()\n}}];"
+      },
+      "id": "1b46da23-4d05-434f-841c-59a7a4fa3a3b",
+      "name": "\ud83d\udcca Format Proposal",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        2600,
+        -1000
+      ]
+    },
+    {
+      "parameters": {
+        "resource": "message",
+        "operation": "post",
+        "channelId": {
+          "__rl": true,
+          "value": "C073460059",
+          "mode": "id"
+        },
+        "text": "=\ud83d\udccb New proposal ready for *{{ $json.client_name }}*\\n\\nReview and approve in the queue.\\n\u2705 Approve | \u270f\ufe0f Edit | \u274c Reject",
+        "options": {}
+      },
+      "id": "01af9014-ca01-48ce-a113-6bbf6a1e4f5c",
+      "name": "\ud83d\udcac Proposal Review",
+      "type": "n8n-nodes-base.slack",
+      "typeVersion": 2.2,
+      "position": [
+        2900,
+        -1000
+      ],
+      "credentials": {
+        "slackApi": {
+          "id": "AGENCYOS_SLACK",
+          "name": "Slack"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "path": "proposal-approved",
+        "httpMethod": "POST",
+        "options": {}
+      },
+      "id": "a813f73b-8bb8-4fdc-974a-36eccae65651",
+      "name": "\u2705 Proposal Approved",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2,
+      "position": [
+        2900,
+        -700
+      ]
+    },
+    {
+      "parameters": {
+        "sendTo": "={{ $json.client_email }}",
+        "subject": "=[Agency] \u2014 Proposal for {{ $json.client_name }}",
+        "message": "={{ $json.proposal_text }}\\n\\n---\\n\ud83d\udcb0 To proceed, please confirm via this link: [Stripe Payment Link]",
+        "options": {}
+      },
+      "id": "e7aa47ef-9eeb-47b0-9d45-80d0b0511ecf",
+      "name": "\ud83d\udce7 Send Proposal",
+      "type": "n8n-nodes-base.gmail",
+      "typeVersion": 2.1,
+      "position": [
+        3200,
+        -1000
+      ],
+      "credentials": {
+        "gmailOAuth2": {
+          "id": "AGENCYOS_GMAIL",
+          "name": "Gmail"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "operation": "update",
+        "base": {
+          "__rl": true,
+          "value": "appAGENCYOS",
+          "mode": "id"
+        },
+        "table": {
+          "__rl": true,
+          "value": "tbl49823389",
+          "mode": "id"
+        },
+        "columns": {
+          "mappingMode": "defineBelow",
+          "value": [
+            {
+              "name": "stage",
+              "value": "Proposal Sent"
+            },
+            {
+              "name": "proposal_sent_at",
+              "value": "={{ $now }}"
+            }
+          ],
+          "matchingColumns": [
+            "id"
+          ],
+          "schema": []
+        }
+      },
+      "id": "ff0711a4-0be7-4e8d-a179-ce4abe246dd3",
+      "name": "\ud83d\udcbe Stage \u2192 Proposal Sent",
+      "type": "n8n-nodes-base.airtable",
+      "typeVersion": 2.1,
+      "position": [
+        3500,
+        -1000
+      ],
+      "credentials": {
+        "airtableTokenApi": {
+          "id": "AGENCYOS_AT",
+          "name": "Airtable"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "cronExpression",
+              "expression": "0 10 * * *"
+            }
+          ]
+        }
+      },
+      "id": "4a7b4795-ece9-47d4-82bd-b136be7c7295",
+      "name": "\u23f0 Proposal Follow-ups",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [
+        1400,
+        -500
+      ]
+    },
+    {
+      "parameters": {
+        "operation": "search",
+        "base": {
+          "__rl": true,
+          "value": "appAGENCYOS",
+          "mode": "id"
+        },
+        "table": {
+          "__rl": true,
+          "value": "tbl49823389",
+          "mode": "id"
+        },
+        "filterByFormula": "{stage}='Proposal Sent'",
+        "options": {}
+      },
+      "id": "724e6b62-24da-40d7-a116-c7c4d1d53b07",
+      "name": "\ud83d\udccb Pending Proposals",
+      "type": "n8n-nodes-base.airtable",
+      "typeVersion": 2.1,
+      "position": [
+        1700,
+        -500
+      ],
+      "credentials": {
+        "airtableTokenApi": {
+          "id": "AGENCYOS_AT",
+          "name": "Airtable"
+        }
+      },
+      "alwaysOutputData": true
+    },
+    {
+      "parameters": {
+        "jsCode": "const items = $input.all();\nreturn items.map(item => {\n  const sent = new Date(item.json.fields.proposal_sent_at || item.json.fields.created_at);\n  const days = Math.floor((Date.now() - sent) / 86400000);\n  return {json: {...item.json, days_since_sent: days}};\n});"
+      },
+      "id": "2cc24eee-27a9-41e4-864d-070c9e4dace4",
+      "name": "\ud83d\udcca Calculate Days",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        2000,
+        -500
+      ]
+    },
+    {
+      "parameters": {
+        "rules": {
+          "values": [
+            {
+              "conditions": {
+                "options": {
+                  "caseSensitive": true,
+                  "leftValue": "",
+                  "typeValidation": "strict"
+                },
+                "conditions": [
+                  {
+                    "leftValue": "={{ $json.days_since_sent }}",
+                    "rightValue": "2",
+                    "operator": {
+                      "type": "number",
+                      "operation": "equals"
+                    }
+                  }
+                ],
+                "combinator": "and"
+              },
+              "renameOutput": true,
+              "outputKey": "Day 2"
+            },
+            {
+              "conditions": {
+                "options": {
+                  "caseSensitive": true,
+                  "leftValue": "",
+                  "typeValidation": "strict"
+                },
+                "conditions": [
+                  {
+                    "leftValue": "={{ $json.days_since_sent }}",
+                    "rightValue": "5",
+                    "operator": {
+                      "type": "number",
+                      "operation": "equals"
+                    }
+                  }
+                ],
+                "combinator": "and"
+              },
+              "renameOutput": true,
+              "outputKey": "Day 5"
+            },
+            {
+              "conditions": {
+                "options": {
+                  "caseSensitive": true,
+                  "leftValue": "",
+                  "typeValidation": "strict"
+                },
+                "conditions": [
+                  {
+                    "leftValue": "={{ $json.days_since_sent }}",
+                    "rightValue": "10",
+                    "operator": {
+                      "type": "number",
+                      "operation": "equals"
+                    }
+                  }
+                ],
+                "combinator": "and"
+              },
+              "renameOutput": true,
+              "outputKey": "Day 10"
+            },
+            {
+              "conditions": {
+                "options": {
+                  "caseSensitive": true,
+                  "leftValue": "",
+                  "typeValidation": "strict"
+                },
+                "conditions": [
+                  {
+                    "leftValue": "={{ $json.days_since_sent }}",
+                    "rightValue": "15",
+                    "operator": {
+                      "type": "number",
+                      "operation": "gte"
+                    }
+                  }
+                ],
+                "combinator": "and"
+              },
+              "renameOutput": true,
+              "outputKey": "Day 15"
+            }
+          ]
+        },
+        "options": {
+          "fallbackOutput": "extra"
+        }
+      },
+      "id": "abb62e9a-428b-4662-88b3-23959b38a64c",
+      "name": "\ud83d\udd00 Follow-up Tier",
+      "type": "n8n-nodes-base.switch",
+      "typeVersion": 3,
+      "position": [
+        2300,
+        -500
+      ]
+    },
+    {
+      "parameters": {
+        "sendTo": "={{ $json.fields.email }}",
+        "subject": "=Just checking in \u2014 {{ $json.fields.company_name }}",
+        "message": "=Hi {{ $json.fields.contact_name }},\n\nJust making sure you received our proposal. Happy to answer any questions!\n\nBest,\n[Agency]",
+        "options": {}
+      },
+      "id": "3ab14eab-2280-4660-9092-03209056a652",
+      "name": "\ud83d\udce7 Day 2 Nudge",
+      "type": "n8n-nodes-base.gmail",
+      "typeVersion": 2.1,
+      "position": [
+        2600,
+        -600
+      ],
+      "credentials": {
+        "gmailOAuth2": {
+          "id": "AGENCYOS_GMAIL",
+          "name": "Gmail"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "sendTo": "={{ $json.fields.email }}",
+        "subject": "=Quick call? \u2014 {{ $json.fields.company_name }}",
+        "message": "=Hi {{ $json.fields.contact_name }},\n\nWould you like to hop on a quick call to discuss the proposal? I can walk you through everything in 15 minutes.\n\nBest,\n[Agency]",
+        "options": {}
+      },
+      "id": "eeb79fd8-533c-48ad-893a-bfa06949f48d",
+      "name": "\ud83d\udce7 Day 5 Call Offer",
+      "type": "n8n-nodes-base.gmail",
+      "typeVersion": 2.1,
+      "position": [
+        2600,
+        -400
+      ],
+      "credentials": {
+        "gmailOAuth2": {
+          "id": "AGENCYOS_GMAIL",
+          "name": "Gmail"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "resource": "message",
+        "operation": "post",
+        "channelId": {
+          "__rl": true,
+          "value": "C073460059",
+          "mode": "id"
+        },
+        "text": "=\u26a0\ufe0f *{{ $json.fields.company_name }}* \u2014 No response after 10 days. Send final follow-up? [\u2705 Yes] [\u274c Archive]",
+        "options": {}
+      },
+      "id": "8450db8e-a1a8-4ac1-9f20-0bddd9a17d74",
+      "name": "\ud83d\udcac Day 10 HITL",
+      "type": "n8n-nodes-base.slack",
+      "typeVersion": 2.2,
+      "position": [
+        2600,
+        -200
+      ],
+      "credentials": {
+        "slackApi": {
+          "id": "AGENCYOS_SLACK",
+          "name": "Slack"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "operation": "update",
+        "base": {
+          "__rl": true,
+          "value": "appAGENCYOS",
+          "mode": "id"
+        },
+        "table": {
+          "__rl": true,
+          "value": "tbl49823389",
+          "mode": "id"
+        },
+        "columns": {
+          "mappingMode": "defineBelow",
+          "value": [
+            {
+              "name": "stage",
+              "value": "Archived"
+            },
+            {
+              "name": "archived_reason",
+              "value": "No response after 15 days"
+            }
+          ],
+          "matchingColumns": [
+            "id"
+          ],
+          "schema": []
+        }
+      },
+      "id": "2e70da22-9973-49c3-95f8-bb96e58b8599",
+      "name": "\ud83d\udcbe Auto-Archive",
+      "type": "n8n-nodes-base.airtable",
+      "typeVersion": 2.1,
+      "position": [
+        2600,
+        0
+      ],
+      "credentials": {
+        "airtableTokenApi": {
+          "id": "AGENCYOS_AT",
+          "name": "Airtable"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "path": "stripe-deposit",
+        "httpMethod": "POST",
+        "options": {}
+      },
+      "id": "46f4f653-ebf8-4c75-9eaa-415ec1ccbc0e",
+      "name": "\ud83d\udcb0 Deposit Received",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2,
+      "position": [
+        1400,
+        0
+      ]
+    },
+    {
+      "parameters": {
+        "operation": "update",
+        "base": {
+          "__rl": true,
+          "value": "appAGENCYOS",
+          "mode": "id"
+        },
+        "table": {
+          "__rl": true,
+          "value": "tbl49823389",
+          "mode": "id"
+        },
+        "columns": {
+          "mappingMode": "defineBelow",
+          "value": [
+            {
+              "name": "stage",
+              "value": "Active"
+            },
+            {
+              "name": "deposit_paid",
+              "value": "true"
+            },
+            {
+              "name": "activated_at",
+              "value": "={{ $now }}"
+            }
+          ],
+          "matchingColumns": [
+            "id"
+          ],
+          "schema": []
+        }
+      },
+      "id": "e7d8c480-0405-4d81-9d28-8838b37e1190",
+      "name": "\ud83d\udcbe Stage \u2192 Active",
+      "type": "n8n-nodes-base.airtable",
+      "typeVersion": 2.1,
+      "position": [
+        1700,
+        0
+      ],
+      "credentials": {
+        "airtableTokenApi": {
+          "id": "AGENCYOS_AT",
+          "name": "Airtable"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "sendTo": "={{ $json.body.customer_email }}",
+        "subject": "=\ud83c\udf89 Welcome aboard! \u2014 [Agency]",
+        "message": "=We've received your deposit and your project is now active!\\n\\nNext steps:\\n1. Kickoff call scheduling link\\n2. Access request form\\n\\nExcited to work together!",
+        "options": {}
+      },
+      "id": "00dcffa1-f50f-4f0a-8586-562981c3ce1d",
+      "name": "\ud83d\udce7 Onboarding Confirm",
+      "type": "n8n-nodes-base.gmail",
+      "typeVersion": 2.1,
+      "position": [
+        2000,
+        0
+      ],
+      "credentials": {
+        "gmailOAuth2": {
+          "id": "AGENCYOS_GMAIL",
+          "name": "Gmail"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "resource": "message",
+        "operation": "post",
+        "channelId": {
+          "__rl": true,
+          "value": "C062486186",
+          "mode": "id"
+        },
+        "text": "=\ud83c\udf89 NEW CLIENT SIGNED \u2014 {{ $json.body.customer_email }} \u2014 ${{ $json.body.amount_paid / 100 }}",
+        "options": {}
+      },
+      "id": "b7a03f55-3465-4bce-b9ad-4ad5b8019e90",
+      "name": "\ud83d\udcac Client Signed!",
+      "type": "n8n-nodes-base.slack",
+      "typeVersion": 2.2,
+      "position": [
+        2300,
+        0
+      ],
+      "credentials": {
+        "slackApi": {
+          "id": "AGENCYOS_SLACK",
+          "name": "Slack"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "cronExpression",
+              "expression": "*/15 * * * *"
+            }
+          ]
+        }
+      },
+      "id": "b080c1af-1d2c-4e5a-9d52-1020000d38bd",
+      "name": "\u23f0 New Active Projects",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [
+        2700,
+        -1000
+      ]
+    },
+    {
+      "parameters": {
+        "operation": "search",
+        "base": {
+          "__rl": true,
+          "value": "appAGENCYOS",
+          "mode": "id"
+        },
+        "table": {
+          "__rl": true,
+          "value": "tbl49823389",
+          "mode": "id"
+        },
+        "filterByFormula": "AND({stage}='Active',{project_created}!='true')",
+        "options": {}
+      },
+      "id": "e5bed74d-4091-4b91-8b8e-55fc63b454ad",
+      "name": "\ud83d\udccb Get New Active",
+      "type": "n8n-nodes-base.airtable",
+      "typeVersion": 2.1,
+      "position": [
+        3000,
+        -1000
+      ],
+      "credentials": {
+        "airtableTokenApi": {
+          "id": "AGENCYOS_AT",
+          "name": "Airtable"
+        }
+      },
+      "alwaysOutputData": true
+    },
+    {
+      "parameters": {
+        "operation": "search",
+        "base": {
+          "__rl": true,
+          "value": "appAGENCYOS",
+          "mode": "id"
+        },
+        "table": {
+          "__rl": true,
+          "value": "tbl32919792",
+          "mode": "id"
+        },
+        "filterByFormula": "={service_type}='{{ $json.fields.services }}'",
+        "options": {}
+      },
+      "id": "354486b5-5e17-4c35-bfde-809035687422",
+      "name": "\ud83d\udccb Get Template",
+      "type": "n8n-nodes-base.airtable",
+      "typeVersion": 2.1,
+      "position": [
+        3300,
+        -1000
+      ],
+      "credentials": {
+        "airtableTokenApi": {
+          "id": "AGENCYOS_AT",
+          "name": "Airtable"
+        }
+      },
+      "alwaysOutputData": true
+    },
+    {
+      "parameters": {
+        "operation": "create",
+        "base": {
+          "__rl": true,
+          "value": "appAGENCYOS",
+          "mode": "id"
+        },
+        "table": {
+          "__rl": true,
+          "value": "tbl21483705",
+          "mode": "id"
+        },
+        "columns": {
+          "mappingMode": "defineBelow",
+          "value": [
+            {
+              "name": "client",
+              "value": "={{ $('\ud83d\udccb Get New Active').first().json.id }}"
+            },
+            {
+              "name": "service_type",
+              "value": "={{ $('\ud83d\udccb Get New Active').first().json.fields.services }}"
+            },
+            {
+              "name": "status",
+              "value": "In Progress"
+            },
+            {
+              "name": "start_date",
+              "value": "={{ $now }}"
+            },
+            {
+              "name": "progress_pct",
+              "value": "0"
+            },
+            {
+              "name": "total_revisions",
+              "value": "0"
+            }
+          ],
+          "matchingColumns": [],
+          "schema": []
+        }
+      },
+      "id": "f0f8ceb9-e229-494e-8135-11108618ab91",
+      "name": "\ud83d\udcbe Create Project",
+      "type": "n8n-nodes-base.airtable",
+      "typeVersion": 2.1,
+      "position": [
+        3600,
+        -1000
+      ],
+      "credentials": {
+        "airtableTokenApi": {
+          "id": "AGENCYOS_AT",
+          "name": "Airtable"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "resource": "page",
+        "operation": "create",
+        "options": {}
+      },
+      "id": "c400b11a-167b-4741-9d2a-8b08c055664b",
+      "name": "\ud83d\udccb Create Notion Page",
+      "type": "n8n-nodes-base.notion",
+      "typeVersion": 2.2,
+      "position": [
+        3900,
+        -1000
+      ],
+      "credentials": {
+        "notionApi": {
+          "id": "AGENCYOS_NOTION",
+          "name": "Notion"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "operation": "create",
+        "calendar": {
+          "__rl": true,
+          "value": "primary",
+          "mode": "id"
+        },
+        "options": {}
+      },
+      "id": "42ebcdab-4378-4af1-aab2-88c7abee8179",
+      "name": "\ud83d\udcc5 Create Milestones",
+      "type": "n8n-nodes-base.googleCalendar",
+      "typeVersion": 1,
+      "position": [
+        3900,
+        -800
+      ],
+      "credentials": {
+        "googleCalendarOAuth2Api": {
+          "id": "AGENCYOS_GCAL",
+          "name": "Google Calendar"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "sendTo": "={{ $('\ud83d\udccb Get New Active').first().json.fields.email }}",
+        "subject": "=\ud83d\ude80 Your project has started! \u2014 [Agency]",
+        "message": "=Hi {{ $('\ud83d\udccb Get New Active').first().json.fields.contact_name }},\n\nGreat news \u2014 your project is now active! Here's your timeline and what to expect next.\n\nWe'll keep you updated at every milestone.\n\nBest,\n[Agency Team]",
+        "options": {}
+      },
+      "id": "1e00724c-3d06-466b-8622-6c92340e8066",
+      "name": "\ud83d\udce7 Project Started",
+      "type": "n8n-nodes-base.gmail",
+      "typeVersion": 2.1,
+      "position": [
+        4200,
+        -1000
+      ],
+      "credentials": {
+        "gmailOAuth2": {
+          "id": "AGENCYOS_GMAIL",
+          "name": "Gmail"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "operation": "update",
+        "base": {
+          "__rl": true,
+          "value": "appAGENCYOS",
+          "mode": "id"
+        },
+        "table": {
+          "__rl": true,
+          "value": "tbl49823389",
+          "mode": "id"
+        },
+        "columns": {
+          "mappingMode": "defineBelow",
+          "value": [
+            {
+              "name": "project_created",
+              "value": "true"
+            }
+          ],
+          "matchingColumns": [
+            "id"
+          ],
+          "schema": []
+        }
+      },
+      "id": "9e0df951-0b5e-4c81-a928-0593f855feea",
+      "name": "\ud83d\udcbe Flag Created",
+      "type": "n8n-nodes-base.airtable",
+      "typeVersion": 2.1,
+      "position": [
+        4200,
+        -800
+      ],
+      "credentials": {
+        "airtableTokenApi": {
+          "id": "AGENCYOS_AT",
+          "name": "Airtable"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "cronExpression",
+              "expression": "0 9 * * *"
+            }
+          ]
+        }
+      },
+      "id": "34cd1952-1139-4c03-9e28-bac25bb612b8",
+      "name": "\u23f0 Daily Milestone Check",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [
+        2700,
+        -500
+      ]
+    },
+    {
+      "parameters": {
+        "operation": "search",
+        "base": {
+          "__rl": true,
+          "value": "appAGENCYOS",
+          "mode": "id"
+        },
+        "table": {
+          "__rl": true,
+          "value": "tbl21483705",
+          "mode": "id"
+        },
+        "filterByFormula": "OR({milestone_date}=TODAY(),{milestone_date}<TODAY())",
+        "options": {}
+      },
+      "id": "4e66b26e-a38e-4d3f-a0c7-fffd3ecbe6e3",
+      "name": "\ud83d\udccb Due/Overdue",
+      "type": "n8n-nodes-base.airtable",
+      "typeVersion": 2.1,
+      "position": [
+        3000,
+        -500
+      ],
+      "credentials": {
+        "airtableTokenApi": {
+          "id": "AGENCYOS_AT",
+          "name": "Airtable"
+        }
+      },
+      "alwaysOutputData": true
+    },
+    {
+      "parameters": {
+        "jsCode": "const items = $input.all();\nreturn items.map(item => {\n  const d = new Date(item.json.fields.milestone_date);\n  const today = new Date(); today.setHours(0,0,0,0);\n  const status = d < today ? 'OVERDUE' : 'DUE_TODAY';\n  return {json: {...item.json, milestone_status: status}};\n});"
+      },
+      "id": "f774eced-d3ef-42ea-af31-661dfaea077a",
+      "name": "\ud83d\udcca Check Status",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        3300,
+        -500
+      ]
+    },
+    {
+      "parameters": {
+        "rules": {
+          "values": [
+            {
+              "conditions": {
+                "options": {
+                  "caseSensitive": true,
+                  "leftValue": "",
+                  "typeValidation": "strict"
+                },
+                "conditions": [
+                  {
+                    "leftValue": "={{ $json.milestone_status }}",
+                    "rightValue": "OVERDUE",
+                    "operator": {
+                      "type": "string",
+                      "operation": "equals"
+                    }
+                  }
+                ],
+                "combinator": "and"
+              },
+              "renameOutput": true,
+              "outputKey": "Overdue"
+            },
+            {
+              "conditions": {
+                "options": {
+                  "caseSensitive": true,
+                  "leftValue": "",
+                  "typeValidation": "strict"
+                },
+                "conditions": [
+                  {
+                    "leftValue": "={{ $json.milestone_status }}",
+                    "rightValue": "DUE_TODAY",
+                    "operator": {
+                      "type": "string",
+                      "operation": "equals"
+                    }
+                  }
+                ],
+                "combinator": "and"
+              },
+              "renameOutput": true,
+              "outputKey": "Due Today"
+            }
+          ]
+        },
+        "options": {
+          "fallbackOutput": "extra"
+        }
+      },
+      "id": "3566292c-5645-43e2-ae0c-52f9736d9dbf",
+      "name": "\ud83d\udd00 Milestone Status",
+      "type": "n8n-nodes-base.switch",
+      "typeVersion": 3,
+      "position": [
+        3600,
+        -500
+      ]
+    },
+    {
+      "parameters": {
+        "resource": "message",
+        "operation": "post",
+        "channelId": {
+          "__rl": true,
+          "value": "C079565500",
+          "mode": "id"
+        },
+        "text": "=\ud83d\udea8 Milestone overdue: {{ $json.fields.service_type }} \u2014 Client: {{ $json.fields.client }}",
+        "options": {}
+      },
+      "id": "0dafec86-11ac-4137-98d3-765824c12c6a",
+      "name": "\ud83d\udea8 Overdue Alert",
+      "type": "n8n-nodes-base.slack",
+      "typeVersion": 2.2,
+      "position": [
+        3900,
+        -600
+      ],
+      "credentials": {
+        "slackApi": {
+          "id": "AGENCYOS_SLACK",
+          "name": "Slack"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "resource": "message",
+        "operation": "post",
+        "channelId": {
+          "__rl": true,
+          "value": "C079565500",
+          "mode": "id"
+        },
+        "text": "=\ud83d\udcc5 Milestone due today: {{ $json.fields.service_type }} \u2014 Client: {{ $json.fields.client }}",
+        "options": {}
+      },
+      "id": "0f6d22ad-1261-44de-86c4-bfd1b586a693",
+      "name": "\ud83d\udcc5 Due Today",
+      "type": "n8n-nodes-base.slack",
+      "typeVersion": 2.2,
+      "position": [
+        3900,
+        -400
+      ],
+      "credentials": {
+        "slackApi": {
+          "id": "AGENCYOS_SLACK",
+          "name": "Slack"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "path": "milestone-complete",
+        "httpMethod": "POST",
+        "options": {}
+      },
+      "id": "1c8a0ec4-4025-451e-b784-f972e0b2c35e",
+      "name": "\u2705 Milestone Complete",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2,
+      "position": [
+        2700,
+        -100
+      ]
+    },
+    {
+      "parameters": {
+        "operation": "update",
+        "base": {
+          "__rl": true,
+          "value": "appAGENCYOS",
+          "mode": "id"
+        },
+        "table": {
+          "__rl": true,
+          "value": "tbl21483705",
+          "mode": "id"
+        },
+        "columns": {
+          "mappingMode": "defineBelow",
+          "value": [
+            {
+              "name": "progress_pct",
+              "value": "={{ $json.body.progress }}"
+            },
+            {
+              "name": "status",
+              "value": "={{ $json.body.progress >= 100 ? 'Completed' : 'In Progress' }}"
+            }
+          ],
+          "matchingColumns": [
+            "id"
+          ],
+          "schema": []
+        }
+      },
+      "id": "6d0968b1-3d3e-475e-a992-a2adc8e07183",
+      "name": "\ud83d\udcbe Update Progress",
+      "type": "n8n-nodes-base.airtable",
+      "typeVersion": 2.1,
+      "position": [
+        3000,
+        -100
+      ],
+      "credentials": {
+        "airtableTokenApi": {
+          "id": "AGENCYOS_AT",
+          "name": "Airtable"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "sendTo": "={{ $json.body.client_email }}",
+        "subject": "=\u2705 Milestone completed \u2014 {{ $json.body.milestone_name }}",
+        "message": "=Great news! We've completed the {{ $json.body.milestone_name }} milestone.\n\nProgress: {{ $json.body.progress }}% complete.\n\nBest,\n[Agency]",
+        "options": {}
+      },
+      "id": "266628cb-e91d-40e0-9fdf-27aa1e875df3",
+      "name": "\ud83d\udce7 Progress Update",
+      "type": "n8n-nodes-base.gmail",
+      "typeVersion": 2.1,
+      "position": [
+        3300,
+        -100
+      ],
+      "credentials": {
+        "gmailOAuth2": {
+          "id": "AGENCYOS_GMAIL",
+          "name": "Gmail"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "cronExpression",
+              "expression": "*/5 * * * *"
+            }
+          ]
+        }
+      },
+      "id": "8b1e3ff6-3d69-4985-9510-c1b1787348b8",
+      "name": "\ud83d\udce5 Email Poller",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [
+        0,
+        400
+      ]
+    },
+    {
+      "parameters": {
+        "operation": "search",
+        "base": {
+          "__rl": true,
+          "value": "appAGENCYOS",
+          "mode": "id"
+        },
+        "table": {
+          "__rl": true,
+          "value": "tbl49823389",
+          "mode": "id"
+        },
+        "filterByFormula": "=LOWER({email})='{{ $json.from.toLowerCase() }}'",
+        "options": {}
+      },
+      "id": "93a376c1-ab4d-4e30-ae7d-8a8026f6b40d",
+      "name": "\ud83d\udd0d Match Client",
+      "type": "n8n-nodes-base.airtable",
+      "typeVersion": 2.1,
+      "position": [
+        300,
+        400
+      ],
+      "credentials": {
+        "airtableTokenApi": {
+          "id": "AGENCYOS_AT",
+          "name": "Airtable"
+        }
+      },
+      "alwaysOutputData": true
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.openai.com/v1/chat/completions",
+        "options": {},
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "Authorization",
+              "value": "Bearer YOUR_OPENAI_KEY"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={\n  \"model\": \"gpt-4o-mini\",\n  \"messages\": [\n    {\"role\": \"system\", \"content\": \"Classify this client email. Return JSON: {category, sentiment, requires_response, summary}. Categories: URGENT, QUESTION, FEEDBACK, REVISION_REQUEST, BILLING, GENERAL. Sentiments: POSITIVE, NEUTRAL, NEGATIVE, FRUSTRATED.\"},\n    {\"role\": \"user\", \"content\": \"{{ $json.subject + ' | ' + $json.text }}\"}\n  ],\n  \"temperature\": 0.7,\n  \"response_format\": {\"type\": \"json_object\"}\n}"
+      },
+      "id": "9c2b1696-896b-4df1-a76a-d72287fffe0c",
+      "name": "\ud83e\udde0 AI Classifier",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        600,
+        400
+      ],
+      "onError": "continueRegularOutput"
+    },
+    {
+      "parameters": {
+        "jsCode": "const r = JSON.parse($input.first().json.choices[0].message.content);\nreturn [{json: {\n  category: r.category || 'GENERAL',\n  sentiment: r.sentiment || 'NEUTRAL',\n  requires_response: r.requires_response || false,\n  summary: r.summary || '',\n  client_id: $('\ud83d\udd0d Match Client').first().json.id,\n  client_name: $('\ud83d\udd0d Match Client').first().json.fields.company_name\n}}];"
+      },
+      "id": "03af068d-cb73-44c2-88b8-e073f0043c9a",
+      "name": "\ud83d\udcca Parse Classification",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        900,
+        400
+      ]
+    },
+    {
+      "parameters": {
+        "operation": "create",
+        "base": {
+          "__rl": true,
+          "value": "appAGENCYOS",
+          "mode": "id"
+        },
+        "table": {
+          "__rl": true,
+          "value": "tbl30282015",
+          "mode": "id"
+        },
+        "columns": {
+          "mappingMode": "defineBelow",
+          "value": [
+            {
+              "name": "client",
+              "value": "={{ $json.client_id }}"
+            },
+            {
+              "name": "channel",
+              "value": "Email"
+            },
+            {
+              "name": "direction",
+              "value": "Inbound"
+            },
+            {
+              "name": "category",
+              "value": "={{ $json.category }}"
+            },
+            {
+              "name": "sentiment",
+              "value": "={{ $json.sentiment }}"
+            },
+            {
+              "name": "summary",
+              "value": "={{ $json.summary }}"
+            }
+          ],
+          "matchingColumns": [],
+          "schema": []
+        }
+      },
+      "id": "28e79637-828f-4680-aa6b-51c843457a2b",
+      "name": "\ud83d\udcbe Log Interaction",
+      "type": "n8n-nodes-base.airtable",
+      "typeVersion": 2.1,
+      "position": [
+        1200,
+        400
+      ],
+      "credentials": {
+        "airtableTokenApi": {
+          "id": "AGENCYOS_AT",
+          "name": "Airtable"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "operation": "update",
+        "base": {
+          "__rl": true,
+          "value": "appAGENCYOS",
+          "mode": "id"
+        },
+        "table": {
+          "__rl": true,
+          "value": "tbl49823389",
+          "mode": "id"
+        },
+        "columns": {
+          "mappingMode": "defineBelow",
+          "value": [
+            {
+              "name": "last_communication",
+              "value": "={{ $now }}"
+            }
+          ],
+          "matchingColumns": [
+            "id"
+          ],
+          "schema": []
+        }
+      },
+      "id": "20d6ae9d-7250-4b84-a238-9b0899e14f39",
+      "name": "\ud83d\udcbe Update Last Comm",
+      "type": "n8n-nodes-base.airtable",
+      "typeVersion": 2.1,
+      "position": [
+        1200,
+        600
+      ],
+      "credentials": {
+        "airtableTokenApi": {
+          "id": "AGENCYOS_AT",
+          "name": "Airtable"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "rules": {
+          "values": [
+            {
+              "conditions": {
+                "options": {
+                  "caseSensitive": true,
+                  "leftValue": "",
+                  "typeValidation": "strict"
+                },
+                "conditions": [
+                  {
+                    "leftValue": "={{ $json.category }}",
+                    "rightValue": "URGENT",
+                    "operator": {
+                      "type": "string",
+                      "operation": "equals"
+                    }
+                  }
+                ],
+                "combinator": "and"
+              },
+              "renameOutput": true,
+              "outputKey": "\ud83d\udd34 Urgent"
+            },
+            {
+              "conditions": {
+                "options": {
+                  "caseSensitive": true,
+                  "leftValue": "",
+                  "typeValidation": "strict"
+                },
+                "conditions": [
+                  {
+                    "leftValue": "={{ $json.category }}",
+                    "rightValue": "QUESTION",
+                    "operator": {
+                      "type": "string",
+                      "operation": "equals"
+                    }
+                  }
+                ],
+                "combinator": "and"
+              },
+              "renameOutput": true,
+              "outputKey": "\u2753 Question"
+            },
+            {
+              "conditions": {
+                "options": {
+                  "caseSensitive": true,
+                  "leftValue": "",
+                  "typeValidation": "strict"
+                },
+                "conditions": [
+                  {
+                    "leftValue": "={{ $json.sentiment }}",
+                    "rightValue": "NEGATIVE",
+                    "operator": {
+                      "type": "string",
+                      "operation": "equals"
+                    }
+                  }
+                ],
+                "combinator": "and"
+              },
+              "renameOutput": true,
+              "outputKey": "\ud83d\ude24 Negative"
+            },
+            {
+              "conditions": {
+                "options": {
+                  "caseSensitive": true,
+                  "leftValue": "",
+                  "typeValidation": "strict"
+                },
+                "conditions": [
+                  {
+                    "leftValue": "={{ $json.category }}",
+                    "rightValue": "REVISION_REQUEST",
+                    "operator": {
+                      "type": "string",
+                      "operation": "equals"
+                    }
+                  }
+                ],
+                "combinator": "and"
+              },
+              "renameOutput": true,
+              "outputKey": "\ud83d\udcdd Revision"
+            }
+          ]
+        },
+        "options": {
+          "fallbackOutput": "extra"
+        }
+      },
+      "id": "7e0af72a-6482-4a2e-a0a7-728d9dcc326d",
+      "name": "\ud83d\udd00 Route by Category",
+      "type": "n8n-nodes-base.switch",
+      "typeVersion": 3,
+      "position": [
+        1500,
+        400
+      ]
+    },
+    {
+      "parameters": {
+        "resource": "message",
+        "operation": "post",
+        "channelId": {
+          "__rl": true,
+          "value": "C071930773",
+          "mode": "id"
+        },
+        "text": "=\ud83d\udea8 Urgent from *{{ $json.client_name }}*: {{ $json.summary }}",
+        "options": {}
+      },
+      "id": "87fc2f88-4fa6-4be8-b8d3-c8cc84f76ca4",
+      "name": "\ud83d\udea8 Urgent Alert",
+      "type": "n8n-nodes-base.slack",
+      "typeVersion": 2.2,
+      "position": [
+        1800,
+        200
+      ],
+      "credentials": {
+        "slackApi": {
+          "id": "AGENCYOS_SLACK",
+          "name": "Slack"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "from": "={{ $env.TWILIO_PHONE }}",
+        "to": "={{ $env.MANAGER_PHONE }}",
+        "message": "=\ud83d\udea8 URGENT client msg from {{ $json.client_name }}: {{ $json.summary }}"
+      },
+      "id": "81ddfacf-4d34-4f61-8a2d-7953a2fc12e4",
+      "name": "\ud83d\udcf1 SMS Manager",
+      "type": "n8n-nodes-base.twilio",
+      "typeVersion": 1,
+      "position": [
+        2100,
+        200
+      ],
+      "credentials": {
+        "twilioApi": {
+          "id": "AGENCYOS_TWILIO",
+          "name": "Twilio"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.openai.com/v1/chat/completions",
+        "options": {},
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "Authorization",
+              "value": "Bearer YOUR_OPENAI_KEY"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={\n  \"model\": \"gpt-4o-mini\",\n  \"messages\": [\n    {\"role\": \"system\", \"content\": \"Draft a helpful, professional reply to this client question. Keep it concise and friendly. Sign off as [Agency Team].\"},\n    {\"role\": \"user\", \"content\": \"{{ $json.summary }}\"}\n  ],\n  \"temperature\": 0.7,\n  \"response_format\": {\"type\": \"json_object\"}\n}"
+      },
+      "id": "ae575302-d736-4d24-902a-cf41c4d78ad6",
+      "name": "\ud83e\udde0 Draft Response",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        1800,
+        400
+      ],
+      "onError": "continueRegularOutput"
+    },
+    {
+      "parameters": {
+        "resource": "message",
+        "operation": "post",
+        "channelId": {
+          "__rl": true,
+          "value": "C041664393",
+          "mode": "id"
+        },
+        "text": "=\ud83d\udcdd Draft reply for *{{ $json.client_name }}*:\\n{{ $input.first().json.choices[0].message.content }}\\n\\n[\u2705 Send] [\u270f\ufe0f Edit]",
+        "options": {}
+      },
+      "id": "db5b287c-d56b-433d-98f5-a494a509826a",
+      "name": "\ud83d\udcac Draft Review",
+      "type": "n8n-nodes-base.slack",
+      "typeVersion": 2.2,
+      "position": [
+        2100,
+        400
+      ],
+      "credentials": {
+        "slackApi": {
+          "id": "AGENCYOS_SLACK",
+          "name": "Slack"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "resource": "message",
+        "operation": "post",
+        "channelId": {
+          "__rl": true,
+          "value": "C071930773",
+          "mode": "id"
+        },
+        "text": "=\ud83d\ude24 Negative sentiment from *{{ $json.client_name }}*: {{ $json.summary }}\\nAdding to Pulse watch list.",
+        "options": {}
+      },
+      "id": "736c41a5-13c2-43e7-9aa1-d128ced2a0c5",
+      "name": "\ud83d\udea8 Negative Sentiment",
+      "type": "n8n-nodes-base.slack",
+      "typeVersion": 2.2,
+      "position": [
+        1800,
+        600
+      ],
+      "credentials": {
+        "slackApi": {
+          "id": "AGENCYOS_SLACK",
+          "name": "Slack"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "resource": "message",
+        "operation": "post",
+        "channelId": {
+          "__rl": true,
+          "value": "C079565500",
+          "mode": "id"
+        },
+        "text": "=\ud83d\udcdd Revision request from *{{ $json.client_name }}*: {{ $json.summary }}",
+        "options": {}
+      },
+      "id": "fb06ae99-6946-48e4-b29c-8a9b8679863c",
+      "name": "\ud83d\udcdd Revision Logged",
+      "type": "n8n-nodes-base.slack",
+      "typeVersion": 2.2,
+      "position": [
+        1800,
+        800
+      ],
+      "credentials": {
+        "slackApi": {
+          "id": "AGENCYOS_SLACK",
+          "name": "Slack"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "path": "create-invoice",
+        "httpMethod": "POST",
+        "options": {}
+      },
+      "id": "0531d5b1-9699-470b-a85b-2221c70f2b9f",
+      "name": "\ud83d\udce5 Create Invoice",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2,
+      "position": [
+        1400,
+        400
+      ]
+    },
+    {
+      "parameters": {
+        "operation": "search",
+        "base": {
+          "__rl": true,
+          "value": "appAGENCYOS",
+          "mode": "id"
+        },
+        "table": {
+          "__rl": true,
+          "value": "tbl49823389",
+          "mode": "id"
+        },
+        "filterByFormula": "={client_id}='{{ $json.body.client_id }}'",
+        "options": {}
+      },
+      "id": "63bbdd30-d3d2-46de-8df0-1757584b2cd5",
+      "name": "\ud83d\udccb Get Client",
+      "type": "n8n-nodes-base.airtable",
+      "typeVersion": 2.1,
+      "position": [
+        1700,
+        400
+      ],
+      "credentials": {
+        "airtableTokenApi": {
+          "id": "AGENCYOS_AT",
+          "name": "Airtable"
+        }
+      },
+      "alwaysOutputData": true
+    },
+    {
+      "parameters": {
+        "resource": "invoice",
+        "operation": "create",
+        "options": {}
+      },
+      "id": "2ecb540b-d0fc-478c-8e40-cbb752f2f992",
+      "name": "\ud83d\udcb0 Stripe Invoice",
+      "type": "n8n-nodes-base.stripe",
+      "typeVersion": 1,
+      "position": [
+        2000,
+        400
+      ],
+      "credentials": {
+        "stripeApi": {
+          "id": "AGENCYOS_STRIPE",
+          "name": "Stripe"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "sendTo": "={{ $('\ud83d\udccb Get Client').first().json.fields.email }}",
+        "subject": "=Invoice #{{ $json.id }} \u2014 [Agency]",
+        "message": "=Hi {{ $('\ud83d\udccb Get Client').first().json.fields.contact_name }},\n\nPlease find your invoice attached.\n\nAmount: ${{ $json.amount_due / 100 }}\nDue: {{ $json.due_date }}\n\n\ud83d\udcb3 Pay here: {{ $json.hosted_invoice_url }}\n\nThank you!\n[Agency]",
+        "options": {}
+      },
+      "id": "dca72c80-8323-47b7-ac2a-37490fbf4ffe",
+      "name": "\ud83d\udce7 Send Invoice",
+      "type": "n8n-nodes-base.gmail",
+      "typeVersion": 2.1,
+      "position": [
+        2300,
+        400
+      ],
+      "credentials": {
+        "gmailOAuth2": {
+          "id": "AGENCYOS_GMAIL",
+          "name": "Gmail"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "operation": "create",
+        "base": {
+          "__rl": true,
+          "value": "appAGENCYOS",
+          "mode": "id"
+        },
+        "table": {
+          "__rl": true,
+          "value": "tbl67473560",
+          "mode": "id"
+        },
+        "columns": {
+          "mappingMode": "defineBelow",
+          "value": [
+            {
+              "name": "client",
+              "value": "={{ $('\ud83d\udccb Get Client').first().json.id }}"
+            },
+            {
+              "name": "stripe_invoice_id",
+              "value": "={{ $json.id }}"
+            },
+            {
+              "name": "amount",
+              "value": "={{ $json.amount_due / 100 }}"
+            },
+            {
+              "name": "status",
+              "value": "Sent"
+            },
+            {
+              "name": "sent_at",
+              "value": "={{ $now }}"
+            },
+            {
+              "name": "due_date",
+              "value": "={{ $json.due_date }}"
+            }
+          ],
+          "matchingColumns": [],
+          "schema": []
+        }
+      },
+      "id": "efe01d56-7a32-4aab-b45d-0066e28b3c5a",
+      "name": "\ud83d\udcbe Log Invoice",
+      "type": "n8n-nodes-base.airtable",
+      "typeVersion": 2.1,
+      "position": [
+        2600,
+        400
+      ],
+      "credentials": {
+        "airtableTokenApi": {
+          "id": "AGENCYOS_AT",
+          "name": "Airtable"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "path": "stripe-payment",
+        "httpMethod": "POST",
+        "options": {}
+      },
+      "id": "a0e74d1f-709c-4f95-8fff-87b221e83f97",
+      "name": "\ud83d\udcb0 Payment Received",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2,
+      "position": [
+        1400,
+        800
+      ]
+    },
+    {
+      "parameters": {
+        "operation": "update",
+        "base": {
+          "__rl": true,
+          "value": "appAGENCYOS",
+          "mode": "id"
+        },
+        "table": {
+          "__rl": true,
+          "value": "tbl67473560",
+          "mode": "id"
+        },
+        "columns": {
+          "mappingMode": "defineBelow",
+          "value": [
+            {
+              "name": "status",
+              "value": "Paid"
+            },
+            {
+              "name": "paid_at",
+              "value": "={{ $now }}"
+            }
+          ],
+          "matchingColumns": [
+            "id"
+          ],
+          "schema": []
+        }
+      },
+      "id": "6b4c4bd4-3d2a-4f2d-8787-8f8edb3e3834",
+      "name": "\ud83d\udcbe Mark Paid",
+      "type": "n8n-nodes-base.airtable",
+      "typeVersion": 2.1,
+      "position": [
+        1700,
+        800
+      ],
+      "credentials": {
+        "airtableTokenApi": {
+          "id": "AGENCYOS_AT",
+          "name": "Airtable"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "sendTo": "={{ $json.body.customer_email }}",
+        "subject": "=\u2705 Payment received \u2014 Thank you!",
+        "message": "=Hi,\n\nWe've received your payment of ${{ $json.body.amount_paid / 100 }}. Thank you!\n\nYour receipt is attached.\n\nBest,\n[Agency]",
+        "options": {}
+      },
+      "id": "df6af7ea-8643-4d27-95a6-4779254e9eaa",
+      "name": "\ud83d\udce7 Thank You",
+      "type": "n8n-nodes-base.gmail",
+      "typeVersion": 2.1,
+      "position": [
+        2000,
+        800
+      ],
+      "credentials": {
+        "gmailOAuth2": {
+          "id": "AGENCYOS_GMAIL",
+          "name": "Gmail"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "resource": "message",
+        "operation": "post",
+        "channelId": {
+          "__rl": true,
+          "value": "C054794747",
+          "mode": "id"
+        },
+        "text": "=\ud83d\udcb0 Payment received: ${{ $json.body.amount_paid / 100 }} from {{ $json.body.customer_email }}",
+        "options": {}
+      },
+      "id": "fccf8c3a-f3de-402d-9fad-55b82f4c2f15",
+      "name": "\ud83d\udcac Payment Alert",
+      "type": "n8n-nodes-base.slack",
+      "typeVersion": 2.2,
+      "position": [
+        2000,
+        1000
+      ],
+      "credentials": {
+        "slackApi": {
+          "id": "AGENCYOS_SLACK",
+          "name": "Slack"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "cronExpression",
+              "expression": "0 10 * * *"
+            }
+          ]
+        }
+      },
+      "id": "4ae014a2-1cf2-4522-adc4-9eeb3e043209",
+      "name": "\u23f0 Payment Reminders",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [
+        1400,
+        1200
+      ]
+    },
+    {
+      "parameters": {
+        "operation": "search",
+        "base": {
+          "__rl": true,
+          "value": "appAGENCYOS",
+          "mode": "id"
+        },
+        "table": {
+          "__rl": true,
+          "value": "tbl67473560",
+          "mode": "id"
+        },
+        "filterByFormula": "AND({status}='Sent',{due_date}<TODAY())",
+        "options": {}
+      },
+      "id": "02300eda-bed6-4a7b-bc46-97e1bbbb5958",
+      "name": "\ud83d\udccb Overdue Invoices",
+      "type": "n8n-nodes-base.airtable",
+      "typeVersion": 2.1,
+      "position": [
+        1700,
+        1200
+      ],
+      "credentials": {
+        "airtableTokenApi": {
+          "id": "AGENCYOS_AT",
+          "name": "Airtable"
+        }
+      },
+      "alwaysOutputData": true
+    },
+    {
+      "parameters": {
+        "jsCode": "return $input.all().map(item => {\n  const due = new Date(item.json.fields.due_date);\n  const days = Math.floor((Date.now() - due) / 86400000);\n  return {json: {...item.json, days_overdue: days}};\n});"
+      },
+      "id": "b57f319c-3910-4f4a-bc0c-e300754145d1",
+      "name": "\ud83d\udcca Days Overdue",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        2000,
+        1200
+      ]
+    },
+    {
+      "parameters": {
+        "rules": {
+          "values": [
+            {
+              "conditions": {
+                "options": {
+                  "caseSensitive": true,
+                  "leftValue": "",
+                  "typeValidation": "strict"
+                },
+                "conditions": [
+                  {
+                    "leftValue": "={{ $json.days_overdue }}",
+                    "rightValue": "7",
+                    "operator": {
+                      "type": "number",
+                      "operation": "lte"
+                    }
+                  }
+                ],
+                "combinator": "and"
+              },
+              "renameOutput": true,
+              "outputKey": "Day 3-7"
+            },
+            {
+              "conditions": {
+                "options": {
+                  "caseSensitive": true,
+                  "leftValue": "",
+                  "typeValidation": "strict"
+                },
+                "conditions": [
+                  {
+                    "leftValue": "={{ $json.days_overdue }}",
+                    "rightValue": "14",
+                    "operator": {
+                      "type": "number",
+                      "operation": "lte"
+                    }
+                  }
+                ],
+                "combinator": "and"
+              },
+              "renameOutput": true,
+              "outputKey": "Day 14"
+            },
+            {
+              "conditions": {
+                "options": {
+                  "caseSensitive": true,
+                  "leftValue": "",
+                  "typeValidation": "strict"
+                },
+                "conditions": [
+                  {
+                    "leftValue": "={{ $json.days_overdue }}",
+                    "rightValue": "30",
+                    "operator": {
+                      "type": "number",
+                      "operation": "lte"
+                    }
+                  }
+                ],
+                "combinator": "and"
+              },
+              "renameOutput": true,
+              "outputKey": "Day 30"
+            },
+            {
+              "conditions": {
+                "options": {
+                  "caseSensitive": true,
+                  "leftValue": "",
+                  "typeValidation": "strict"
+                },
+                "conditions": [
+                  {
+                    "leftValue": "={{ $json.days_overdue }}",
+                    "rightValue": "45",
+                    "operator": {
+                      "type": "number",
+                      "operation": "gte"
+                    }
+                  }
+                ],
+                "combinator": "and"
+              },
+              "renameOutput": true,
+              "outputKey": "Day 45+"
+            }
+          ]
+        },
+        "options": {
+          "fallbackOutput": "extra"
+        }
+      },
+      "id": "65814367-21e6-486f-b5a0-ed156a01c60f",
+      "name": "\ud83d\udd00 Reminder Tier",
+      "type": "n8n-nodes-base.switch",
+      "typeVersion": 3,
+      "position": [
+        2300,
+        1200
+      ]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.openai.com/v1/chat/completions",
+        "options": {},
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "Authorization",
+              "value": "Bearer YOUR_OPENAI_KEY"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={\n  \"model\": \"gpt-4o-mini\",\n  \"messages\": [\n    {\"role\": \"system\", \"content\": \"Write a friendly payment reminder. Tone: warm, understanding. Not aggressive.\"},\n    {\"role\": \"user\", \"content\": \"{{ 'Invoice $' + $json.fields.amount + ' is ' + $json.days_overdue + ' days overdue' }}\"}\n  ],\n  \"temperature\": 0.7,\n  \"response_format\": {\"type\": \"json_object\"}\n}"
+      },
+      "id": "6fba6c5e-2c0a-49fd-9475-4770986fcf9f",
+      "name": "\ud83d\ude0a Friendly Reminder",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        2600,
+        1100
+      ],
+      "onError": "continueRegularOutput"
+    },
+    {
+      "parameters": {
+        "resource": "message",
+        "operation": "post",
+        "channelId": {
+          "__rl": true,
+          "value": "C054794747",
+          "mode": "id"
+        },
+        "text": "=\u26a0\ufe0f Invoice ${{ $json.fields.amount }} for {{ $json.fields.client }} \u2014 14 days overdue. REVIEW REQUIRED.",
+        "options": {}
+      },
+      "id": "e261d6de-031f-458a-8756-1f5cd9f7fa09",
+      "name": "\u26a0\ufe0f Day 14 Review",
+      "type": "n8n-nodes-base.slack",
+      "typeVersion": 2.2,
+      "position": [
+        2600,
+        1200
+      ],
+      "credentials": {
+        "slackApi": {
+          "id": "AGENCYOS_SLACK",
+          "name": "Slack"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "resource": "message",
+        "operation": "post",
+        "channelId": {
+          "__rl": true,
+          "value": "C071930773",
+          "mode": "id"
+        },
+        "text": "=\ud83d\udea9 FINAL NOTICE needed: ${{ $json.fields.amount }} \u2014 {{ $json.days_overdue }} days overdue. [\u2705 Send] [\u274c Hold]",
+        "options": {}
+      },
+      "id": "06dfbfb7-5be5-492b-8963-5e8b2a583652",
+      "name": "\ud83d\udea9 Day 30 Approval",
+      "type": "n8n-nodes-base.slack",
+      "typeVersion": 2.2,
+      "position": [
+        2600,
+        1300
+      ],
+      "credentials": {
+        "slackApi": {
+          "id": "AGENCYOS_SLACK",
+          "name": "Slack"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "resource": "message",
+        "operation": "post",
+        "channelId": {
+          "__rl": true,
+          "value": "C071930773",
+          "mode": "id"
+        },
+        "text": "=\ud83d\udd34 CRITICAL: ${{ $json.fields.amount }} \u2014 {{ $json.days_overdue }} days overdue. Payment reliability flagged.",
+        "options": {}
+      },
+      "id": "b76df901-584b-4a91-ac55-fce9a532f0a5",
+      "name": "\ud83d\udd34 45+ Days",
+      "type": "n8n-nodes-base.slack",
+      "typeVersion": 2.2,
+      "position": [
+        2600,
+        1400
+      ],
+      "credentials": {
+        "slackApi": {
+          "id": "AGENCYOS_SLACK",
+          "name": "Slack"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "path": "calcom-booking",
+        "httpMethod": "POST",
+        "options": {}
+      },
+      "id": "d357d85f-c702-4e3c-93ba-b3fc1eac7496",
+      "name": "\ud83d\udcc5 Cal.com Booking",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2,
+      "position": [
+        2700,
+        400
+      ]
+    },
+    {
+      "parameters": {
+        "operation": "search",
+        "base": {
+          "__rl": true,
+          "value": "appAGENCYOS",
+          "mode": "id"
+        },
+        "table": {
+          "__rl": true,
+          "value": "tbl49823389",
+          "mode": "id"
+        },
+        "filterByFormula": "=LOWER({email})='{{ $json.body.email.toLowerCase() }}'",
+        "options": {}
+      },
+      "id": "236c8c9c-c660-445d-bb58-cd16ca88c3aa",
+      "name": "\ud83d\udd0d Match Client",
+      "type": "n8n-nodes-base.airtable",
+      "typeVersion": 2.1,
+      "position": [
+        3000,
+        400
+      ],
+      "credentials": {
+        "airtableTokenApi": {
+          "id": "AGENCYOS_AT",
+          "name": "Airtable"
+        }
+      },
+      "alwaysOutputData": true
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict"
+          },
+          "conditions": [
+            {
+              "id": "c1",
+              "leftValue": "={{ $json.length }}",
+              "rightValue": 0,
+              "operator": {
+                "type": "number",
+                "operation": "equals"
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "id": "908beb55-ac78-4bc8-868b-94eefdc23f9a",
+      "name": "\ud83d\udd00 New Client?",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2,
+      "position": [
+        3300,
+        400
+      ]
+    },
+    {
+      "parameters": {
+        "operation": "create",
+        "base": {
+          "__rl": true,
+          "value": "appAGENCYOS",
+          "mode": "id"
+        },
+        "table": {
+          "__rl": true,
+          "value": "tbl49823389",
+          "mode": "id"
+        },
+        "columns": {
+          "mappingMode": "defineBelow",
+          "value": [
+            {
+              "name": "email",
+              "value": "={{ $('\ud83d\udcc5 Cal.com Booking').first().json.body.email }}"
+            },
+            {
+              "name": "contact_name",
+              "value": "={{ $('\ud83d\udcc5 Cal.com Booking').first().json.body.name }}"
+            },
+            {
+              "name": "stage",
+              "value": "Lead"
+            },
+            {
+              "name": "source",
+              "value": "Cal.com"
+            },
+            {
+              "name": "health_score",
+              "value": "70"
+            }
+          ],
+          "matchingColumns": [],
+          "schema": []
+        }
+      },
+      "id": "661d9bf7-ed68-488c-a8e2-f3002a6558b0",
+      "name": "\ud83d\udcbe Create Lead",
+      "type": "n8n-nodes-base.airtable",
+      "typeVersion": 2.1,
+      "position": [
+        3600,
+        250
+      ],
+      "credentials": {
+        "airtableTokenApi": {
+          "id": "AGENCYOS_AT",
+          "name": "Airtable"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "operation": "update",
+        "base": {
+          "__rl": true,
+          "value": "appAGENCYOS",
+          "mode": "id"
+        },
+        "table": {
+          "__rl": true,
+          "value": "tbl49823389",
+          "mode": "id"
+        },
+        "columns": {
+          "mappingMode": "defineBelow",
+          "value": [
+            {
+              "name": "last_communication",
+              "value": "={{ $now }}"
+            }
+          ],
+          "matchingColumns": [
+            "id"
+          ],
+          "schema": []
+        }
+      },
+      "id": "070d2dca-9ce2-41f3-8f29-43b2666939e8",
+      "name": "\ud83d\udcbe Update Comm",
+      "type": "n8n-nodes-base.airtable",
+      "typeVersion": 2.1,
+      "position": [
+        3600,
+        550
+      ],
+      "credentials": {
+        "airtableTokenApi": {
+          "id": "AGENCYOS_AT",
+          "name": "Airtable"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "operation": "create",
+        "calendar": {
+          "__rl": true,
+          "value": "primary",
+          "mode": "id"
+        },
+        "options": {}
+      },
+      "id": "e8835c4b-521d-4a5e-98b3-098781e1b4e7",
+      "name": "\ud83d\udcc5 Create Event",
+      "type": "n8n-nodes-base.googleCalendar",
+      "typeVersion": 1,
+      "position": [
+        3900,
+        400
+      ],
+      "credentials": {
+        "googleCalendarOAuth2Api": {
+          "id": "AGENCYOS_GCAL",
+          "name": "Google Calendar"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "sendTo": "={{ $('\ud83d\udcc5 Cal.com Booking').first().json.body.email }}",
+        "subject": "=Meeting Confirmed \u2014 [Agency]",
+        "message": "=Hi {{ $('\ud83d\udcc5 Cal.com Booking').first().json.body.name }},\n\nYour meeting is confirmed! Details:\n\n\ud83d\udcc5 Date: {{ $('\ud83d\udcc5 Cal.com Booking').first().json.body.start_time }}\n\ud83d\udd17 Video: {{ $('\ud83d\udcc5 Cal.com Booking').first().json.body.meeting_url }}\n\nLooking forward to speaking with you!\n\n[Agency]",
+        "options": {}
+      },
+      "id": "aac9ab75-0906-4cc3-aa65-a182c51f66bf",
+      "name": "\ud83d\udce7 Confirmation",
+      "type": "n8n-nodes-base.gmail",
+      "typeVersion": 2.1,
+      "position": [
+        4200,
+        400
+      ],
+      "credentials": {
+        "gmailOAuth2": {
+          "id": "AGENCYOS_GMAIL",
+          "name": "Gmail"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "operation": "create",
+        "base": {
+          "__rl": true,
+          "value": "appAGENCYOS",
+          "mode": "id"
+        },
+        "table": {
+          "__rl": true,
+          "value": "tbl30282015",
+          "mode": "id"
+        },
+        "columns": {
+          "mappingMode": "defineBelow",
+          "value": [
+            {
+              "name": "channel",
+              "value": "Meeting"
+            },
+            {
+              "name": "direction",
+              "value": "Inbound"
+            },
+            {
+              "name": "category",
+              "value": "MEETING_BOOKED"
+            },
+            {
+              "name": "summary",
+              "value": "=Meeting booked via Cal.com"
+            }
+          ],
+          "matchingColumns": [],
+          "schema": []
+        }
+      },
+      "id": "dca4dcea-2f16-4a17-a9cc-972eb5494557",
+      "name": "\ud83d\udcbe Log Meeting",
+      "type": "n8n-nodes-base.airtable",
+      "typeVersion": 2.1,
+      "position": [
+        4200,
+        600
+      ],
+      "credentials": {
+        "airtableTokenApi": {
+          "id": "AGENCYOS_AT",
+          "name": "Airtable"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "cronExpression",
+              "expression": "0 * * * *"
+            }
+          ]
+        }
+      },
+      "id": "27bbcfd5-ae4b-4799-8ec0-3daa48200043",
+      "name": "\u23f0 Meeting Prep",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [
+        2700,
+        900
+      ]
+    },
+    {
+      "parameters": {
+        "operation": "getAll",
+        "calendar": {
+          "__rl": true,
+          "value": "primary",
+          "mode": "id"
+        },
+        "options": {}
+      },
+      "id": "4dc26963-415d-4c02-9b58-e5d28d0fa80a",
+      "name": "\ud83d\udcc5 Today's Meetings",
+      "type": "n8n-nodes-base.googleCalendar",
+      "typeVersion": 1,
+      "position": [
+        3000,
+        900
+      ],
+      "credentials": {
+        "googleCalendarOAuth2Api": {
+          "id": "AGENCYOS_GCAL",
+          "name": "Google Calendar"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.openai.com/v1/chat/completions",
+        "options": {},
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "Authorization",
+              "value": "Bearer YOUR_OPENAI_KEY"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={\n  \"model\": \"gpt-4o-mini\",\n  \"messages\": [\n    {\"role\": \"system\", \"content\": \"Generate a 1-minute meeting prep brief. Include: last interactions, open projects, outstanding invoices, health score, suggested talking points. Be concise.\"},\n    {\"role\": \"user\", \"content\": \"{{ $json.summary + ' | ' + $json.attendees }}\"}\n  ],\n  \"temperature\": 0.7,\n  \"response_format\": {\"type\": \"json_object\"}\n}"
+      },
+      "id": "1b0fa500-bf1d-4bae-858f-9741f88a8f42",
+      "name": "\ud83e\udde0 Meeting Brief",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        3300,
+        900
+      ],
+      "onError": "continueRegularOutput"
+    },
+    {
+      "parameters": {
+        "resource": "message",
+        "operation": "post",
+        "channelId": {
+          "__rl": true,
+          "value": "C058357483",
+          "mode": "id"
+        },
+        "text": "=\ud83d\udccb Meeting prep for upcoming call:\\n{{ $json.choices[0].message.content }}",
+        "options": {}
+      },
+      "id": "c0293a19-71b9-4f36-a788-503a808758f4",
+      "name": "\ud83d\udcac Prep Brief",
+      "type": "n8n-nodes-base.slack",
+      "typeVersion": 2.2,
+      "position": [
+        3600,
+        900
+      ],
+      "credentials": {
+        "slackApi": {
+          "id": "AGENCYOS_SLACK",
+          "name": "Slack"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "path": "meeting-noshow",
+        "httpMethod": "POST",
+        "options": {}
+      },
+      "id": "39d819de-2ade-42cb-a25f-a18ff1c6744c",
+      "name": "\ud83d\udd0d No-Show Check",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2,
+      "position": [
+        2700,
+        1200
+      ]
+    },
+    {
+      "parameters": {
+        "sendTo": "={{ $json.body.attendee_email }}",
+        "subject": "=Sorry we missed you \u2014 Reschedule?",
+        "message": "=Hi,\n\nIt looks like we missed our meeting. No worries!\n\nHere's a link to reschedule: [Cal.com link]\n\nBest,\n[Agency]",
+        "options": {}
+      },
+      "id": "19d6cd8d-4557-4ce3-8b9b-2b689556c1a7",
+      "name": "\ud83d\udce7 Reschedule",
+      "type": "n8n-nodes-base.gmail",
+      "typeVersion": 2.1,
+      "position": [
+        3000,
+        1200
+      ],
+      "credentials": {
+        "gmailOAuth2": {
+          "id": "AGENCYOS_GMAIL",
+          "name": "Gmail"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "operation": "create",
+        "base": {
+          "__rl": true,
+          "value": "appAGENCYOS",
+          "mode": "id"
+        },
+        "table": {
+          "__rl": true,
+          "value": "tbl30282015",
+          "mode": "id"
+        },
+        "columns": {
+          "mappingMode": "defineBelow",
+          "value": [
+            {
+              "name": "channel",
+              "value": "Meeting"
+            },
+            {
+              "name": "category",
+              "value": "NO_SHOW"
+            },
+            {
+              "name": "summary",
+              "value": "=Client no-show for scheduled meeting"
+            }
+          ],
+          "matchingColumns": [],
+          "schema": []
+        }
+      },
+      "id": "11b78b9a-cc7d-4d14-a914-82ee83fd7058",
+      "name": "\ud83d\udcbe Log No-Show",
+      "type": "n8n-nodes-base.airtable",
+      "typeVersion": 2.1,
+      "position": [
+        3300,
+        1200
+      ],
+      "credentials": {
+        "airtableTokenApi": {
+          "id": "AGENCYOS_AT",
+          "name": "Airtable"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "cronExpression",
+              "expression": "0 10 * * *"
+            }
+          ]
+        }
+      },
+      "id": "3d77bd94-e8d9-446d-abb2-9f2d0ad075e9",
+      "name": "\u23f0 Completed Projects",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [
+        0,
+        1800
+      ]
+    },
+    {
+      "parameters": {
+        "operation": "search",
+        "base": {
+          "__rl": true,
+          "value": "appAGENCYOS",
+          "mode": "id"
+        },
+        "table": {
+          "__rl": true,
+          "value": "tbl21483705",
+          "mode": "id"
+        },
+        "filterByFormula": "AND({status}='Completed',{survey_sent}!='true')",
+        "options": {}
+      },
+      "id": "a3a0edbe-0439-4c2f-99f1-4d1b995ad760",
+      "name": "\ud83d\udccb Just Completed",
+      "type": "n8n-nodes-base.airtable",
+      "typeVersion": 2.1,
+      "position": [
+        300,
+        1800
+      ],
+      "credentials": {
+        "airtableTokenApi": {
+          "id": "AGENCYOS_AT",
+          "name": "Airtable"
+        }
+      },
+      "alwaysOutputData": true
+    },
+    {
+      "parameters": {
+        "amount": 48,
+        "unit": "hours"
+      },
+      "id": "d9c50d9a-1d6c-4553-828b-267fbba584e7",
+      "name": "\u23f0 Wait 48h",
+      "type": "n8n-nodes-base.wait",
+      "typeVersion": 1.1,
+      "position": [
+        600,
+        1800
+      ]
+    },
+    {
+      "parameters": {
+        "sendTo": "={{ $json.fields.client_email }}",
+        "subject": "=How was your experience? \u2014 [Agency]",
+        "message": "=Hi {{ $json.fields.client_name }},\n\nWe just completed your project and we'd love your feedback!\n\n\ud83d\udc49 Rate your experience (0-10): [Survey Link]\n\nYour feedback helps us improve.\n\nThank you!\n[Agency]",
+        "options": {}
+      },
+      "id": "0b128632-92a1-489e-84fd-1ef58ac98cc9",
+      "name": "\ud83d\udce7 NPS Survey",
+      "type": "n8n-nodes-base.gmail",
+      "typeVersion": 2.1,
+      "position": [
+        900,
+        1800
+      ],
+      "credentials": {
+        "gmailOAuth2": {
+          "id": "AGENCYOS_GMAIL",
+          "name": "Gmail"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "operation": "update",
+        "base": {
+          "__rl": true,
+          "value": "appAGENCYOS",
+          "mode": "id"
+        },
+        "table": {
+          "__rl": true,
+          "value": "tbl21483705",
+          "mode": "id"
+        },
+        "columns": {
+          "mappingMode": "defineBelow",
+          "value": [
+            {
+              "name": "survey_sent",
+              "value": "true"
+            }
+          ],
+          "matchingColumns": [
+            "id"
+          ],
+          "schema": []
+        }
+      },
+      "id": "b0a6ad1a-3982-4d3a-9308-f8b91fe452bc",
+      "name": "\ud83d\udcbe Survey Sent",
+      "type": "n8n-nodes-base.airtable",
+      "typeVersion": 2.1,
+      "position": [
+        1200,
+        1800
+      ],
+      "credentials": {
+        "airtableTokenApi": {
+          "id": "AGENCYOS_AT",
+          "name": "Airtable"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "path": "nps-response",
+        "httpMethod": "POST",
+        "options": {}
+      },
+      "id": "548e2ed2-2cb7-432f-b6e9-63445cc783ef",
+      "name": "\ud83d\udce5 Survey Response",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2,
+      "position": [
+        0,
+        2200
+      ]
+    },
+    {
+      "parameters": {
+        "jsCode": "const score = parseInt($json.body.score);\nconst category = score >= 9 ? 'PROMOTER' : score >= 7 ? 'PASSIVE' : 'DETRACTOR';\nreturn [{json: {score, category, comment: $json.body.comment || '', client_id: $json.body.client_id}}];"
+      },
+      "id": "d4a5b576-9b8f-4290-a586-9cf11e92ce81",
+      "name": "\ud83d\udcca Parse NPS",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        300,
+        2200
+      ]
+    },
+    {
+      "parameters": {
+        "operation": "update",
+        "base": {
+          "__rl": true,
+          "value": "appAGENCYOS",
+          "mode": "id"
+        },
+        "table": {
+          "__rl": true,
+          "value": "tbl21483705",
+          "mode": "id"
+        },
+        "columns": {
+          "mappingMode": "defineBelow",
+          "value": [
+            {
+              "name": "satisfaction_score",
+              "value": "={{ $json.score }}"
+            }
+          ],
+          "matchingColumns": [
+            "id"
+          ],
+          "schema": []
+        }
+      },
+      "id": "106bbbb2-9931-4404-9094-4ff87be366e6",
+      "name": "\ud83d\udcbe Update Satisfaction",
+      "type": "n8n-nodes-base.airtable",
+      "typeVersion": 2.1,
+      "position": [
+        600,
+        2200
+      ],
+      "credentials": {
+        "airtableTokenApi": {
+          "id": "AGENCYOS_AT",
+          "name": "Airtable"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "rules": {
+          "values": [
+            {
+              "conditions": {
+                "options": {
+                  "caseSensitive": true,
+                  "leftValue": "",
+                  "typeValidation": "strict"
+                },
+                "conditions": [
+                  {
+                    "leftValue": "={{ $json.category }}",
+                    "rightValue": "PROMOTER",
+                    "operator": {
+                      "type": "string",
+                      "operation": "equals"
+                    }
+                  }
+                ],
+                "combinator": "and"
+              },
+              "renameOutput": true,
+              "outputKey": "\u2b50 Promoter"
+            },
+            {
+              "conditions": {
+                "options": {
+                  "caseSensitive": true,
+                  "leftValue": "",
+                  "typeValidation": "strict"
+                },
+                "conditions": [
+                  {
+                    "leftValue": "={{ $json.category }}",
+                    "rightValue": "PASSIVE",
+                    "operator": {
+                      "type": "string",
+                      "operation": "equals"
+                    }
+                  }
+                ],
+                "combinator": "and"
+              },
+              "renameOutput": true,
+              "outputKey": "\ud83d\ude10 Passive"
+            },
+            {
+              "conditions": {
+                "options": {
+                  "caseSensitive": true,
+                  "leftValue": "",
+                  "typeValidation": "strict"
+                },
+                "conditions": [
+                  {
+                    "leftValue": "={{ $json.category }}",
+                    "rightValue": "DETRACTOR",
+                    "operator": {
+                      "type": "string",
+                      "operation": "equals"
+                    }
+                  }
+                ],
+                "combinator": "and"
+              },
+              "renameOutput": true,
+              "outputKey": "\ud83d\ude1e Detractor"
+            }
+          ]
+        },
+        "options": {
+          "fallbackOutput": "extra"
+        }
+      },
+      "id": "76a1c287-dfd4-4487-8e54-6804d8dd16b2",
+      "name": "\ud83d\udd00 NPS Route",
+      "type": "n8n-nodes-base.switch",
+      "typeVersion": 3,
+      "position": [
+        900,
+        2200
+      ]
+    },
+    {
+      "parameters": {
+        "sendTo": "={{ $json.client_email }}",
+        "subject": "=Thank you! Would you leave us a review? \u2b50",
+        "message": "=We're so glad you had a great experience! Would you mind leaving us a quick Google review?\n\n\ud83d\udc49 [Review Link]\n\nIt means a lot to our team!\n[Agency]",
+        "options": {}
+      },
+      "id": "eca1de48-badf-44b0-9ec6-9af806f4f2e1",
+      "name": "\ud83d\udce7 Review Request",
+      "type": "n8n-nodes-base.gmail",
+      "typeVersion": 2.1,
+      "position": [
+        1200,
+        2100
+      ],
+      "credentials": {
+        "gmailOAuth2": {
+          "id": "AGENCYOS_GMAIL",
+          "name": "Gmail"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "resource": "message",
+        "operation": "post",
+        "channelId": {
+          "__rl": true,
+          "value": "C046114031",
+          "mode": "id"
+        },
+        "text": "=\ud83c\udf1f Promoter! {{ $json.client_name }} scored {{ $json.score }}/10",
+        "options": {}
+      },
+      "id": "592aa693-e88b-4a81-b7ae-14b278434d67",
+      "name": "\ud83d\udcac Promoter Alert",
+      "type": "n8n-nodes-base.slack",
+      "typeVersion": 2.2,
+      "position": [
+        1500,
+        2100
+      ],
+      "credentials": {
+        "slackApi": {
+          "id": "AGENCYOS_SLACK",
+          "name": "Slack"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "sendTo": "={{ $json.client_email }}",
+        "subject": "=Thank you for your feedback!",
+        "message": "=Thank you for taking the time to share your feedback. We appreciate it!\n\n[Agency]",
+        "options": {}
+      },
+      "id": "53fcdb45-6788-469e-8915-08583e478cdf",
+      "name": "\ud83d\udce7 Thank Passive",
+      "type": "n8n-nodes-base.gmail",
+      "typeVersion": 2.1,
+      "position": [
+        1200,
+        2300
+      ],
+      "credentials": {
+        "gmailOAuth2": {
+          "id": "AGENCYOS_GMAIL",
+          "name": "Gmail"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "resource": "message",
+        "operation": "post",
+        "channelId": {
+          "__rl": true,
+          "value": "C071930773",
+          "mode": "id"
+        },
+        "text": "=\u26a0\ufe0f UNHAPPY CLIENT: {{ $json.client_name }} \u2014 Score: {{ $json.score }}/10\\nComment: {{ $json.comment }}\\n\\n\ud83d\udea8 INTERVENTION REQUIRED",
+        "options": {}
+      },
+      "id": "2dcd9f58-e58c-4648-907a-2e06b4e2d609",
+      "name": "\ud83d\udea8 Unhappy Client",
+      "type": "n8n-nodes-base.slack",
+      "typeVersion": 2.2,
+      "position": [
+        1200,
+        2500
+      ],
+      "credentials": {
+        "slackApi": {
+          "id": "AGENCYOS_SLACK",
+          "name": "Slack"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "from": "={{ $env.TWILIO_PHONE }}",
+        "to": "={{ $env.MANAGER_PHONE }}",
+        "message": "=\u26a0\ufe0f Unhappy client alert: {{ $json.client_name }} scored {{ $json.score }}/10"
+      },
+      "id": "43df1a91-dfad-423c-9c3e-00c09ad6c6c3",
+      "name": "\ud83d\udcf1 Alert Manager",
+      "type": "n8n-nodes-base.twilio",
+      "typeVersion": 1,
+      "position": [
+        1500,
+        2500
+      ],
+      "credentials": {
+        "twilioApi": {
+          "id": "AGENCYOS_TWILIO",
+          "name": "Twilio"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "cronExpression",
+              "expression": "0 7 * * *"
+            }
+          ]
+        }
+      },
+      "id": "45004c70-a285-4099-83ab-0d0fd99016a9",
+      "name": "\ud83e\udec0 Morning Pulse",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [
+        1400,
+        1800
+      ]
+    },
+    {
+      "parameters": {
+        "operation": "search",
+        "base": {
+          "__rl": true,
+          "value": "appAGENCYOS",
+          "mode": "id"
+        },
+        "table": {
+          "__rl": true,
+          "value": "tbl49823389",
+          "mode": "id"
+        },
+        "filterByFormula": "{stage}='Active'",
+        "options": {}
+      },
+      "id": "1248f860-09f6-43c5-af2f-2c19e67032ee",
+      "name": "\ud83d\udccb All Active Clients",
+      "type": "n8n-nodes-base.airtable",
+      "typeVersion": 2.1,
+      "position": [
+        1700,
+        1800
+      ],
+      "credentials": {
+        "airtableTokenApi": {
+          "id": "AGENCYOS_AT",
+          "name": "Airtable"
+        }
+      },
+      "alwaysOutputData": true
+    },
+    {
+      "parameters": {
+        "jsCode": "return $input.all().map(item => {\n  const f = item.json.fields;\n  const daysSinceLast = f.last_communication ?\n    Math.floor((Date.now() - new Date(f.last_communication)) / 86400000) : 30;\n  let score = 100;\n  if (daysSinceLast > 21) score = 20;\n  else if (daysSinceLast > 14) score = 40;\n  else if (daysSinceLast > 7) score = 70;\n  else if (daysSinceLast > 3) score = 85;\n  const flag = (daysSinceLast > 14) ? '\ud83d\udd34 WARN' : '';\n  return {json: {...item.json, comm_score: score, days_since_comm: daysSinceLast, comm_flag: flag}};\n});"
+      },
+      "id": "7735f590-a9a6-43c8-b312-1974265010f3",
+      "name": "\ud83d\udcca Communication Score",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        2000,
+        1600
+      ]
+    },
+    {
+      "parameters": {
+        "jsCode": "return $input.all().map(item => {\n  const f = item.json.fields;\n  const reliability = f.payment_reliability || 70;\n  let score = reliability;\n  const overdue = f.overdue_count || 0;\n  if (overdue > 0) score -= overdue * 15;\n  score = Math.max(0, Math.min(100, score));\n  const flag = (score < 50) ? '\ud83d\udfe1 WATCH' : '';\n  return {json: {...item.json, payment_score: score, payment_flag: flag}};\n});"
+      },
+      "id": "d09911ab-171a-4d34-bc7e-00c457c500a3",
+      "name": "\ud83d\udcca Payment Score",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        2000,
+        1800
+      ]
+    },
+    {
+      "parameters": {
+        "jsCode": "return $input.all().map(item => {\n  const f = item.json.fields;\n  const nps = f.satisfaction_score || 7;\n  const revisions = f.total_revisions || 0;\n  const milestones = f.total_milestones || 1;\n  const revRatio = revisions / milestones;\n  let score = nps * 10;\n  if (revRatio > 3) score -= 20;\n  else if (revRatio > 2) score -= 10;\n  score = Math.max(0, Math.min(100, score));\n  const flag = (revRatio > 3) ? '\ud83d\udfe1 HIGH MAINT' : '';\n  return {json: {...item.json, satisfaction_score: score, rev_ratio: revRatio, sat_flag: flag}};\n});"
+      },
+      "id": "22642b83-facb-402f-adc3-c60b54ec7fc3",
+      "name": "\ud83d\udcca Satisfaction Score",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        2000,
+        2000
+      ]
+    },
+    {
+      "parameters": {
+        "jsCode": "const items = $input.all();\nconst avgRate = items.reduce((s,i) => {\n  const rev = i.json.fields.lifetime_value || 0;\n  const hrs = i.json.fields.total_hours || 1;\n  return s + (rev/hrs);\n}, 0) / (items.length || 1);\nreturn items.map(item => {\n  const f = item.json.fields;\n  const rev = f.lifetime_value || 0;\n  const hrs = f.total_hours || 1;\n  const rate = rev / hrs;\n  const score = Math.min(100, Math.round((rate / (avgRate || 1)) * 70));\n  const flag = (rate < avgRate * 0.5) ? '\ud83d\udd34 ENERGY VAMPIRE' : '';\n  return {json: {...item.json, revenue_score: score, hourly_rate: Math.round(rate), agency_avg_rate: Math.round(avgRate), revenue_flag: flag}};\n});"
+      },
+      "id": "7bf195c3-c72b-459c-9b29-c5b603d95872",
+      "name": "\ud83d\udcca Revenue Score",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        2000,
+        2200
+      ]
+    },
+    {
+      "parameters": {
+        "jsCode": "return $input.all().map(item => {\n  const j = item.json;\n  const health = Math.round(\n    (j.comm_score * 0.25) + (j.payment_score * 0.30) +\n    (j.satisfaction_score * 0.25) + (j.revenue_score * 0.20)\n  );\n  let risk = '\ud83d\udfe2 Healthy';\n  if (health < 40) risk = '\ud83d\udd34 Critical';\n  else if (health < 60) risk = '\ud83d\udfe0 At Risk';\n  else if (health < 80) risk = '\ud83d\udfe1 Watch';\n  return {json: {...j, health_score: health, risk_level: risk}};\n});"
+      },
+      "id": "acb312ca-b129-4fbf-86b7-9a884d2299c7",
+      "name": "\ud83d\udcca Health Score",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        2300,
+        1800
+      ]
+    },
+    {
+      "parameters": {
+        "jsCode": "return $input.all().map(item => {\n  const j = item.json;\n  let risk = 0;\n  if (j.comm_score < 40) risk += 30;\n  if (j.payment_score < 50) risk += 25;\n  if (j.satisfaction_score < 50) risk += 25;\n  if (j.revenue_score < 30) risk += 20;\n  let urgency = 'LOW';\n  if (risk > 70) urgency = 'CRITICAL';\n  else if (risk > 50) urgency = 'HIGH';\n  else if (risk > 30) urgency = 'MEDIUM';\n  return {json: {...j, churn_risk: risk, churn_urgency: urgency}};\n});"
+      },
+      "id": "721f8fcc-732c-405b-9def-53c8696a8b5c",
+      "name": "\ud83d\udcca Churn Risk",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        2600,
+        1800
+      ]
+    },
+    {
+      "parameters": {
+        "jsCode": "return $input.all().map(item => {\n  const j = item.json; const f = j.fields || {};\n  const revenue = f.lifetime_value || 0;\n  const hours = f.total_hours || 1;\n  const cost = hours * 50;\n  const revCost = (f.total_revisions || 0) * 75;\n  const profit = revenue - cost - revCost;\n  const roi = revenue > 0 ? Math.round((profit / revenue) * 100) : 0;\n  let cls = '\u26a0\ufe0f Neutral';\n  if (roi > 60 && j.health_score > 80) cls = '\ud83c\udf1f Golden Client';\n  else if (roi > 40 && j.health_score > 60) cls = '\u2705 Good Client';\n  else if (roi < 20 || (j.health_score < 40 && hours > 20)) cls = '\ud83e\uddf9 Energy Vampire';\n  return {json: {...j, true_profit: profit, roi_pct: roi, client_class: cls}};\n});"
+      },
+      "id": "127e208d-7d48-4a10-8f19-eb22ba046926",
+      "name": "\ud83d\udcca Profitability X-Ray",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        2900,
+        1800
+      ]
+    },
+    {
+      "parameters": {
+        "jsCode": "const ALL_SERVICES = ['Web Dev','SEO','Ads','Social','Branding','Email Marketing'];\nreturn $input.all().map(item => {\n  const j = item.json; const f = j.fields || {};\n  const current = (f.services || '').split(',').map(s=>s.trim());\n  const missing = ALL_SERVICES.filter(s => !current.includes(s));\n  let upsell_flag = '';\n  if (missing.length > 0 && j.health_score > 60 && j.roi_pct > 40) {\n    upsell_flag = 'UPSELL: ' + missing.slice(0,2).join(', ');\n  }\n  return {json: {...j, upsell_candidates: missing, upsell_flag: upsell_flag}};\n});"
+      },
+      "id": "8e869544-757e-4f00-bdb6-c35466500a7a",
+      "name": "\ud83d\udcca Upsell Radar",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        3200,
+        1800
+      ]
+    },
+    {
+      "parameters": {
+        "operation": "update",
+        "base": {
+          "__rl": true,
+          "value": "appAGENCYOS",
+          "mode": "id"
+        },
+        "table": {
+          "__rl": true,
+          "value": "tbl49823389",
+          "mode": "id"
+        },
+        "columns": {
+          "mappingMode": "defineBelow",
+          "value": [
+            {
+              "name": "health_score",
+              "value": "={{ $json.health_score }}"
+            },
+            {
+              "name": "risk_level",
+              "value": "={{ $json.risk_level }}"
+            },
+            {
+              "name": "profitability_score",
+              "value": "={{ $json.roi_pct }}"
+            }
+          ],
+          "matchingColumns": [
+            "id"
+          ],
+          "schema": []
+        }
+      },
+      "id": "f580c66c-1bfa-41b5-a767-1c4cfc322559",
+      "name": "\ud83d\udcbe Bulk Update Clients",
+      "type": "n8n-nodes-base.airtable",
+      "typeVersion": 2.1,
+      "position": [
+        3500,
+        1800
+      ],
+      "credentials": {
+        "airtableTokenApi": {
+          "id": "AGENCYOS_AT",
+          "name": "Airtable"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.openai.com/v1/chat/completions",
+        "options": {},
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "Authorization",
+              "value": "Bearer YOUR_OPENAI_KEY"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={\n  \"model\": \"gpt-4o-mini\",\n  \"messages\": [\n    {\"role\": \"system\", \"content\": \"You are the AgencyOS Pulse Engine. Generate a concise morning pulse report. Include: Portfolio Health (healthy/watch/critical counts), Top Alerts, Upsell Opportunities, Energy Vampires, and 1 AI Recommendation. Be concise but actionable.\"},\n    {\"role\": \"user\", \"content\": \"{{ $input.all().map(i => i.json.fields?.company_name + ': H=' + i.json.health_score + ' C=' + i.json.churn_risk + ' R=' + i.json.roi_pct + '% ' + (i.json.upsell_flag||'')).join(' | ') }}\"}\n  ],\n  \"temperature\": 0.7,\n  \"response_format\": {\"type\": \"json_object\"}\n}"
+      },
+      "id": "a6c58475-489b-4712-8c71-db2eab78a212",
+      "name": "\ud83e\udde0 Pulse Summary",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        3500,
+        2100
+      ],
+      "onError": "continueRegularOutput"
+    },
+    {
+      "parameters": {
+        "resource": "message",
+        "operation": "post",
+        "channelId": {
+          "__rl": true,
+          "value": "C079673521",
+          "mode": "id"
+        },
+        "text": "=\ud83e\udec0 *Daily Pulse Report*\\n\\n{{ $json.choices[0].message.content }}",
+        "options": {}
+      },
+      "id": "c6f255e6-8a41-490c-90d3-b38dd0b38d31",
+      "name": "\ud83d\udcac Daily Pulse",
+      "type": "n8n-nodes-base.slack",
+      "typeVersion": 2.2,
+      "position": [
+        3800,
+        2100
+      ],
+      "credentials": {
+        "slackApi": {
+          "id": "AGENCYOS_SLACK",
+          "name": "Slack"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "cronExpression",
+              "expression": "0 9 * * 1"
+            }
+          ]
+        }
+      },
+      "id": "4d307627-77bc-4642-ab47-1781a3f5e71c",
+      "name": "\u23f0 Weekly Nurture",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [
+        2700,
+        1800
+      ]
+    },
+    {
+      "parameters": {
+        "operation": "search",
+        "base": {
+          "__rl": true,
+          "value": "appAGENCYOS",
+          "mode": "id"
+        },
+        "table": {
+          "__rl": true,
+          "value": "tbl49823389",
+          "mode": "id"
+        },
+        "filterByFormula": "AND({stage}='Lead',DATETIME_DIFF(NOW(),{created_at},'days')>7)",
+        "options": {}
+      },
+      "id": "ba89d822-4cbe-41f0-97c3-2a1c2d10ec30",
+      "name": "\ud83d\udccb Stale Leads",
+      "type": "n8n-nodes-base.airtable",
+      "typeVersion": 2.1,
+      "position": [
+        3000,
+        1800
+      ],
+      "credentials": {
+        "airtableTokenApi": {
+          "id": "AGENCYOS_AT",
+          "name": "Airtable"
+        }
+      },
+      "alwaysOutputData": true
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.openai.com/v1/chat/completions",
+        "options": {},
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "Authorization",
+              "value": "Bearer YOUR_OPENAI_KEY"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={\n  \"model\": \"gpt-4o-mini\",\n  \"messages\": [\n    {\"role\": \"system\", \"content\": \"This lead inquired but hasn't converted. Suggest: FOLLOW_UP (with a genuinely helpful, value-add message \\u2014 NOT a reminder) or ARCHIVE (they've clearly moved on). If FOLLOW_UP, write the message. Return JSON: {action, message}.\"},\n    {\"role\": \"user\", \"content\": \"{{ 'Lead: ' + $json.fields.company_name + ' | Services: ' + $json.fields.services + ' | Days: ' + Math.floor((Date.now() - new Date($json.fields.created_at)) / 86400000) }}\"}\n  ],\n  \"temperature\": 0.7,\n  \"response_format\": {\"type\": \"json_object\"}\n}"
+      },
+      "id": "7c0da4c0-2d6d-44cc-bfec-8761fa9e473b",
+      "name": "\ud83e\udde0 Next Best Action",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        3300,
+        1800
+      ],
+      "onError": "continueRegularOutput"
+    },
+    {
+      "parameters": {
+        "jsCode": "const r = JSON.parse($input.first().json.choices[0].message.content);\nreturn [{json: {action: r.action, message: r.message || '', ...($('\ud83d\udccb Stale Leads').first().json)}}];"
+      },
+      "id": "603df1c1-dfd6-445c-a683-5aa49d6bcaaa",
+      "name": "\ud83d\udcca Parse Action",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        3600,
+        1800
+      ]
+    },
+    {
+      "parameters": {
+        "rules": {
+          "values": [
+            {
+              "conditions": {
+                "options": {
+                  "caseSensitive": true,
+                  "leftValue": "",
+                  "typeValidation": "strict"
+                },
+                "conditions": [
+                  {
+                    "leftValue": "={{ $json.action }}",
+                    "rightValue": "FOLLOW_UP",
+                    "operator": {
+                      "type": "string",
+                      "operation": "equals"
+                    }
+                  }
+                ],
+                "combinator": "and"
+              },
+              "renameOutput": true,
+              "outputKey": "Follow Up"
+            },
+            {
+              "conditions": {
+                "options": {
+                  "caseSensitive": true,
+                  "leftValue": "",
+                  "typeValidation": "strict"
+                },
+                "conditions": [
+                  {
+                    "leftValue": "={{ $json.action }}",
+                    "rightValue": "ARCHIVE",
+                    "operator": {
+                      "type": "string",
+                      "operation": "equals"
+                    }
+                  }
+                ],
+                "combinator": "and"
+              },
+              "renameOutput": true,
+              "outputKey": "Archive"
+            }
+          ]
+        },
+        "options": {
+          "fallbackOutput": "extra"
+        }
+      },
+      "id": "aa09fbf2-520b-4410-bc4e-599e4ea4d6c6",
+      "name": "\ud83d\udd00 Action Route",
+      "type": "n8n-nodes-base.switch",
+      "typeVersion": 3,
+      "position": [
+        3900,
+        1800
+      ]
+    },
+    {
+      "parameters": {
+        "sendTo": "={{ $json.fields.email }}",
+        "subject": "=Quick thought for {{ $json.fields.company_name }}",
+        "message": "={{ $json.message }}",
+        "options": {}
+      },
+      "id": "ab750172-e519-4292-ba86-b8b87183f0d6",
+      "name": "\ud83d\udce7 Value Follow-up",
+      "type": "n8n-nodes-base.gmail",
+      "typeVersion": 2.1,
+      "position": [
+        4200,
+        1700
+      ],
+      "credentials": {
+        "gmailOAuth2": {
+          "id": "AGENCYOS_GMAIL",
+          "name": "Gmail"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "operation": "update",
+        "base": {
+          "__rl": true,
+          "value": "appAGENCYOS",
+          "mode": "id"
+        },
+        "table": {
+          "__rl": true,
+          "value": "tbl49823389",
+          "mode": "id"
+        },
+        "columns": {
+          "mappingMode": "defineBelow",
+          "value": [
+            {
+              "name": "stage",
+              "value": "Archived"
+            }
+          ],
+          "matchingColumns": [
+            "id"
+          ],
+          "schema": []
+        }
+      },
+      "id": "c86d1939-4863-45c5-879a-9e705b1f0aba",
+      "name": "\ud83d\udcbe Archive Lead",
+      "type": "n8n-nodes-base.airtable",
+      "typeVersion": 2.1,
+      "position": [
+        4200,
+        1900
+      ],
+      "credentials": {
+        "airtableTokenApi": {
+          "id": "AGENCYOS_AT",
+          "name": "Airtable"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "operation": "search",
+        "base": {
+          "__rl": true,
+          "value": "appAGENCYOS",
+          "mode": "id"
+        },
+        "table": {
+          "__rl": true,
+          "value": "tbl49823389",
+          "mode": "id"
+        },
+        "filterByFormula": "AND({stage}='Churned',DATETIME_DIFF(NOW(),{churned_at},'days')<90)",
+        "options": {}
+      },
+      "id": "c13ddf26-fb91-45d8-bb19-53dbfe424af7",
+      "name": "\ud83d\udccb Recent Churned",
+      "type": "n8n-nodes-base.airtable",
+      "typeVersion": 2.1,
+      "position": [
+        3000,
+        2300
+      ],
+      "credentials": {
+        "airtableTokenApi": {
+          "id": "AGENCYOS_AT",
+          "name": "Airtable"
+        }
+      },
+      "alwaysOutputData": true
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.anthropic.com/v1/messages",
+        "options": {},
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "x-api-key",
+              "value": "YOUR_ANTHROPIC_KEY"
+            },
+            {
+              "name": "anthropic-version",
+              "value": "2023-06-01"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={\n  \"model\": \"claude-3-5-sonnet-20241022\",\n  \"max_tokens\": 4096,\n  \"system\": \"Write a sincere re-engagement email for a former agency client. Don't beg. Offer genuine value or a new perspective. Reference something specific about their business. Be warm but professional.\",\n  \"messages\": [\n    {\"role\": \"user\", \"content\": \"{{ 'Former client: ' + $json.fields.company_name + ' | Was paying: $' + ($json.fields.lifetime_value || 0) + ' | Services: ' + $json.fields.services + ' | Duration: ' + ($json.fields.months_active || '?') + ' months' }}\"}\n  ]\n}"
+      },
+      "id": "ad63eca8-79cc-45f7-b9b0-6b9d2ceb6436",
+      "name": "\ud83e\udde0 Win-Back Email",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        3300,
+        2300
+      ],
+      "onError": "continueRegularOutput"
+    },
+    {
+      "parameters": {
+        "resource": "message",
+        "operation": "post",
+        "channelId": {
+          "__rl": true,
+          "value": "C021312934",
+          "mode": "id"
+        },
+        "text": "=\ud83d\udd04 Win-back draft for *{{ $json.fields.company_name }}*:\\n{{ $input.first().json.content[0].text }}\\n\\n[\u2705 Send] [\u274c Skip]",
+        "options": {}
+      },
+      "id": "68951ac6-4d30-4f75-988e-6b2a63e445ab",
+      "name": "\ud83d\udcac Win-Back Review",
+      "type": "n8n-nodes-base.slack",
+      "typeVersion": 2.2,
+      "position": [
+        3600,
+        2300
+      ],
+      "credentials": {
+        "slackApi": {
+          "id": "AGENCYOS_SLACK",
+          "name": "Slack"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "cronExpression",
+              "expression": "0 20 * * 0"
+            }
+          ]
+        }
+      },
+      "id": "7e8b638e-d621-4764-a646-ac7c285be94c",
+      "name": "\u23f0 Weekly Finance",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [
+        0,
+        3200
+      ]
+    },
+    {
+      "parameters": {
+        "operation": "search",
+        "base": {
+          "__rl": true,
+          "value": "appAGENCYOS",
+          "mode": "id"
+        },
+        "table": {
+          "__rl": true,
+          "value": "tbl67473560",
+          "mode": "id"
+        },
+        "filterByFormula": "",
+        "options": {}
+      },
+      "id": "c663c832-a95c-4358-b517-87023ebf5ef3",
+      "name": "\ud83d\udccb All Invoices",
+      "type": "n8n-nodes-base.airtable",
+      "typeVersion": 2.1,
+      "position": [
+        300,
+        3200
+      ],
+      "credentials": {
+        "airtableTokenApi": {
+          "id": "AGENCYOS_AT",
+          "name": "Airtable"
+        }
+      },
+      "alwaysOutputData": true
+    },
+    {
+      "parameters": {
+        "operation": "search",
+        "base": {
+          "__rl": true,
+          "value": "appAGENCYOS",
+          "mode": "id"
+        },
+        "table": {
+          "__rl": true,
+          "value": "tbl49823389",
+          "mode": "id"
+        },
+        "filterByFormula": "",
+        "options": {}
+      },
+      "id": "432582cf-740b-4426-9d36-af5caed22f36",
+      "name": "\ud83d\udccb All Clients",
+      "type": "n8n-nodes-base.airtable",
+      "typeVersion": 2.1,
+      "position": [
+        300,
+        3400
+      ],
+      "credentials": {
+        "airtableTokenApi": {
+          "id": "AGENCYOS_AT",
+          "name": "Airtable"
+        }
+      },
+      "alwaysOutputData": true
+    },
+    {
+      "parameters": {
+        "jsCode": "const invs = $('\ud83d\udccb All Invoices').all().map(i=>i.json.fields);\nconst cls = $('\ud83d\udccb All Clients').all().map(i=>i.json.fields);\nconst now = new Date();\nconst thisMonth = invs.filter(i => {\n  const d = new Date(i.paid_at || i.sent_at);\n  return d.getMonth() === now.getMonth() && d.getFullYear() === now.getFullYear();\n});\nconst paid = thisMonth.filter(i => i.status === 'Paid');\nconst outstanding = invs.filter(i => i.status === 'Sent' || i.status === 'Overdue');\nconst revenue = paid.reduce((s,i) => s + (i.amount || 0), 0);\nconst outstandingAmt = outstanding.reduce((s,i) => s + (i.amount || 0), 0);\nconst activeClients = cls.filter(c => c.stage === 'Active').length;\nconst avgHealth = cls.filter(c=>c.stage==='Active').reduce((s,c) => s + (c.health_score||0), 0) / (activeClients||1);\nreturn [{json: {\n  revenue_this_month: revenue, outstanding_amount: outstandingAmt,\n  invoices_paid: paid.length, invoices_outstanding: outstanding.length,\n  active_clients: activeClients, avg_health: Math.round(avgHealth),\n  total_clients: cls.length\n}}];"
+      },
+      "id": "022436d2-490e-44be-be70-a5e7e164bf59",
+      "name": "\ud83d\udcca Financial Aggregate",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        600,
+        3200
+      ]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.openai.com/v1/chat/completions",
+        "options": {},
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "Authorization",
+              "value": "Bearer YOUR_OPENAI_KEY"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={\n  \"model\": \"gpt-4o-mini\",\n  \"messages\": [\n    {\"role\": \"system\", \"content\": \"Based on these metrics, give: 1) Top 3 financial insights, 2) Cash flow prediction next 30 days, 3) Warning signs. Be concise and actionable.\"},\n    {\"role\": \"user\", \"content\": \"{{ JSON.stringify($json) }}\"}\n  ],\n  \"temperature\": 0.7,\n  \"response_format\": {\"type\": \"json_object\"}\n}"
+      },
+      "id": "3e404a73-dd19-4b6c-b693-ecf084b8c287",
+      "name": "\ud83e\udde0 Financial Insights",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        900,
+        3200
+      ],
+      "onError": "continueRegularOutput"
+    },
+    {
+      "parameters": {
+        "sendTo": "={{ $env.OWNER_EMAIL }}",
+        "subject": "=\ud83d\udcca Weekly Financial Report \u2014 [Agency]",
+        "message": "=\ud83d\udcca Weekly Financial Report\\n\\n\ud83d\udcb0 Revenue: ${{ $('\ud83d\udcca Financial Aggregate').first().json.revenue_this_month }}\\n\ud83d\udccb Outstanding: ${{ $('\ud83d\udcca Financial Aggregate').first().json.outstanding_amount }}\\n\ud83d\udc65 Active Clients: {{ $('\ud83d\udcca Financial Aggregate').first().json.active_clients }}\\n\ud83e\udec0 Avg Health: {{ $('\ud83d\udcca Financial Aggregate').first().json.avg_health }}\\n\\n\ud83d\udca1 Insights:\\n{{ $json.choices[0].message.content }}",
+        "options": {}
+      },
+      "id": "a239758b-412f-405a-85f2-13a120268d1e",
+      "name": "\ud83d\udce7 Weekly Finance Report",
+      "type": "n8n-nodes-base.gmail",
+      "typeVersion": 2.1,
+      "position": [
+        1200,
+        3200
+      ],
+      "credentials": {
+        "gmailOAuth2": {
+          "id": "AGENCYOS_GMAIL",
+          "name": "Gmail"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "resource": "message",
+        "operation": "post",
+        "channelId": {
+          "__rl": true,
+          "value": "C054794747",
+          "mode": "id"
+        },
+        "text": "=\ud83d\udcca *Weekly Finance*\\n\ud83d\udcb0 Revenue: ${{ $('\ud83d\udcca Financial Aggregate').first().json.revenue_this_month }}\\n\ud83d\udccb Outstanding: ${{ $('\ud83d\udcca Financial Aggregate').first().json.outstanding_amount }}\\n\ud83d\udc65 Active: {{ $('\ud83d\udcca Financial Aggregate').first().json.active_clients }}",
+        "options": {}
+      },
+      "id": "00f2e917-31f8-478b-bb37-cd9926457f44",
+      "name": "\ud83d\udcac Finance Summary",
+      "type": "n8n-nodes-base.slack",
+      "typeVersion": 2.2,
+      "position": [
+        1200,
+        3400
+      ],
+      "credentials": {
+        "slackApi": {
+          "id": "AGENCYOS_SLACK",
+          "name": "Slack"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "operation": "create",
+        "base": {
+          "__rl": true,
+          "value": "appAGENCYOS",
+          "mode": "id"
+        },
+        "table": {
+          "__rl": true,
+          "value": "tbl50058103",
+          "mode": "id"
+        },
+        "columns": {
+          "mappingMode": "defineBelow",
+          "value": [
+            {
+              "name": "event",
+              "value": "weekly_finance"
+            },
+            {
+              "name": "data",
+              "value": "={{ JSON.stringify($('\ud83d\udcca Financial Aggregate').first().json) }}"
+            },
+            {
+              "name": "timestamp",
+              "value": "={{ $now }}"
+            }
+          ],
+          "matchingColumns": [],
+          "schema": []
+        }
+      },
+      "id": "dc15c354-87ef-4f7a-889c-518ed23cc08b",
+      "name": "\ud83d\udcbe Save Report",
+      "type": "n8n-nodes-base.airtable",
+      "typeVersion": 2.1,
+      "position": [
+        1500,
+        3200
+      ],
+      "credentials": {
+        "airtableTokenApi": {
+          "id": "AGENCYOS_AT",
+          "name": "Airtable"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "cronExpression",
+              "expression": "0 8 * * *"
+            }
+          ]
+        }
+      },
+      "id": "522660f2-8a92-49a5-9e30-13e2ca6467fd",
+      "name": "\u23f0 Onboarding Check",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [
+        1400,
+        3200
+      ]
+    },
+    {
+      "parameters": {
+        "operation": "search",
+        "base": {
+          "__rl": true,
+          "value": "appAGENCYOS",
+          "mode": "id"
+        },
+        "table": {
+          "__rl": true,
+          "value": "tbl49823389",
+          "mode": "id"
+        },
+        "filterByFormula": "AND({stage}='Active',{onboarding_status}!='complete')",
+        "options": {}
+      },
+      "id": "537f22db-b1dc-4365-b7c8-d20d2c9409bd",
+      "name": "\ud83d\udccb New Active Clients",
+      "type": "n8n-nodes-base.airtable",
+      "typeVersion": 2.1,
+      "position": [
+        1700,
+        3200
+      ],
+      "credentials": {
+        "airtableTokenApi": {
+          "id": "AGENCYOS_AT",
+          "name": "Airtable"
+        }
+      },
+      "alwaysOutputData": true
+    },
+    {
+      "parameters": {
+        "jsCode": "return $input.all().map(item => {\n  const activated = new Date(item.json.fields.activated_at || item.json.fields.created_at);\n  const day = Math.floor((Date.now() - activated) / 86400000);\n  return {json: {...item.json, onboarding_day: day}};\n});"
+      },
+      "id": "243c71be-6100-4771-8a90-934288132d3c",
+      "name": "\ud83d\udcca Onboarding Day",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        2000,
+        3200
+      ]
+    },
+    {
+      "parameters": {
+        "rules": {
+          "values": [
+            {
+              "conditions": {
+                "options": {
+                  "caseSensitive": true,
+                  "leftValue": "",
+                  "typeValidation": "strict"
+                },
+                "conditions": [
+                  {
+                    "leftValue": "={{ $json.onboarding_day }}",
+                    "rightValue": "0",
+                    "operator": {
+                      "type": "number",
+                      "operation": "equals"
+                    }
+                  }
+                ],
+                "combinator": "and"
+              },
+              "renameOutput": true,
+              "outputKey": "Day 0"
+            },
+            {
+              "conditions": {
+                "options": {
+                  "caseSensitive": true,
+                  "leftValue": "",
+                  "typeValidation": "strict"
+                },
+                "conditions": [
+                  {
+                    "leftValue": "={{ $json.onboarding_day }}",
+                    "rightValue": "1",
+                    "operator": {
+                      "type": "number",
+                      "operation": "equals"
+                    }
+                  }
+                ],
+                "combinator": "and"
+              },
+              "renameOutput": true,
+              "outputKey": "Day 1"
+            },
+            {
+              "conditions": {
+                "options": {
+                  "caseSensitive": true,
+                  "leftValue": "",
+                  "typeValidation": "strict"
+                },
+                "conditions": [
+                  {
+                    "leftValue": "={{ $json.onboarding_day }}",
+                    "rightValue": "3",
+                    "operator": {
+                      "type": "number",
+                      "operation": "equals"
+                    }
+                  }
+                ],
+                "combinator": "and"
+              },
+              "renameOutput": true,
+              "outputKey": "Day 3"
+            },
+            {
+              "conditions": {
+                "options": {
+                  "caseSensitive": true,
+                  "leftValue": "",
+                  "typeValidation": "strict"
+                },
+                "conditions": [
+                  {
+                    "leftValue": "={{ $json.onboarding_day }}",
+                    "rightValue": "7",
+                    "operator": {
+                      "type": "number",
+                      "operation": "equals"
+                    }
+                  }
+                ],
+                "combinator": "and"
+              },
+              "renameOutput": true,
+              "outputKey": "Day 7"
+            }
+          ]
+        },
+        "options": {
+          "fallbackOutput": "extra"
+        }
+      },
+      "id": "448f882f-3809-4ce0-88c9-b7377b273024",
+      "name": "\ud83d\udd00 Onboarding Step",
+      "type": "n8n-nodes-base.switch",
+      "typeVersion": 3,
+      "position": [
+        2300,
+        3200
+      ]
+    },
+    {
+      "parameters": {
+        "sendTo": "={{ $json.fields.email }}",
+        "subject": "=\ud83c\udf89 Welcome to [Agency]! Let's get started",
+        "message": "=Hi {{ $json.fields.contact_name }},\n\nWelcome aboard! \ud83c\udf89\n\nHere's what to expect:\n1. \ud83d\udccb Our agency intro deck (attached)\n2. \ud83d\udcc5 Schedule your kickoff call: [Cal.com Link]\n3. \ud83d\udcdd Fill out our access request form: [Form Link]\n\nWe're excited to work with {{ $json.fields.company_name }}!\n\nBest,\n[Agency Team]",
+        "options": {}
+      },
+      "id": "e9e81910-cb47-4de0-9243-b7d34edc7d75",
+      "name": "\ud83d\udce7 Day 0 Welcome",
+      "type": "n8n-nodes-base.gmail",
+      "typeVersion": 2.1,
+      "position": [
+        2600,
+        2900
+      ],
+      "credentials": {
+        "gmailOAuth2": {
+          "id": "AGENCYOS_GMAIL",
+          "name": "Gmail"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "sendTo": "={{ $json.fields.email }}",
+        "subject": "=\ud83d\udcc5 Your project timeline \u2014 {{ $json.fields.company_name }}",
+        "message": "=Hi {{ $json.fields.contact_name }},\n\nHere's your project timeline and key milestones.\n\nWe'll keep you updated every step of the way.\n\nBest,\n[Agency]",
+        "options": {}
+      },
+      "id": "b4cfc0c1-425c-4c02-8483-445303e2f24c",
+      "name": "\ud83d\udce7 Day 1 Timeline",
+      "type": "n8n-nodes-base.gmail",
+      "typeVersion": 2.1,
+      "position": [
+        2600,
+        3100
+      ],
+      "credentials": {
+        "gmailOAuth2": {
+          "id": "AGENCYOS_GMAIL",
+          "name": "Gmail"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "sendTo": "={{ $json.fields.email }}",
+        "subject": "=Quick reminder \u2014 Access form",
+        "message": "=Hi {{ $json.fields.contact_name }},\n\nDid you get a chance to fill out the access request form? We need a few things to get started:\n\n\u2022 Brand assets (logo, colors, fonts)\n\u2022 Any existing login credentials\n\u2022 Content/copy for the project\n\n\ud83d\udc49 [Form Link]\n\nThanks!\n[Agency]",
+        "options": {}
+      },
+      "id": "78701997-fa42-4cd3-bbe6-9b2435c93dd6",
+      "name": "\ud83d\udce7 Day 3 Reminder",
+      "type": "n8n-nodes-base.gmail",
+      "typeVersion": 2.1,
+      "position": [
+        2600,
+        3300
+      ],
+      "credentials": {
+        "gmailOAuth2": {
+          "id": "AGENCYOS_GMAIL",
+          "name": "Gmail"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "sendTo": "={{ $json.fields.email }}",
+        "subject": "=How's the first week? \u2014 [Agency]",
+        "message": "=Hi {{ $json.fields.contact_name }},\n\nIt's been a week since we kicked off! How's everything going?\n\nFeel free to reply with any questions or feedback.\n\nBest,\n[Agency]",
+        "options": {}
+      },
+      "id": "68f3e533-3607-4c70-bf0e-fed4d058b97e",
+      "name": "\ud83d\udce7 Day 7 Check-in",
+      "type": "n8n-nodes-base.gmail",
+      "typeVersion": 2.1,
+      "position": [
+        2600,
+        3500
+      ],
+      "credentials": {
+        "gmailOAuth2": {
+          "id": "AGENCYOS_GMAIL",
+          "name": "Gmail"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "operation": "update",
+        "base": {
+          "__rl": true,
+          "value": "appAGENCYOS",
+          "mode": "id"
+        },
+        "table": {
+          "__rl": true,
+          "value": "tbl49823389",
+          "mode": "id"
+        },
+        "columns": {
+          "mappingMode": "defineBelow",
+          "value": [
+            {
+              "name": "onboarding_status",
+              "value": "complete"
+            }
+          ],
+          "matchingColumns": [
+            "id"
+          ],
+          "schema": []
+        }
+      },
+      "id": "c626c514-ae97-405e-824a-259db4f66f67",
+      "name": "\ud83d\udcbe Onboarding Done",
+      "type": "n8n-nodes-base.airtable",
+      "typeVersion": 2.1,
+      "position": [
+        2900,
+        3500
+      ],
+      "credentials": {
+        "airtableTokenApi": {
+          "id": "AGENCYOS_AT",
+          "name": "Airtable"
+        }
+      }
+    },
+    {
+      "parameters": {},
+      "id": "2530eb4e-97d9-492a-af38-11ac876388ea",
+      "name": "\ud83d\udea8 Error Trigger",
+      "type": "n8n-nodes-base.errorTrigger",
+      "typeVersion": 1,
+      "position": [
+        2700,
+        3200
+      ]
+    },
+    {
+      "parameters": {
+        "jsCode": "const err = $input.first().json;\nconst severity = (err.message || '').toLowerCase().includes('critical') ? 'CRITICAL' :\n                 (err.message || '').toLowerCase().includes('timeout') ? 'WARNING' : 'INFO';\nreturn [{json: {\n  source: err.workflow?.name || 'Unknown',\n  node: err.node?.name || 'Unknown',\n  message: err.message || 'No message',\n  severity: severity,\n  timestamp: new Date().toISOString(),\n  execution_id: err.execution?.id || ''\n}}];"
+      },
+      "id": "860c8b0b-da4c-4dd9-8742-b651ef7289f7",
+      "name": "\ud83d\udccb Format Error",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        3000,
+        3200
+      ]
+    },
+    {
+      "parameters": {
+        "operation": "create",
+        "base": {
+          "__rl": true,
+          "value": "appAGENCYOS",
+          "mode": "id"
+        },
+        "table": {
+          "__rl": true,
+          "value": "tbl25367707",
+          "mode": "id"
+        },
+        "columns": {
+          "mappingMode": "defineBelow",
+          "value": [
+            {
+              "name": "source",
+              "value": "={{ $json.source }}"
+            },
+            {
+              "name": "node",
+              "value": "={{ $json.node }}"
+            },
+            {
+              "name": "message",
+              "value": "={{ $json.message }}"
+            },
+            {
+              "name": "severity",
+              "value": "={{ $json.severity }}"
+            },
+            {
+              "name": "execution_id",
+              "value": "={{ $json.execution_id }}"
+            }
+          ],
+          "matchingColumns": [],
+          "schema": []
+        }
+      },
+      "id": "4f108b27-3a8c-4e8d-9b3b-0d83057a7edb",
+      "name": "\ud83d\udcbe Log Error",
+      "type": "n8n-nodes-base.airtable",
+      "typeVersion": 2.1,
+      "position": [
+        3300,
+        3200
+      ],
+      "credentials": {
+        "airtableTokenApi": {
+          "id": "AGENCYOS_AT",
+          "name": "Airtable"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "rules": {
+          "values": [
+            {
+              "conditions": {
+                "options": {
+                  "caseSensitive": true,
+                  "leftValue": "",
+                  "typeValidation": "strict"
+                },
+                "conditions": [
+                  {
+                    "leftValue": "={{ $json.severity }}",
+                    "rightValue": "CRITICAL",
+                    "operator": {
+                      "type": "string",
+                      "operation": "equals"
+                    }
+                  }
+                ],
+                "combinator": "and"
+              },
+              "renameOutput": true,
+              "outputKey": "\ud83d\udd34 Critical"
+            },
+            {
+              "conditions": {
+                "options": {
+                  "caseSensitive": true,
+                  "leftValue": "",
+                  "typeValidation": "strict"
+                },
+                "conditions": [
+                  {
+                    "leftValue": "={{ $json.severity }}",
+                    "rightValue": "WARNING",
+                    "operator": {
+                      "type": "string",
+                      "operation": "equals"
+                    }
+                  }
+                ],
+                "combinator": "and"
+              },
+              "renameOutput": true,
+              "outputKey": "\u26a0\ufe0f Warning"
+            }
+          ]
+        },
+        "options": {
+          "fallbackOutput": "extra"
+        }
+      },
+      "id": "a63c665f-7cec-4576-bca3-67a442774a98",
+      "name": "\ud83d\udd00 Severity Route",
+      "type": "n8n-nodes-base.switch",
+      "typeVersion": 3,
+      "position": [
+        3600,
+        3200
+      ]
+    },
+    {
+      "parameters": {
+        "resource": "message",
+        "operation": "post",
+        "channelId": {
+          "__rl": true,
+          "value": "C071930773",
+          "mode": "id"
+        },
+        "text": "=\ud83d\udd34 CRITICAL ERROR\\nSource: {{ $json.source }}\\nNode: {{ $json.node }}\\nMessage: {{ $json.message }}",
+        "options": {}
+      },
+      "id": "dc6a67e2-0a3e-42e4-9e77-ed71bebaba44",
+      "name": "\ud83d\udea8 Critical Alert",
+      "type": "n8n-nodes-base.slack",
+      "typeVersion": 2.2,
+      "position": [
+        3900,
+        3100
+      ],
+      "credentials": {
+        "slackApi": {
+          "id": "AGENCYOS_SLACK",
+          "name": "Slack"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "from": "={{ $env.TWILIO_PHONE }}",
+        "to": "={{ $env.MANAGER_PHONE }}",
+        "message": "=\ud83d\udd34 AgencyOS CRITICAL: {{ $json.source }} \u2014 {{ $json.message }}"
+      },
+      "id": "edbf7422-835d-43d5-aa7d-3492525c2ce8",
+      "name": "\ud83d\udcf1 SMS Alert",
+      "type": "n8n-nodes-base.twilio",
+      "typeVersion": 1,
+      "position": [
+        4200,
+        3100
+      ],
+      "credentials": {
+        "twilioApi": {
+          "id": "AGENCYOS_TWILIO",
+          "name": "Twilio"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "resource": "message",
+        "operation": "post",
+        "channelId": {
+          "__rl": true,
+          "value": "C082057936",
+          "mode": "id"
+        },
+        "text": "=\u26a0\ufe0f Warning: {{ $json.source }} \u2014 {{ $json.node }}\\n{{ $json.message }}",
+        "options": {}
+      },
+      "id": "b3938998-9523-472e-b7f7-afdfbb20244c",
+      "name": "\u26a0\ufe0f Warning Alert",
+      "type": "n8n-nodes-base.slack",
+      "typeVersion": 2.2,
+      "position": [
+        3900,
+        3300
+      ],
+      "credentials": {
+        "slackApi": {
+          "id": "AGENCYOS_SLACK",
+          "name": "Slack"
+        }
+      }
+    }
+  ],
+  "connections": {
+    "\ud83d\udce5 Intake Webhook": {
+      "main": [
+        [
+          {
+            "node": "\ud83e\uddf9 Parse & Validate",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "\ud83e\uddf9 Parse & Validate": {
+      "main": [
+        [
+          {
+            "node": "\ud83d\udd0d Duplicate Check",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "\ud83d\udd0d Duplicate Check": {
+      "main": [
+        [
+          {
+            "node": "\ud83d\udd00 Duplicate?",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "\ud83d\udd00 Duplicate?": {
+      "main": [
+        [
+          {
+            "node": "\ud83d\udcbe Merge Existing",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "\ud83e\udde0 AI Client Profiler",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "\ud83d\udcbe Merge Existing": {
+      "main": [
+        [
+          {
+            "node": "\ud83d\udcac Returning Client",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "\ud83e\udde0 AI Client Profiler": {
+      "main": [
+        [
+          {
+            "node": "\ud83d\udcca Parse AI Profile",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "\ud83d\udcca Parse AI Profile": {
+      "main": [
+        [
+          {
+            "node": "\ud83d\udcbe Create Client",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "\ud83d\udcbe Create Client": {
+      "main": [
+        [
+          {
+            "node": "\ud83d\udce7 Welcome Email",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "\ud83d\udcac New Lead Alert",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "\ud83d\udce7 Welcome Email": {
+      "main": [
+        [
+          {
+            "node": "\ud83d\udcca Update Analytics",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "\u23f0 Check Proposal Queue": {
+      "main": [
+        [
+          {
+            "node": "\ud83d\udccb Get Proposal Clients",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "\ud83d\udccb Get Proposal Clients": {
+      "main": [
+        [
+          {
+            "node": "\ud83d\udccb Service Templates",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "\ud83d\udccb Service Templates": {
+      "main": [
+        [
+          {
+            "node": "\ud83e\udde0 Claude Proposal Writer",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "\ud83e\udde0 Claude Proposal Writer": {
+      "main": [
+        [
+          {
+            "node": "\ud83d\udcca Format Proposal",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "\ud83d\udcca Format Proposal": {
+      "main": [
+        [
+          {
+            "node": "\ud83d\udcac Proposal Review",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "\u2705 Proposal Approved": {
+      "main": [
+        [
+          {
+            "node": "\ud83d\udce7 Send Proposal",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "\ud83d\udce7 Send Proposal": {
+      "main": [
+        [
+          {
+            "node": "\ud83d\udcbe Stage \u2192 Proposal Sent",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "\u23f0 Proposal Follow-ups": {
+      "main": [
+        [
+          {
+            "node": "\ud83d\udccb Pending Proposals",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "\ud83d\udccb Pending Proposals": {
+      "main": [
+        [
+          {
+            "node": "\ud83d\udcca Calculate Days",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "\ud83d\udcca Calculate Days": {
+      "main": [
+        [
+          {
+            "node": "\ud83d\udd00 Follow-up Tier",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "\ud83d\udd00 Follow-up Tier": {
+      "main": [
+        [
+          {
+            "node": "\ud83d\udce7 Day 2 Nudge",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "\ud83d\udce7 Day 5 Call Offer",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "\ud83d\udcac Day 10 HITL",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "\ud83d\udcbe Auto-Archive",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "\ud83d\udcb0 Deposit Received": {
+      "main": [
+        [
+          {
+            "node": "\ud83d\udcbe Stage \u2192 Active",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "\ud83d\udcbe Stage \u2192 Active": {
+      "main": [
+        [
+          {
+            "node": "\ud83d\udce7 Onboarding Confirm",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "\ud83d\udcac Client Signed!",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "\u23f0 New Active Projects": {
+      "main": [
+        [
+          {
+            "node": "\ud83d\udccb Get New Active",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "\ud83d\udccb Get New Active": {
+      "main": [
+        [
+          {
+            "node": "\ud83d\udccb Get Template",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "\ud83d\udccb Get Template": {
+      "main": [
+        [
+          {
+            "node": "\ud83d\udcbe Create Project",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "\ud83d\udcbe Create Project": {
+      "main": [
+        [
+          {
+            "node": "\ud83d\udccb Create Notion Page",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "\ud83d\udcc5 Create Milestones",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "\ud83d\udccb Create Notion Page": {
+      "main": [
+        [
+          {
+            "node": "\ud83d\udce7 Project Started",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "\ud83d\udcc5 Create Milestones": {
+      "main": [
+        [
+          {
+            "node": "\ud83d\udcbe Flag Created",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "\u23f0 Daily Milestone Check": {
+      "main": [
+        [
+          {
+            "node": "\ud83d\udccb Due/Overdue",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "\ud83d\udccb Due/Overdue": {
+      "main": [
+        [
+          {
+            "node": "\ud83d\udcca Check Status",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "\ud83d\udcca Check Status": {
+      "main": [
+        [
+          {
+            "node": "\ud83d\udd00 Milestone Status",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "\ud83d\udd00 Milestone Status": {
+      "main": [
+        [
+          {
+            "node": "\ud83d\udea8 Overdue Alert",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "\ud83d\udcc5 Due Today",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "\u2705 Milestone Complete": {
+      "main": [
+        [
+          {
+            "node": "\ud83d\udcbe Update Progress",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "\ud83d\udcbe Update Progress": {
+      "main": [
+        [
+          {
+            "node": "\ud83d\udce7 Progress Update",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "\ud83d\udce5 Email Poller": {
+      "main": [
+        [
+          {
+            "node": "\ud83d\udd0d Match Client",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "\ud83d\udd0d Match Client": {
+      "main": [
+        [
+          {
+            "node": "\ud83e\udde0 AI Classifier",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "\ud83d\udd00 New Client?",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "\ud83e\udde0 AI Classifier": {
+      "main": [
+        [
+          {
+            "node": "\ud83d\udcca Parse Classification",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "\ud83d\udcca Parse Classification": {
+      "main": [
+        [
+          {
+            "node": "\ud83d\udcbe Log Interaction",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "\ud83d\udcbe Update Last Comm",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "\ud83d\udcbe Log Interaction": {
+      "main": [
+        [
+          {
+            "node": "\ud83d\udd00 Route by Category",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "\ud83d\udd00 Route by Category": {
+      "main": [
+        [
+          {
+            "node": "\ud83d\udea8 Urgent Alert",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "\ud83e\udde0 Draft Response",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "\ud83d\udea8 Negative Sentiment",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "\ud83d\udcdd Revision Logged",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "\ud83d\udea8 Urgent Alert": {
+      "main": [
+        [
+          {
+            "node": "\ud83d\udcf1 SMS Manager",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "\ud83e\udde0 Draft Response": {
+      "main": [
+        [
+          {
+            "node": "\ud83d\udcac Draft Review",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "\ud83d\udce5 Create Invoice": {
+      "main": [
+        [
+          {
+            "node": "\ud83d\udccb Get Client",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "\ud83d\udccb Get Client": {
+      "main": [
+        [
+          {
+            "node": "\ud83d\udcb0 Stripe Invoice",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "\ud83d\udcb0 Stripe Invoice": {
+      "main": [
+        [
+          {
+            "node": "\ud83d\udce7 Send Invoice",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "\ud83d\udce7 Send Invoice": {
+      "main": [
+        [
+          {
+            "node": "\ud83d\udcbe Log Invoice",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "\ud83d\udcb0 Payment Received": {
+      "main": [
+        [
+          {
+            "node": "\ud83d\udcbe Mark Paid",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "\ud83d\udcbe Mark Paid": {
+      "main": [
+        [
+          {
+            "node": "\ud83d\udce7 Thank You",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "\ud83d\udcac Payment Alert",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "\u23f0 Payment Reminders": {
+      "main": [
+        [
+          {
+            "node": "\ud83d\udccb Overdue Invoices",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "\ud83d\udccb Overdue Invoices": {
+      "main": [
+        [
+          {
+            "node": "\ud83d\udcca Days Overdue",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "\ud83d\udcca Days Overdue": {
+      "main": [
+        [
+          {
+            "node": "\ud83d\udd00 Reminder Tier",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "\ud83d\udd00 Reminder Tier": {
+      "main": [
+        [
+          {
+            "node": "\ud83d\ude0a Friendly Reminder",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "\u26a0\ufe0f Day 14 Review",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "\ud83d\udea9 Day 30 Approval",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "\ud83d\udd34 45+ Days",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "\ud83d\udcc5 Cal.com Booking": {
+      "main": [
+        [
+          {
+            "node": "\ud83d\udd0d Match Client",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "\ud83d\udd00 New Client?": {
+      "main": [
+        [
+          {
+            "node": "\ud83d\udcbe Create Lead",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "\ud83d\udcbe Update Comm",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "\ud83d\udcbe Create Lead": {
+      "main": [
+        [
+          {
+            "node": "\ud83d\udcc5 Create Event",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "\ud83d\udcbe Update Comm": {
+      "main": [
+        [
+          {
+            "node": "\ud83d\udcc5 Create Event",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "\ud83d\udcc5 Create Event": {
+      "main": [
+        [
+          {
+            "node": "\ud83d\udce7 Confirmation",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "\ud83d\udcbe Log Meeting",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "\u23f0 Meeting Prep": {
+      "main": [
+        [
+          {
+            "node": "\ud83d\udcc5 Today's Meetings",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "\ud83d\udcc5 Today's Meetings": {
+      "main": [
+        [
+          {
+            "node": "\ud83e\udde0 Meeting Brief",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "\ud83e\udde0 Meeting Brief": {
+      "main": [
+        [
+          {
+            "node": "\ud83d\udcac Prep Brief",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "\ud83d\udd0d No-Show Check": {
+      "main": [
+        [
+          {
+            "node": "\ud83d\udce7 Reschedule",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "\ud83d\udce7 Reschedule": {
+      "main": [
+        [
+          {
+            "node": "\ud83d\udcbe Log No-Show",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "\u23f0 Completed Projects": {
+      "main": [
+        [
+          {
+            "node": "\ud83d\udccb Just Completed",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "\ud83d\udccb Just Completed": {
+      "main": [
+        [
+          {
+            "node": "\u23f0 Wait 48h",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "\u23f0 Wait 48h": {
+      "main": [
+        [
+          {
+            "node": "\ud83d\udce7 NPS Survey",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "\ud83d\udce7 NPS Survey": {
+      "main": [
+        [
+          {
+            "node": "\ud83d\udcbe Survey Sent",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "\ud83d\udce5 Survey Response": {
+      "main": [
+        [
+          {
+            "node": "\ud83d\udcca Parse NPS",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "\ud83d\udcca Parse NPS": {
+      "main": [
+        [
+          {
+            "node": "\ud83d\udcbe Update Satisfaction",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "\ud83d\udcbe Update Satisfaction": {
+      "main": [
+        [
+          {
+            "node": "\ud83d\udd00 NPS Route",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "\ud83d\udd00 NPS Route": {
+      "main": [
+        [
+          {
+            "node": "\ud83d\udce7 Review Request",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "\ud83d\udce7 Thank Passive",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "\ud83d\udea8 Unhappy Client",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "\ud83d\udce7 Review Request": {
+      "main": [
+        [
+          {
+            "node": "\ud83d\udcac Promoter Alert",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "\ud83d\udea8 Unhappy Client": {
+      "main": [
+        [
+          {
+            "node": "\ud83d\udcf1 Alert Manager",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "\ud83e\udec0 Morning Pulse": {
+      "main": [
+        [
+          {
+            "node": "\ud83d\udccb All Active Clients",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "\ud83d\udccb All Active Clients": {
+      "main": [
+        [
+          {
+            "node": "\ud83d\udcca Communication Score",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "\ud83d\udcca Communication Score": {
+      "main": [
+        [
+          {
+            "node": "\ud83d\udcca Payment Score",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "\ud83d\udcca Payment Score": {
+      "main": [
+        [
+          {
+            "node": "\ud83d\udcca Satisfaction Score",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "\ud83d\udcca Satisfaction Score": {
+      "main": [
+        [
+          {
+            "node": "\ud83d\udcca Revenue Score",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "\ud83d\udcca Revenue Score": {
+      "main": [
+        [
+          {
+            "node": "\ud83d\udcca Health Score",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "\ud83d\udcca Health Score": {
+      "main": [
+        [
+          {
+            "node": "\ud83d\udcca Churn Risk",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "\ud83d\udcca Churn Risk": {
+      "main": [
+        [
+          {
+            "node": "\ud83d\udcca Profitability X-Ray",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "\ud83d\udcca Profitability X-Ray": {
+      "main": [
+        [
+          {
+            "node": "\ud83d\udcca Upsell Radar",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "\ud83d\udcca Upsell Radar": {
+      "main": [
+        [
+          {
+            "node": "\ud83d\udcbe Bulk Update Clients",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "\ud83d\udcbe Bulk Update Clients": {
+      "main": [
+        [
+          {
+            "node": "\ud83e\udde0 Pulse Summary",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "\ud83e\udde0 Pulse Summary": {
+      "main": [
+        [
+          {
+            "node": "\ud83d\udcac Daily Pulse",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "\u23f0 Weekly Nurture": {
+      "main": [
+        [
+          {
+            "node": "\ud83d\udccb Stale Leads",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "\ud83d\udccb Recent Churned",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "\ud83d\udccb Stale Leads": {
+      "main": [
+        [
+          {
+            "node": "\ud83e\udde0 Next Best Action",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "\ud83e\udde0 Next Best Action": {
+      "main": [
+        [
+          {
+            "node": "\ud83d\udcca Parse Action",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "\ud83d\udcca Parse Action": {
+      "main": [
+        [
+          {
+            "node": "\ud83d\udd00 Action Route",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "\ud83d\udd00 Action Route": {
+      "main": [
+        [
+          {
+            "node": "\ud83d\udce7 Value Follow-up",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "\ud83d\udcbe Archive Lead",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "\ud83d\udccb Recent Churned": {
+      "main": [
+        [
+          {
+            "node": "\ud83e\udde0 Win-Back Email",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "\ud83e\udde0 Win-Back Email": {
+      "main": [
+        [
+          {
+            "node": "\ud83d\udcac Win-Back Review",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "\u23f0 Weekly Finance": {
+      "main": [
+        [
+          {
+            "node": "\ud83d\udccb All Invoices",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "\ud83d\udccb All Clients",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "\ud83d\udccb All Invoices": {
+      "main": [
+        [
+          {
+            "node": "\ud83d\udcca Financial Aggregate",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "\ud83d\udccb All Clients": {
+      "main": [
+        [
+          {
+            "node": "\ud83d\udcca Financial Aggregate",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "\ud83d\udcca Financial Aggregate": {
+      "main": [
+        [
+          {
+            "node": "\ud83e\udde0 Financial Insights",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "\ud83e\udde0 Financial Insights": {
+      "main": [
+        [
+          {
+            "node": "\ud83d\udce7 Weekly Finance Report",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "\ud83d\udcac Finance Summary",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "\ud83d\udce7 Weekly Finance Report": {
+      "main": [
+        [
+          {
+            "node": "\ud83d\udcbe Save Report",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "\u23f0 Onboarding Check": {
+      "main": [
+        [
+          {
+            "node": "\ud83d\udccb New Active Clients",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "\ud83d\udccb New Active Clients": {
+      "main": [
+        [
+          {
+            "node": "\ud83d\udcca Onboarding Day",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "\ud83d\udcca Onboarding Day": {
+      "main": [
+        [
+          {
+            "node": "\ud83d\udd00 Onboarding Step",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "\ud83d\udd00 Onboarding Step": {
+      "main": [
+        [
+          {
+            "node": "\ud83d\udce7 Day 0 Welcome",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "\ud83d\udce7 Day 1 Timeline",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "\ud83d\udce7 Day 3 Reminder",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "\ud83d\udce7 Day 7 Check-in",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "\ud83d\udce7 Day 7 Check-in": {
+      "main": [
+        [
+          {
+            "node": "\ud83d\udcbe Onboarding Done",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "\ud83d\udea8 Error Trigger": {
+      "main": [
+        [
+          {
+            "node": "\ud83d\udccb Format Error",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "\ud83d\udccb Format Error": {
+      "main": [
+        [
+          {
+            "node": "\ud83d\udcbe Log Error",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "\ud83d\udcbe Log Error": {
+      "main": [
+        [
+          {
+            "node": "\ud83d\udd00 Severity Route",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "\ud83d\udd00 Severity Route": {
+      "main": [
+        [
+          {
+            "node": "\ud83d\udea8 Critical Alert",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "\u26a0\ufe0f Warning Alert",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "\ud83d\udea8 Critical Alert": {
+      "main": [
+        [
+          {
+            "node": "\ud83d\udcf1 SMS Alert",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "pinData": {},
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "staticData": null,
+  "tags": [
+    {
+      "name": "AgencyOS"
+    },
+    {
+      "name": "CRM"
+    },
+    {
+      "name": "Pulse Engine"
+    },
+    {
+      "name": "AI Operations"
+    }
+  ],
+  "triggerCount": 0,
+  "versionId": "agencyos-v1.0"
+}
