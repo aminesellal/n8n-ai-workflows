@@ -1,0 +1,846 @@
+{
+  "name": "🍝 RestoFlow — Demo TikTok Express (Auto-Recovery)",
+  "nodes": [
+    {
+      "parameters": {
+        "content": "# 🎥 Demo TikTok 40s\n\n### Script Ultra-Rapide (Tout sur 1 chat) :\n\n1. **Accroche** : Envoie un message vocal\n   👉 *Tu reçois la propal, clique [✅ Confirm]*\n\n2. **Rappel 24h (après 5 sec)**\n   👉 *Le bot te relance, clique [✅ Confirmed!]*\n\n3. **L'annulation (Le twist)**\n   👉 *Tape le mot `cancel`*\n\n4. **Le rattrapage (Slot Recovery)**\n   👉 *Tu reçois l'alerte VIP List, clique [⚡ Claim Table]*\n\n5. **Le Dashboard du Patron**\n   👉 *Le système t'alerte que le CA est sauvé 💰*\n\n6. **L'Avis (après 5 sec)**\n   👉 *Le bot demande la note, clique [⭐⭐]*\n   👉 *Tape une plainte -> Alerte immédiate au patron.*",
+        "height": 450,
+        "width": 400,
+        "color": 5
+      },
+      "id": "0a6768de-c118-43fe-b265-c655f988bd25",
+      "name": "Sticky Note",
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [
+        -1280,
+        96
+      ]
+    },
+    {
+      "parameters": {
+        "updates": [
+          "message",
+          "callback_query"
+        ],
+        "additionalFields": {}
+      },
+      "id": "0c3857cd-aa95-41f4-9b70-0392023e6cd4",
+      "name": "Telegram Trigger",
+      "type": "n8n-nodes-base.telegramTrigger",
+      "typeVersion": 1.1,
+      "position": [
+        -768,
+        560
+      ],
+      "webhookId": "restaurant-demo-trigger",
+      "credentials": {
+        "telegramApi": {
+          "id": "QUOqjzOYMRsfSNAL",
+          "name": "Telegram account 6"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "jsCode": "const item = $input.first().json;\nconst message = item.message;\nconst callbackQuery = item.callback_query;\n\nlet action = 'unknown';\nlet chatId = '';\nlet text = '';\nlet firstName = '';\n\nif (message) {\n  chatId = String(message.chat.id);\n  text = message.text || '';\n  firstName = message.from?.first_name || 'Guest';\n\n  if (message.voice) {\n    action = 'voice_booking';\n  } else if (text.toLowerCase().includes('cancel')) {\n    action = 'cancel';\n  } else if (text.startsWith('/')) {\n    action = 'command';\n  } else if (text.toLowerCase().includes('briefing')) {\n    action = 'owner_message';\n  } else {\n    action = 'feedback_text';\n  }\n} else if (callbackQuery) {\n  chatId = String(callbackQuery.message.chat.id);\n  firstName = callbackQuery.from?.first_name || 'Guest';\n  action = callbackQuery.data;\n}\n\nreturn [{\n  json: {\n    action,\n    chatId,\n    text,\n    firstName\n  }\n}];"
+      },
+      "id": "999ac7fa-90f2-4e85-8b7a-928711edcd31",
+      "name": "Router (Auto-Chat)",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        -544,
+        560
+      ]
+    },
+    {
+      "parameters": {
+        "rules": {
+          "values": [
+            {
+              "conditions": {
+                "options": {
+                  "caseSensitive": true,
+                  "leftValue": "",
+                  "typeValidation": "strict",
+                  "version": 1
+                },
+                "conditions": [
+                  {
+                    "id": "cond-1",
+                    "leftValue": "={{ $json.action }}",
+                    "rightValue": "voice_booking",
+                    "operator": {
+                      "type": "string",
+                      "operation": "equals"
+                    }
+                  }
+                ],
+                "combinator": "and"
+              },
+              "renameOutput": true,
+              "outputKey": "🎤 Voice"
+            },
+            {
+              "conditions": {
+                "options": {
+                  "caseSensitive": true,
+                  "leftValue": "",
+                  "typeValidation": "strict",
+                  "version": 1
+                },
+                "conditions": [
+                  {
+                    "id": "cond-2",
+                    "leftValue": "={{ $json.action }}",
+                    "rightValue": "confirm_booking",
+                    "operator": {
+                      "type": "string",
+                      "operation": "equals"
+                    }
+                  }
+                ],
+                "combinator": "and"
+              },
+              "renameOutput": true,
+              "outputKey": "✅ Confirm Book"
+            },
+            {
+              "conditions": {
+                "options": {
+                  "caseSensitive": true,
+                  "leftValue": "",
+                  "typeValidation": "strict",
+                  "version": 1
+                },
+                "conditions": [
+                  {
+                    "id": "cond-3",
+                    "leftValue": "={{ $json.action }}",
+                    "rightValue": "confirm_reminder",
+                    "operator": {
+                      "type": "string",
+                      "operation": "equals"
+                    }
+                  }
+                ],
+                "combinator": "and"
+              },
+              "renameOutput": true,
+              "outputKey": "✅ Confirm Remind"
+            },
+            {
+              "conditions": {
+                "options": {
+                  "caseSensitive": true,
+                  "leftValue": "",
+                  "typeValidation": "strict",
+                  "version": 1
+                },
+                "conditions": [
+                  {
+                    "id": "cond-4",
+                    "leftValue": "={{ $json.action }}",
+                    "rightValue": "cancel",
+                    "operator": {
+                      "type": "string",
+                      "operation": "equals"
+                    }
+                  }
+                ],
+                "combinator": "and"
+              },
+              "renameOutput": true,
+              "outputKey": "❌ Cancel"
+            },
+            {
+              "conditions": {
+                "options": {
+                  "caseSensitive": true,
+                  "leftValue": "",
+                  "typeValidation": "strict",
+                  "version": 1
+                },
+                "conditions": [
+                  {
+                    "id": "cond-5",
+                    "leftValue": "={{ $json.action }}",
+                    "rightValue": "waitlist_yes",
+                    "operator": {
+                      "type": "string",
+                      "operation": "equals"
+                    }
+                  }
+                ],
+                "combinator": "and"
+              },
+              "renameOutput": true,
+              "outputKey": "🎉 Waitlist Yes"
+            },
+            {
+              "conditions": {
+                "options": {
+                  "caseSensitive": true,
+                  "leftValue": "",
+                  "typeValidation": "strict",
+                  "version": 1
+                },
+                "conditions": [
+                  {
+                    "id": "cond-6",
+                    "leftValue": "={{ $json.action }}",
+                    "rightValue": "rating_2",
+                    "operator": {
+                      "type": "string",
+                      "operation": "equals"
+                    }
+                  }
+                ],
+                "combinator": "and"
+              },
+              "renameOutput": true,
+              "outputKey": "⭐ Bad Rating"
+            },
+            {
+              "conditions": {
+                "options": {
+                  "caseSensitive": true,
+                  "leftValue": "",
+                  "typeValidation": "strict",
+                  "version": 1
+                },
+                "conditions": [
+                  {
+                    "id": "cond-7",
+                    "leftValue": "={{ $json.action }}",
+                    "rightValue": "feedback_text",
+                    "operator": {
+                      "type": "string",
+                      "operation": "equals"
+                    }
+                  }
+                ],
+                "combinator": "and"
+              },
+              "renameOutput": true,
+              "outputKey": "💬 Feedback"
+            },
+            {
+              "conditions": {
+                "options": {
+                  "caseSensitive": true,
+                  "leftValue": "",
+                  "typeValidation": "strict",
+                  "version": 1
+                },
+                "conditions": [
+                  {
+                    "id": "cond-8",
+                    "leftValue": "={{ $json.action }}",
+                    "rightValue": "owner_message",
+                    "operator": {
+                      "type": "string",
+                      "operation": "equals"
+                    }
+                  }
+                ],
+                "combinator": "and"
+              },
+              "renameOutput": true,
+              "outputKey": "📊 Owner"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "6d0c358c-f2bb-457f-aa9c-57286fe00433",
+      "name": "Action Switch",
+      "type": "n8n-nodes-base.switch",
+      "typeVersion": 3,
+      "position": [
+        -304,
+        560
+      ]
+    },
+    {
+      "parameters": {
+        "chatId": "={{ $('Router (Auto-Chat)').first().json.chatId }}",
+        "text": "🎙️ <b>Booking Request Received</b>\n━━━━━━━━━━━━━━━━━━━\n\n📅 <b>Date:</b> Saturday, April 25\n🕐 <b>Time:</b> 8:00 PM\n👥 <b>Guests:</b> 4\n\n<i>Does this look correct?</i>",
+        "replyMarkup": "inlineKeyboard",
+        "inlineKeyboard": {
+          "rows": [
+            {
+              "row": {
+                "buttons": [
+                  {
+                    "text": "✅ Confirm",
+                    "additionalFields": {
+                      "callback_data": "confirm_booking"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "additionalFields": {
+          "parse_mode": "HTML"
+        }
+      },
+      "id": "60ab9430-97be-4927-9677-1ca59218f826",
+      "name": "Send Booking Options",
+      "type": "n8n-nodes-base.telegram",
+      "typeVersion": 1.2,
+      "position": [
+        0,
+        0
+      ],
+      "credentials": {
+        "telegramApi": {
+          "id": "QUOqjzOYMRsfSNAL",
+          "name": "Telegram account 6"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "chatId": "={{ $('Router (Auto-Chat)').first().json.chatId }}",
+        "text": "✅ <b>Reservation Confirmed!</b>\n━━━━━━━━━━━━━━━━━━━\n\n📋 <b>ID:</b> #1247\n📍 <b>Location:</b> Trattoria da Marco\n     12 Rue de la République\n\n🔔 <i>A reminder will be sent 24h before.</i>",
+        "additionalFields": {
+          "parse_mode": "HTML"
+        }
+      },
+      "id": "900e775c-3ee1-468c-a814-6856da15c77a",
+      "name": "Send Booking Confirmed",
+      "type": "n8n-nodes-base.telegram",
+      "typeVersion": 1.2,
+      "position": [
+        0,
+        192
+      ],
+      "credentials": {
+        "telegramApi": {
+          "id": "QUOqjzOYMRsfSNAL",
+          "name": "Telegram account 6"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "amount": 10
+      },
+      "id": "e76f86f8-3ddf-4bab-85b3-55bb358ac044",
+      "name": "Wait 10s Reminder",
+      "type": "n8n-nodes-base.wait",
+      "typeVersion": 1.1,
+      "position": [
+        240,
+        192
+      ],
+      "notesInFlow": true,
+      "notes": "⏳ Fast for Demo"
+    },
+    {
+      "parameters": {
+        "chatId": "={{ $('Router (Auto-Chat)').first().json.chatId }}",
+        "text": "⏰ <b>Upcoming Reservation</b>\n━━━━━━━━━━━━━━━━━━━\n\nYour table for <b>4 guests</b> is ready for tomorrow at <b>8:00 PM</b>.\n\n<i>Are you still coming?</i>",
+        "replyMarkup": "inlineKeyboard",
+        "inlineKeyboard": {
+          "rows": [
+            {
+              "row": {
+                "buttons": [
+                  {
+                    "text": "✅ Confirmed!",
+                    "additionalFields": {
+                      "callback_data": "confirm_reminder"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "additionalFields": {
+          "parse_mode": "HTML"
+        }
+      },
+      "id": "3888964c-d8df-49e3-9255-a2e57512dad2",
+      "name": "Send Reminder",
+      "type": "n8n-nodes-base.telegram",
+      "typeVersion": 1.2,
+      "position": [
+        432,
+        192
+      ],
+      "credentials": {
+        "telegramApi": {
+          "id": "QUOqjzOYMRsfSNAL",
+          "name": "Telegram account 6"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "chatId": "={{ $('Router (Auto-Chat)').first().json.chatId }}",
+        "text": "✅ <b>Perfect!</b> See you tomorrow at 8:00 PM. 🍝",
+        "additionalFields": {
+          "parse_mode": "HTML"
+        }
+      },
+      "id": "f0bf7696-bcdc-4a21-b850-2ca9ecf69e4a",
+      "name": "Send Confirmed Reply",
+      "type": "n8n-nodes-base.telegram",
+      "typeVersion": 1.2,
+      "position": [
+        0,
+        368
+      ],
+      "credentials": {
+        "telegramApi": {
+          "id": "QUOqjzOYMRsfSNAL",
+          "name": "Telegram account 6"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "chatId": "={{ $('Router (Auto-Chat)').first().json.chatId }}",
+        "text": "❌ <b>Reservation Cancelled</b>\n━━━━━━━━━━━━━━━━━━━\n\nReservation <b>#1247</b> has been successfully cancelled.\n\nWe hope to welcome you another time! 😊",
+        "additionalFields": {
+          "parse_mode": "HTML"
+        }
+      },
+      "id": "c741439c-29c7-4906-81bf-b525bd62f210",
+      "name": "Send Cancelled",
+      "type": "n8n-nodes-base.telegram",
+      "typeVersion": 1.2,
+      "position": [
+        0,
+        544
+      ],
+      "credentials": {
+        "telegramApi": {
+          "id": "QUOqjzOYMRsfSNAL",
+          "name": "Telegram account 6"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "amount": 10
+      },
+      "id": "wait-3s-waitlist",
+      "name": "Wait 10s VIP",
+      "type": "n8n-nodes-base.wait",
+      "typeVersion": 1.1,
+      "position": [
+        200,
+        544
+      ]
+    },
+    {
+      "parameters": {
+        "chatId": "={{ $('Router (Auto-Chat)').first().json.chatId }}",
+        "text": "=🎉 <b>VIP Waitlist Alert!</b>\n━━━━━━━━━━━━━━━━━━━\n\nHello {{ $('Router (Auto-Chat)').first().json.firstName }}, a table just opened up that matches your request:\n\n📅 <b>Date:</b> Saturday, April 25\n🕐 <b>Time:</b> 8:00 PM\n👥 <b>Guests:</b> 4\n\n⏳ <i>You have 15 minutes to secure this table.</i>",
+        "replyMarkup": "inlineKeyboard",
+        "inlineKeyboard": {
+          "rows": [
+            {
+              "row": {
+                "buttons": [
+                  {
+                    "text": "⚡ Claim Table",
+                    "additionalFields": {
+                      "callback_data": "waitlist_yes"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "additionalFields": {
+          "parse_mode": "HTML"
+        }
+      },
+      "id": "045b43f4-41cb-4e84-89bf-efaf7fb74dcd",
+      "name": "Send Waitlist Offer",
+      "type": "n8n-nodes-base.telegram",
+      "typeVersion": 1.2,
+      "position": [
+        400,
+        544
+      ],
+      "credentials": {
+        "telegramApi": {
+          "id": "QUOqjzOYMRsfSNAL",
+          "name": "Telegram account 6"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "chatId": "={{ $('Router (Auto-Chat)').first().json.chatId }}",
+        "text": "✅ <b>Table Secured!</b>\n━━━━━━━━━━━━━━━━━━━\n\nYou're all set for Saturday at 8:00 PM. See you soon! 🎉",
+        "additionalFields": {
+          "parse_mode": "HTML"
+        }
+      },
+      "id": "33bc28ba-2c4c-4a1b-8071-a86bbd51599f",
+      "name": "Send Waitlist Confirmed",
+      "type": "n8n-nodes-base.telegram",
+      "typeVersion": 1.2,
+      "position": [
+        0,
+        720
+      ],
+      "credentials": {
+        "telegramApi": {
+          "id": "QUOqjzOYMRsfSNAL",
+          "name": "Telegram account 6"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "amount": 10
+      },
+      "id": "wait-3s-swap",
+      "name": "Wait 10s Swap",
+      "type": "n8n-nodes-base.wait",
+      "typeVersion": 1.1,
+      "position": [
+        200,
+        720
+      ]
+    },
+    {
+      "parameters": {
+        "chatId": "={{ $('Router (Auto-Chat)').first().json.chatId }}",
+        "text": "=🔄 <b>SYSTEM EVENT: Auto-Recovery</b>\n━━━━━━━━━━━━━━━━━━━\n\n❌ <b>Cancelled:</b> Res #1247 (4 Guests)\n✅ <b>Recovered:</b> {{ $('Router (Auto-Chat)').first().json.firstName }} (Waitlist)\n\n📈 <b>Capacity:</b> 100%\n💰 <b>Revenue Protected:</b> €186.00\n\n<i>Zero manual action required.</i> ✨",
+        "additionalFields": {
+          "parse_mode": "HTML"
+        }
+      },
+      "id": "c1642bae-2f74-4f78-87f2-293ca9b0e5c4",
+      "name": "Send Table Swap",
+      "type": "n8n-nodes-base.telegram",
+      "typeVersion": 1.2,
+      "position": [
+        400,
+        720
+      ],
+      "credentials": {
+        "telegramApi": {
+          "id": "QUOqjzOYMRsfSNAL",
+          "name": "Telegram account 6"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "amount": 10
+      },
+      "id": "555d2e4e-72cb-48c7-9ffe-5bccacbefe1d",
+      "name": "Wait 10s Review",
+      "type": "n8n-nodes-base.wait",
+      "typeVersion": 1.1,
+      "position": [
+        600,
+        720
+      ],
+      "notesInFlow": true,
+      "notes": "⏳ Fast for Demo"
+    },
+    {
+      "parameters": {
+        "chatId": "={{ $('Router (Auto-Chat)').first().json.chatId }}",
+        "text": "🌟 <b>How was your experience?</b>\n━━━━━━━━━━━━━━━━━━━\n\nThank you for dining with us! We'd love your feedback.",
+        "replyMarkup": "inlineKeyboard",
+        "inlineKeyboard": {
+          "rows": [
+            {
+              "row": {
+                "buttons": [
+                  {
+                    "text": "⭐⭐",
+                    "additionalFields": {
+                      "callback_data": "rating_2"
+                    }
+                  },
+                  {
+                    "text": "⭐⭐⭐⭐⭐",
+                    "additionalFields": {
+                      "callback_data": "rating_5"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "additionalFields": {
+          "parse_mode": "HTML"
+        }
+      },
+      "id": "57e1cce2-82f5-4d78-89fb-0933cce47a96",
+      "name": "Send Review Request",
+      "type": "n8n-nodes-base.telegram",
+      "typeVersion": 1.2,
+      "position": [
+        800,
+        720
+      ],
+      "credentials": {
+        "telegramApi": {
+          "id": "QUOqjzOYMRsfSNAL",
+          "name": "Telegram account 6"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "chatId": "={{ $('Router (Auto-Chat)').first().json.chatId }}",
+        "text": "😔 <b>We're so sorry to hear that.</b>\n\nWhat went wrong? Please tell us so we can improve.",
+        "additionalFields": {
+          "parse_mode": "HTML"
+        }
+      },
+      "id": "e7569c0d-a50b-4007-ac54-62ff855f9ce1",
+      "name": "Send Sorry",
+      "type": "n8n-nodes-base.telegram",
+      "typeVersion": 1.2,
+      "position": [
+        0,
+        912
+      ],
+      "credentials": {
+        "telegramApi": {
+          "id": "QUOqjzOYMRsfSNAL",
+          "name": "Telegram account 6"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "chatId": "={{ $('Router (Auto-Chat)').first().json.chatId }}",
+        "text": "=🚨 <b>CRITICAL: Negative Feedback</b>\n━━━━━━━━━━━━━━━━━━━\n\n👤 <b>Client:</b> {{ $('Router (Auto-Chat)').first().json.firstName }}\n⭐ <b>Rating:</b> 2/5\n💬 <b>Message:</b> \"{{ $('Router (Auto-Chat)').first().json.text }}\"",
+        "additionalFields": {
+          "parse_mode": "HTML"
+        }
+      },
+      "id": "41577503-c939-4368-9d10-0e97bb2ca227",
+      "name": "Send Negative Alert",
+      "type": "n8n-nodes-base.telegram",
+      "typeVersion": 1.2,
+      "position": [
+        0,
+        1072
+      ],
+      "credentials": {
+        "telegramApi": {
+          "id": "QUOqjzOYMRsfSNAL",
+          "name": "Telegram account 6"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "chatId": "={{ $('Router (Auto-Chat)').first().json.chatId }}",
+        "text": "☀️ <b>DAILY BRIEFING</b>\n━━━━━━━━━━━━━━━━━━━\n\n📊 <b>TONIGHT'S SERVICE</b>\n🪑 Capacity: 52/55 seats (95%)\n✅ Confirmed: 10/12\n\n💰 <b>YESTERDAY</b>\n📈 Revenue: €2,847 (+12%)\n🍝 Top dish: Truffle Risotto\n\n<i>Have a great service!</i> 🚀",
+        "additionalFields": {
+          "parse_mode": "HTML"
+        }
+      },
+      "id": "835b6630-e94d-4e38-b01b-53d1bf36dfd5",
+      "name": "Send Morning Briefing",
+      "type": "n8n-nodes-base.telegram",
+      "typeVersion": 1.2,
+      "position": [
+        0,
+        1264
+      ],
+      "credentials": {
+        "telegramApi": {
+          "id": "QUOqjzOYMRsfSNAL",
+          "name": "Telegram account 6"
+        }
+      }
+    }
+  ],
+  "connections": {
+    "Telegram Trigger": {
+      "main": [
+        [
+          {
+            "node": "Router (Auto-Chat)",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Router (Auto-Chat)": {
+      "main": [
+        [
+          {
+            "node": "Action Switch",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Action Switch": {
+      "main": [
+        [
+          {
+            "node": "Send Booking Options",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Send Booking Confirmed",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Send Confirmed Reply",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Send Cancelled",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Send Waitlist Confirmed",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Send Sorry",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Send Negative Alert",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Send Morning Briefing",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Send Booking Confirmed": {
+      "main": [
+        [
+          {
+            "node": "Wait 10s Reminder",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Wait 10s Reminder": {
+      "main": [
+        [
+          {
+            "node": "Send Reminder",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Send Cancelled": {
+      "main": [
+        [
+          {
+            "node": "Wait 10s VIP",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Wait 10s VIP": {
+      "main": [
+        [
+          {
+            "node": "Send Waitlist Offer",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Send Waitlist Confirmed": {
+      "main": [
+        [
+          {
+            "node": "Wait 10s Swap",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Wait 10s Swap": {
+      "main": [
+        [
+          {
+            "node": "Send Table Swap",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Send Table Swap": {
+      "main": [
+        [
+          {
+            "node": "Wait 10s Review",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Wait 10s Review": {
+      "main": [
+        [
+          {
+            "node": "Send Review Request",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "pinData": {}
+}
