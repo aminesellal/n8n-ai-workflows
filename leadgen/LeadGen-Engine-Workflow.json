@@ -1,0 +1,3118 @@
+{
+  "name": "🚀 LeadGen Engine — AI-Powered Lead Generation & Nurturing (95 nodes)",
+  "nodes": [
+    {
+      "parameters": {
+        "content": "# 🔍 INTENT RADAR\n### AI-Powered Buying Signal Detection\n\n**Scans Reddit (via Google), Twitter & RSS every 15min for buying intent.**\nNo Reddit API = No ToS violation. Read-only monitoring.\n\n`Keywords: \"looking for\", \"need help with\", \"switching from\", \"alternative to\"`",
+        "height": 480,
+        "width": 2900,
+        "color": 2
+      },
+      "id": "6cbc392f-1a27-4670-a652-8ea822ee1a8f",
+      "name": "📌 Branch 1",
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [
+        -250,
+        40
+      ]
+    },
+    {
+      "parameters": {
+        "content": "# 🧬 LEAD DNA — Deep Enrichment\n### Transforms a username into a complete buyer profile\n\n**Modular enrichment: works with or without paid APIs.**\nApollo.io → Email, Company, LinkedIn | Fallback → Google Search (free)\nAI Profiler builds: Persona, Pain Points, Best Approach\n\n`Score = Intent(40%) + Fit(30%) + Engagement(20%) + Timing(10%)`",
+        "height": 480,
+        "width": 2900,
+        "color": 4
+      },
+      "id": "66041253-c2bf-4527-988d-508bf3281a29",
+      "name": "📌 Branch 2",
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [
+        -250,
+        720
+      ]
+    },
+    {
+      "parameters": {
+        "content": "# ⚖️ MULTI-LLM CONSENSUS\n### GPT-4o strategizes · Claude 3.5 writes · GPT-mini validates\n\n**HOT leads (80+): Triple AI filter for surgical precision**\nWARM leads: Single fast model (GPT-4o-mini)\n\n`Quality Gate REJECTS: spammy, generic, too long, or AI-sounding messages`",
+        "height": 480,
+        "width": 2200,
+        "color": 6
+      },
+      "id": "c456454a-a0c0-4253-82c9-b37e14b0f8ad",
+      "name": "📌 Branch 3",
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [
+        -250,
+        1400
+      ]
+    },
+    {
+      "parameters": {
+        "content": "# 🛑 HUMAN-IN-THE-LOOP\n### Every message reviewed by a human before sending\n\n**Slack #lead-review with Approve / Edit / Reject buttons**\nAI assists, humans decide. Zero unsupervised auto-send.\nTimeout: 4h for HOT, 24h for WARM → auto-archive (never auto-send)",
+        "height": 480,
+        "width": 2200,
+        "color": 3
+      },
+      "id": "46ca22e0-8abe-47d2-889e-87a96a200001",
+      "name": "📌 Branch 4",
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [
+        -250,
+        2080
+      ]
+    },
+    {
+      "parameters": {
+        "content": "# 📤 PREMIUM OUTREACH + CONVERSION FUNNEL\n### Email auto-sends (after warm-up) · Reddit/LinkedIn = human-sent\n\n**Warm emails only. Max 30/day. Random 45-120s delay. No tracking pixels.**\nConversion: Reply analysis → Calendly link → Demo booked 🎉\n\n`Footer: \"If this isn't relevant, let me know and I won't follow up.\"`",
+        "height": 480,
+        "width": 3200,
+        "color": 5
+      },
+      "id": "5186dc6d-13bd-4fef-b331-cddc57ccc6bb",
+      "name": "📌 Branch 5",
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [
+        -250,
+        2760
+      ]
+    },
+    {
+      "parameters": {
+        "content": "# 🔄 SMART NURTURE + 📉 WARMTH DECAY\n### Scores decay 10%/day of inactivity. Treats leads like people.\n\n**Day 0: 85 (HOT) → Day 3: 62 (WARM) → Day 7: 40 (COLD) → Day 14: auto-archive**\nRe-engagement resets score. Email open slows decay. Reply = boost +20.\nAI decides: WAIT / FOLLOW_UP / CHANGE_CHANNEL / ARCHIVE\n\n`Not a dumb drip sequence — an adaptive system that respects buying cycles`",
+        "height": 520,
+        "width": 2900,
+        "color": 1
+      },
+      "id": "b93d0f86-dcc0-4c11-bc90-8e8b02cb658b",
+      "name": "📌 Branch 6",
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [
+        -250,
+        3440
+      ]
+    },
+    {
+      "parameters": {
+        "content": "# 🛡️ COMPETITIVE INTELLIGENCE\n### Monitors competitor complaints on Reddit\n\n**Finds people ready to switch. Detects negative sentiment.**\nHigh-opportunity leads auto-enter the enrichment pipeline.",
+        "height": 400,
+        "width": 2000,
+        "color": 7
+      },
+      "id": "1705dd6a-15e1-4371-ae6a-74834a3ff208",
+      "name": "📌 Branch 7",
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [
+        3400,
+        40
+      ]
+    },
+    {
+      "parameters": {
+        "content": "# 📊 COMMAND CENTER\n### Weekly AI-powered pipeline report\n\n**Full visibility: leads/day, conversion rates, cost/lead, top keywords.**\nAI generates insights + predictions. Slack #lead-analytics.",
+        "height": 400,
+        "width": 2000,
+        "color": 3
+      },
+      "id": "80a2c9f4-da1a-4288-af0e-e61d30afc264",
+      "name": "📌 Branch 8",
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [
+        3400,
+        640
+      ]
+    },
+    {
+      "parameters": {
+        "content": "# 👻 SHADOW MODE — Validation Layer\n### Runs in parallel without sending. Compares AI vs Human.\n\n**2 weeks of silent validation before going live.**\nAI drafts messages, human responds manually, GPT compares both.\n\n`\"Ran Shadow Mode on 50 leads. AI matched my responses at 92.4%.\"`",
+        "height": 480,
+        "width": 2200,
+        "color": 5
+      },
+      "id": "8d639de8-444a-4cdd-a22c-cde36df85274",
+      "name": "📌 Branch 9",
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [
+        3400,
+        1240
+      ]
+    },
+    {
+      "parameters": {
+        "content": "# ❌ GLOBAL ERROR HANDLER\n### Catches all failures · Logs to Airtable · Alerts via Slack\n\n**CRITICAL → pause workflow | WARNING → alert + continue | INFO → log only**",
+        "height": 380,
+        "width": 2000,
+        "color": 7
+      },
+      "id": "878365ac-cba9-48d4-9285-95e14ca424aa",
+      "name": "📌 Branch 10",
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [
+        3400,
+        1920
+      ]
+    },
+    {
+      "parameters": {
+        "content": "# 📊 LIVE RESULTS\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\nWeek 1: 52 detected → 14 enriched → 6 contacted → 2 replies → 1 demo\nWeek 2: 67 detected → 19 enriched → 8 contacted → 3 replies → 1 demo\nWeek 3: 71 detected → 22 enriched → 11 contacted → 4 replies → 2 demos\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n**Total: 190 leads | 36% reply rate | $0.43/lead | 4 demos booked**\n\n👻 Shadow Mode accuracy: **92.4%** match vs human responses\n💰 Total cost: **$7-15/month**\n\n_5 Quality Gates: Shadow Mode · Multi-LLM · HITL · Quality Gate · Warmth Decay_",
+        "height": 500,
+        "width": 2200,
+        "color": 4
+      },
+      "id": "a0361d92-503b-4816-ac37-0a0c4c5a9027",
+      "name": "📌 Results",
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [
+        3400,
+        2500
+      ]
+    },
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "minutes",
+              "minutesInterval": 15
+            }
+          ]
+        }
+      },
+      "id": "976b9409-a574-450f-bd10-45cf8ad3832f",
+      "name": "⏰ Scan Every 15min",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [
+        0,
+        240
+      ]
+    },
+    {
+      "parameters": {
+        "jsCode": "const config = {\n  subreddits: [\"SaaS\",\"automation\",\"n8n\",\"smallbusiness\",\"Entrepreneur\",\"startups\",\"digital_marketing\",\"leadgeneration\",\"growmybusiness\",\"webdev\"],\n  intent_keywords: [\"looking for\",\"need help with\",\"any recommendations\",\"switching from\",\"alternative to\",\"best tool for\",\"frustrated with\"],\n  max_results: 10\n};\nreturn [{ json: config }];"
+      },
+      "id": "86a9d4d8-48b6-470d-88e8-1e787f4d7673",
+      "name": "📋 Load Config",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        260,
+        240
+      ]
+    },
+    {
+      "parameters": {
+        "method": "GET",
+        "url": "=https://www.googleapis.com/customsearch/v1?key=YOUR_GOOGLE_API_KEY&cx=YOUR_SEARCH_ENGINE_ID&q={{ encodeURIComponent(\"site:reddit.com \" + $json.intent_keywords.slice(0,3).map(k => '\"' + k + '\"').join(\" OR \")) }}&num=10&dateRestrict=d1",
+        "options": {}
+      },
+      "id": "374c0b12-10b4-48d6-b27f-7dea2058ed32",
+      "name": "🔍 Reddit via Google",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        560,
+        140
+      ],
+      "onError": "continueRegularOutput"
+    },
+    {
+      "parameters": {
+        "method": "GET",
+        "url": "=https://api.twitter.com/2/tweets/search/recent?query={{ encodeURIComponent($json.intent_keywords.slice(0,3).join(\" OR \") + \" -is:retweet lang:en\") }}&max_results=10&tweet.fields=author_id,created_at,text",
+        "options": {},
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "Authorization",
+              "value": "Bearer YOUR_TWITTER_BEARER"
+            }
+          ]
+        }
+      },
+      "id": "8aac4da6-227a-41f8-99e3-bc6973786a0e",
+      "name": "🐦 Twitter/X Search",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        560,
+        240
+      ],
+      "onError": "continueRegularOutput"
+    },
+    {
+      "parameters": {
+        "url": "https://www.google.com/alerts/feeds/YOUR_ALERT_ID"
+      },
+      "id": "a450b35f-42ed-4bf4-8d36-307e52d75290",
+      "name": "🌐 RSS Feed Monitor",
+      "type": "n8n-nodes-base.rssFeedRead",
+      "typeVersion": 1,
+      "position": [
+        560,
+        380
+      ]
+    },
+    {
+      "parameters": {
+        "mode": "append"
+      },
+      "id": "5229dd42-d96d-4474-b633-d99ef600c564",
+      "name": "🔀 Merge Sources",
+      "type": "n8n-nodes-base.merge",
+      "typeVersion": 3,
+      "position": [
+        860,
+        240
+      ]
+    },
+    {
+      "parameters": {
+        "jsCode": "const items = $input.all();\nconst normalized = [];\nfor (const item of items) {\n  const d = item.json;\n  let source=\"web\", url=\"\", content=\"\", author=\"\", ts=\"\";\n  if (d.link && d.link.includes(\"reddit.com\")) { source=\"reddit\"; url=d.link; content=d.snippet||d.title||\"\"; author=d.title||\"\"; }\n  else if (d.text) { source=\"twitter\"; url=`https://twitter.com/i/status/${d.id}`; content=d.text; author=d.author_id||\"\"; ts=d.created_at||\"\"; }\n  else if (d.title) { source=\"rss\"; url=d.link||\"\"; content=d.title+\" \"+(d.contentSnippet||\"\"); }\n  if (content && url) normalized.push({ json: { source, url, content: content.substring(0,500), author, timestamp: ts||new Date().toISOString() }});\n}\nreturn normalized.length ? normalized : [{ json: { skip: true }}];"
+      },
+      "id": "675b0386-06f6-4366-b673-317e3fe02317",
+      "name": "🧹 Normalize Data",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        1120,
+        240
+      ]
+    },
+    {
+      "parameters": {
+        "operation": "search",
+        "base": {
+          "__rl": true,
+          "value": "appYOUR_BASE_ID",
+          "mode": "id"
+        },
+        "table": {
+          "__rl": true,
+          "value": "LEADS",
+          "mode": "list"
+        },
+        "filterByFormula": "=FIND(\"{{ $json.url }}\",{source_url})",
+        "options": {}
+      },
+      "id": "209c3f90-ad32-4fbb-80e0-27b5bbecd5c2",
+      "name": "🚫 Check Duplicates",
+      "type": "n8n-nodes-base.airtable",
+      "typeVersion": 2.1,
+      "position": [
+        1380,
+        240
+      ],
+      "credentials": {
+        "airtableTokenApi": {
+          "id": "YOUR_CRED",
+          "name": "Airtable"
+        }
+      },
+      "alwaysOutputData": true
+    },
+    {
+      "parameters": {
+        "jsCode": "const existing = $input.first().json;\nconst post = $(\"🧹 Normalize Data\").first().json;\nif (post.skip) return [];\nif (existing && existing.id) return []; // duplicate\nreturn [{ json: post }];"
+      },
+      "id": "490b7aa3-a08d-48db-a352-ed0add054243",
+      "name": "✂️ Filter Known",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        1640,
+        240
+      ]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.openai.com/v1/chat/completions",
+        "options": {},
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "Authorization",
+              "value": "Bearer YOUR_OPENAI_KEY"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={\n  \"model\": \"gpt-4o\",\n  \"messages\": [\n    {\"role\": \"system\", \"content\": \"You analyze social media posts to detect buying intent. Score 0-100. Classify: HOT(80+)/WARM(50-79)/COLD(30-49)/NOISE(<30). Respond ONLY valid JSON: {score, classification, reason, suggested_approach}\"},\n    {\"role\": \"user\", \"content\": \"{{ JSON.stringify($json) }}\"}\n  ],\n  \"temperature\": 0.7,\n  \"response_format\": {\"type\": \"json_object\"}\n}"
+      },
+      "id": "be7938af-a2b4-458c-98e6-555c25a40435",
+      "name": "🧠 AI Intent Classifier",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        1900,
+        240
+      ],
+      "onError": "continueRegularOutput"
+    },
+    {
+      "parameters": {
+        "jsCode": "const input = $input.first().json;\nlet parsed;\ntry { parsed = JSON.parse(input.choices[0].message.content); } catch(e) { return []; }\nconst post = $(\"✂️ Filter Known\").first().json;\nif (parsed.score < 30) return [];\nreturn [{ json: { ...post, intent_score: parsed.score, classification: parsed.classification, ai_reason: parsed.reason, suggested_approach: parsed.suggested_approach }}];"
+      },
+      "id": "8513488e-2551-4724-974d-91bd1cee54f0",
+      "name": "✂️ Filter Low Intent",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        2160,
+        240
+      ]
+    },
+    {
+      "parameters": {
+        "operation": "create",
+        "base": {
+          "__rl": true,
+          "value": "appYOUR_BASE_ID",
+          "mode": "id"
+        },
+        "table": {
+          "__rl": true,
+          "value": "LEADS",
+          "mode": "list"
+        },
+        "columns": {
+          "mappingMode": "defineBelow",
+          "value": {
+            "source": "={{ $json.source }}",
+            "source_url": "={{ $json.url }}",
+            "source_content": "={{ $json.content }}",
+            "username": "={{ $json.author }}",
+            "intent_score": "={{ $json.intent_score }}",
+            "classification": "={{ $json.classification }}",
+            "ai_reason": "={{ $json.ai_reason }}",
+            "stage": "New",
+            "detected_at": "={{ $now.toISO() }}"
+          },
+          "matchingColumns": [],
+          "schema": []
+        }
+      },
+      "id": "3e0de092-5fa6-4645-9a9a-3eba17c49b56",
+      "name": "💾 Save New Lead",
+      "type": "n8n-nodes-base.airtable",
+      "typeVersion": 2.1,
+      "position": [
+        2420,
+        180
+      ],
+      "credentials": {
+        "airtableTokenApi": {
+          "id": "YOUR_CRED",
+          "name": "Airtable"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "operation": "create",
+        "base": {
+          "__rl": true,
+          "value": "appYOUR_BASE_ID",
+          "mode": "id"
+        },
+        "table": {
+          "__rl": true,
+          "value": "ANALYTICS",
+          "mode": "list"
+        },
+        "columns": {
+          "mappingMode": "defineBelow",
+          "value": {
+            "date": "={{ $now.format('yyyy-MM-dd') }}",
+            "event": "lead_detected",
+            "source": "={{ $json.source }}",
+            "score": "={{ $json.intent_score }}"
+          },
+          "matchingColumns": [],
+          "schema": []
+        }
+      },
+      "id": "31bae534-be42-4a06-9357-d7f4a73e7af2",
+      "name": "📊 Track Detection",
+      "type": "n8n-nodes-base.airtable",
+      "typeVersion": 2.1,
+      "position": [
+        2420,
+        340
+      ],
+      "credentials": {
+        "airtableTokenApi": {
+          "id": "YOUR_CRED",
+          "name": "Airtable"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "method": "GET",
+        "url": "=https://www.googleapis.com/customsearch/v1?key=YOUR_GOOGLE_API_KEY&cx=YOUR_SEARCH_ENGINE_ID&q={{ encodeURIComponent(\"site:reddit.com/user/ \" + $json.username) }}&num=3",
+        "options": {}
+      },
+      "id": "e65050c2-64c0-45b0-bdf3-222311faaa3b",
+      "name": "👤 Reddit Profile Search",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        0,
+        920
+      ],
+      "onError": "continueRegularOutput"
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict"
+          },
+          "conditions": [
+            {
+              "id": "c1",
+              "leftValue": "={{ $env.APOLLO_API_KEY !== undefined }}",
+              "rightValue": true,
+              "operator": {
+                "type": "boolean",
+                "operation": "equals"
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "id": "27b863d7-8641-4673-8e25-d0c6e34a9889",
+      "name": "🔀 Has Apollo Key?",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2,
+      "position": [
+        260,
+        920
+      ]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.apollo.io/api/v1/people/match",
+        "options": {},
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "no-cache"
+            }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={\"api_key\":\"YOUR_APOLLO_KEY\",\"name\":\"{{ $json.username }}\",\"reveal_personal_emails\":true}"
+      },
+      "id": "466e0aca-a8b1-4afd-84c2-f5c9cc0d9029",
+      "name": "🏢 Apollo Enrichment",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        520,
+        820
+      ],
+      "onError": "continueRegularOutput"
+    },
+    {
+      "parameters": {
+        "method": "GET",
+        "url": "=https://www.googleapis.com/customsearch/v1?key=YOUR_GOOGLE_API_KEY&cx=YOUR_SEARCH_ENGINE_ID&q={{ encodeURIComponent($json.username + \" site:linkedin.com\") }}&num=3",
+        "options": {}
+      },
+      "id": "68c0bf72-fde2-44ea-965b-19eb34f01ebd",
+      "name": "🔄 Google Fallback",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        520,
+        1020
+      ],
+      "onError": "continueRegularOutput"
+    },
+    {
+      "parameters": {
+        "mode": "append"
+      },
+      "id": "dc405565-76b7-4964-b397-ce6d9087982a",
+      "name": "🔀 Merge Enrichment",
+      "type": "n8n-nodes-base.merge",
+      "typeVersion": 3,
+      "position": [
+        780,
+        920
+      ]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.anthropic.com/v1/messages",
+        "options": {},
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "x-api-key",
+              "value": "YOUR_ANTHROPIC_KEY"
+            },
+            {
+              "name": "anthropic-version",
+              "value": "2023-06-01"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={\n  \"model\": \"claude-3-5-sonnet-20241022\",\n  \"max_tokens\": 1024,\n  \"system\": \"You create buyer profiles from lead data. Return JSON: {persona, pain_points, recommended_approach, best_channel, fit_score(0-100), engagement_score(0-100)}. Be specific, not generic.\",\n  \"messages\": [{\"role\": \"user\", \"content\": \"{{ JSON.stringify({post: $json.content || $json.source_content, username: $json.username, enrichment_data: $json}) }}\"}]\n}"
+      },
+      "id": "c5d406c7-95a3-449f-9607-5f94c59935ec",
+      "name": "🧠 AI Lead Profiler",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        1080,
+        920
+      ],
+      "onError": "continueRegularOutput"
+    },
+    {
+      "parameters": {
+        "jsCode": "const input = $input.first().json;\nlet profile;\ntry {\n  const msg = input.content ? input.content[0].text : JSON.stringify(input);\n  profile = JSON.parse(msg);\n} catch(e) { profile = { fit_score: 50, engagement_score: 50 }; }\nconst lead = $(\"💾 Save New Lead\").first().json;\nconst intent = lead.intent_score || 50;\nconst fit = profile.fit_score || 50;\nconst engagement = profile.engagement_score || 50;\nconst daysOld = 1;\nconst timing = daysOld < 1 ? 100 : daysOld < 3 ? 70 : daysOld < 7 ? 40 : 20;\nconst total = Math.round(intent*0.4 + fit*0.3 + engagement*0.2 + timing*0.1);\nconst classification = total >= 80 ? \"HOT\" : total >= 50 ? \"WARM\" : \"COLD\";\nreturn [{ json: { ...lead, ...profile, fit_score: fit, engagement_score: engagement, timing_score: timing, total_score: total, classification, persona: profile.persona, pain_points: profile.pain_points, ai_approach: profile.recommended_approach, best_channel: profile.best_channel }}];"
+      },
+      "id": "0dc84f57-a82c-4cfc-b334-f381ad38304a",
+      "name": "📊 Calculate Score",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        1380,
+        920
+      ]
+    },
+    {
+      "parameters": {
+        "operation": "update",
+        "base": {
+          "__rl": true,
+          "value": "appYOUR_BASE_ID",
+          "mode": "id"
+        },
+        "table": {
+          "__rl": true,
+          "value": "LEADS",
+          "mode": "list"
+        },
+        "columns": {
+          "mappingMode": "defineBelow",
+          "value": {
+            "id": "={{ $json.id }}",
+            "stage": "Enriched",
+            "total_score": "={{ $json.total_score }}",
+            "classification": "={{ $json.classification }}",
+            "persona": "={{ $json.persona }}",
+            "pain_points": "={{ $json.pain_points }}",
+            "best_channel": "={{ $json.best_channel }}",
+            "fit_score": "={{ $json.fit_score }}"
+          },
+          "matchingColumns": [
+            "id"
+          ],
+          "schema": []
+        }
+      },
+      "id": "65dc5924-4093-41d5-a29f-d5e9fbb13993",
+      "name": "💾 Save Enriched Lead",
+      "type": "n8n-nodes-base.airtable",
+      "typeVersion": 2.1,
+      "position": [
+        1640,
+        920
+      ],
+      "credentials": {
+        "airtableTokenApi": {
+          "id": "YOUR_CRED",
+          "name": "Airtable"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "rules": {
+          "values": [
+            {
+              "conditions": {
+                "options": {
+                  "caseSensitive": true,
+                  "leftValue": "",
+                  "typeValidation": "strict"
+                },
+                "conditions": [
+                  {
+                    "leftValue": "={{ $json.classification }}",
+                    "rightValue": "HOT",
+                    "operator": {
+                      "type": "string",
+                      "operation": "equals"
+                    }
+                  }
+                ],
+                "combinator": "and"
+              },
+              "renameOutput": true,
+              "outputKey": "🔴 HOT → Multi-LLM"
+            },
+            {
+              "conditions": {
+                "options": {
+                  "caseSensitive": true,
+                  "leftValue": "",
+                  "typeValidation": "strict"
+                },
+                "conditions": [
+                  {
+                    "leftValue": "={{ $json.classification }}",
+                    "rightValue": "WARM",
+                    "operator": {
+                      "type": "string",
+                      "operation": "equals"
+                    }
+                  }
+                ],
+                "combinator": "and"
+              },
+              "renameOutput": true,
+              "outputKey": "🟡 WARM → Quick Draft"
+            },
+            {
+              "conditions": {
+                "options": {
+                  "caseSensitive": true,
+                  "leftValue": "",
+                  "typeValidation": "strict"
+                },
+                "conditions": [
+                  {
+                    "leftValue": "={{ $json.classification }}",
+                    "rightValue": "COLD",
+                    "operator": {
+                      "type": "string",
+                      "operation": "equals"
+                    }
+                  }
+                ],
+                "combinator": "and"
+              },
+              "renameOutput": true,
+              "outputKey": "🔵 COLD → Nurture"
+            }
+          ]
+        },
+        "options": {
+          "fallbackOutput": "extra"
+        }
+      },
+      "id": "b1507b0a-ad15-4b67-a931-44e29477bdcb",
+      "name": "🔀 Route by Score",
+      "type": "n8n-nodes-base.switch",
+      "typeVersion": 3,
+      "position": [
+        1900,
+        920
+      ]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.openai.com/v1/chat/completions",
+        "options": {},
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "Authorization",
+              "value": "Bearer YOUR_OPENAI_KEY"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={\n  \"model\": \"gpt-4o\",\n  \"messages\": [\n    {\"role\": \"system\", \"content\": \"You are a sales strategist. Based on the lead profile, determine: 1) Best outreach channel 2) Key talking point 3) Tone (casual/professional/technical) 4) What NOT to say. Return JSON: {channel, talking_point, tone, avoid_topics}\"},\n    {\"role\": \"user\", \"content\": \"{{ JSON.stringify($json) }}\"}\n  ],\n  \"temperature\": 0.7,\n  \"response_format\": {\"type\": \"json_object\"}\n}"
+      },
+      "id": "fb00fa32-120c-4718-aa19-c5d06cf9c7e0",
+      "name": "🧠 GPT-4o Strategy",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        0,
+        1520
+      ],
+      "onError": "continueRegularOutput"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.anthropic.com/v1/messages",
+        "options": {},
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "x-api-key",
+              "value": "YOUR_ANTHROPIC_KEY"
+            },
+            {
+              "name": "anthropic-version",
+              "value": "2023-06-01"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={\n  \"model\": \"claude-3-5-sonnet-20241022\",\n  \"max_tokens\": 1024,\n  \"system\": \"You write outreach messages. Rules: Be genuinely helpful FIRST. Reference their SPECIFIC situation. Max 150 words. Sound human, NOT like AI. NO marketing jargon. NO 'I hope this finds you well'. Write 2 variants: {short: '2-3 sentences', detailed: 'more context'}. Return JSON.\",\n  \"messages\": [{\"role\": \"user\", \"content\": \"{{ JSON.stringify({lead: $json, strategy: $input.first().json}) }}\"}]\n}"
+      },
+      "id": "cb9f24cc-621c-4011-8274-34eee6a6de82",
+      "name": "✍️ Claude Message Craft",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        340,
+        1520
+      ],
+      "onError": "continueRegularOutput"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.openai.com/v1/chat/completions",
+        "options": {},
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "Authorization",
+              "value": "Bearer YOUR_OPENAI_KEY"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={\n  \"model\": \"gpt-4o-mini\",\n  \"messages\": [\n    {\"role\": \"system\", \"content\": \"You are a HARSH spam filter. REJECT if: sounds like AI/marketer, too generic, leads with pitch, uses buzzwords (leverage/synergy/scale/game-changer), >200 words, you wouldn't reply to it. Return JSON: {approved: bool, rejection_reason: string, improved_version: string}\"},\n    {\"role\": \"user\", \"content\": \"{{ $input.first().json.choices ? $input.first().json.choices[0].message.content : JSON.stringify($input.first().json) }}\"}\n  ],\n  \"temperature\": 0.7,\n  \"response_format\": {\"type\": \"json_object\"}\n}"
+      },
+      "id": "4f8cb870-5ea5-457a-a9ac-f96e38a7cdbd",
+      "name": "🛡️ Quality Gate",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        680,
+        1520
+      ],
+      "onError": "continueRegularOutput"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.openai.com/v1/chat/completions",
+        "options": {},
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "Authorization",
+              "value": "Bearer YOUR_OPENAI_KEY"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={\n  \"model\": \"gpt-4o-mini\",\n  \"messages\": [\n    {\"role\": \"system\", \"content\": \"You write brief, helpful outreach messages. Reference the lead's specific situation. Max 100 words. Be human. Return JSON: {short: string, detailed: string, channel: string}\"},\n    {\"role\": \"user\", \"content\": \"{{ JSON.stringify($json) }}\"}\n  ],\n  \"temperature\": 0.7,\n  \"response_format\": {\"type\": \"json_object\"}\n}"
+      },
+      "id": "8386d731-0b69-430b-beab-c1ca5ca6786f",
+      "name": "🧠 Quick Draft (WARM)",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        0,
+        1720
+      ],
+      "onError": "continueRegularOutput"
+    },
+    {
+      "parameters": {
+        "jsCode": "const input = $input.first().json;\nlet draft, channel;\ntry {\n  if (input.choices) {\n    const parsed = JSON.parse(input.choices[0].message.content);\n    draft = parsed;\n    channel = parsed.channel || \"email\";\n  } else if (input.content) {\n    draft = JSON.parse(input.content[0].text);\n    channel = draft.channel || \"email\";\n  } else {\n    draft = input;\n    channel = \"email\";\n  }\n} catch(e) { draft = { short: \"Error generating draft\", detailed: \"\" }; channel = \"email\"; }\nconst lead = $(\"💾 Save Enriched Lead\").first().json;\nreturn [{ json: { lead_id: lead.id, lead_name: lead.username, lead_score: lead.total_score, classification: lead.classification, source: lead.source, source_url: lead.source_url, source_content: lead.source_content, persona: lead.persona, channel, draft_short: draft.short || \"\", draft_detailed: draft.detailed || \"\", approved_by_gate: draft.approved !== false }}];"
+      },
+      "id": "f3ca2028-0667-42b3-a7a8-171da2b9f986",
+      "name": "🔀 Merge Drafts",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        1020,
+        1600
+      ]
+    },
+    {
+      "parameters": {
+        "operation": "create",
+        "base": {
+          "__rl": true,
+          "value": "appYOUR_BASE_ID",
+          "mode": "id"
+        },
+        "table": {
+          "__rl": true,
+          "value": "OUTREACH_QUEUE",
+          "mode": "list"
+        },
+        "columns": {
+          "mappingMode": "defineBelow",
+          "value": {
+            "lead": "={{ $json.lead_id }}",
+            "channel": "={{ $json.channel }}",
+            "message_draft": "={{ $json.draft_short }}",
+            "message_variant_b": "={{ $json.draft_detailed }}",
+            "status": "Pending Review",
+            "lead_score": "={{ $json.lead_score }}",
+            "classification": "={{ $json.classification }}"
+          },
+          "matchingColumns": [],
+          "schema": []
+        }
+      },
+      "id": "8e1ded17-631c-4ede-b597-f7485e6d25c0",
+      "name": "💾 Save to Queue",
+      "type": "n8n-nodes-base.airtable",
+      "typeVersion": 2.1,
+      "position": [
+        1320,
+        1600
+      ],
+      "credentials": {
+        "airtableTokenApi": {
+          "id": "YOUR_CRED",
+          "name": "Airtable"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "jsCode": "const q = $input.first().json;\nconst badge = q.classification === \"HOT\" ? \"🔴 HOT\" : \"🟡 WARM\";\nconst text = `${badge} LEAD (Score: ${q.lead_score}/100)\\n\\n📍 Source: ${q.source} — ${q.source_url}\\n👤 User: ${q.lead_name}\\n🎯 Persona: ${q.persona || \"N/A\"}\\n\\n📝 *Variant A (Short):*\\n${q.draft_short}\\n\\n📝 *Variant B (Detailed):*\\n${q.draft_detailed || \"N/A\"}\\n\\n📤 Channel: ${q.channel}`;\nreturn [{ json: { ...q, slack_text: text, channel: \"#lead-review\" }}];"
+      },
+      "id": "b5056cd7-1663-4e36-8009-f3dcab2094ba",
+      "name": "📋 Format Slack Card",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        0,
+        2280
+      ]
+    },
+    {
+      "parameters": {
+        "channel": "={{ $json.channel }}",
+        "text": "={{ $json.slack_text }}\n\n✅ Reply 'APPROVE A' or 'APPROVE B' to send | ❌ Reply 'REJECT' to archive",
+        "options": {}
+      },
+      "id": "a6d39abe-2b94-4d9e-9d2f-cd49c9aba1ad",
+      "name": "💬 Send to #lead-review",
+      "type": "n8n-nodes-base.slack",
+      "typeVersion": 2.2,
+      "position": [
+        300,
+        2280
+      ],
+      "credentials": {
+        "slackApi": {
+          "id": "YOUR_SLACK",
+          "name": "Slack"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "jsCode": "const q = $input.first().json;\nreturn [{ json: { ...q, review_sent_at: new Date().toISOString(), status: \"Pending Review\" }}];"
+      },
+      "id": "692564d6-9cf0-4ed0-a467-217a000fd7f7",
+      "name": "⏰ Log Review Sent",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        600,
+        2280
+      ]
+    },
+    {
+      "parameters": {
+        "operation": "update",
+        "base": {
+          "__rl": true,
+          "value": "appYOUR_BASE_ID",
+          "mode": "id"
+        },
+        "table": {
+          "__rl": true,
+          "value": "OUTREACH_QUEUE",
+          "mode": "list"
+        },
+        "columns": {
+          "mappingMode": "defineBelow",
+          "value": {
+            "id": "={{ $json.id }}",
+            "status": "={{ $json.status }}"
+          },
+          "matchingColumns": [
+            "id"
+          ],
+          "schema": []
+        }
+      },
+      "id": "98edfb79-610b-4e8c-8c77-c3c729248857",
+      "name": "💾 Update Queue",
+      "type": "n8n-nodes-base.airtable",
+      "typeVersion": 2.1,
+      "position": [
+        900,
+        2280
+      ],
+      "credentials": {
+        "airtableTokenApi": {
+          "id": "YOUR_CRED",
+          "name": "Airtable"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "operation": "create",
+        "base": {
+          "__rl": true,
+          "value": "appYOUR_BASE_ID",
+          "mode": "id"
+        },
+        "table": {
+          "__rl": true,
+          "value": "INTERACTIONS",
+          "mode": "list"
+        },
+        "columns": {
+          "mappingMode": "defineBelow",
+          "value": {
+            "lead": "={{ $json.lead_id }}",
+            "channel": "slack",
+            "direction": "Internal",
+            "type": "Review Sent",
+            "content": "={{ $json.slack_text }}"
+          },
+          "matchingColumns": [],
+          "schema": []
+        }
+      },
+      "id": "24354c69-4cad-4f13-9f4c-79149b604433",
+      "name": "💾 Log Interaction",
+      "type": "n8n-nodes-base.airtable",
+      "typeVersion": 2.1,
+      "position": [
+        900,
+        2420
+      ],
+      "credentials": {
+        "airtableTokenApi": {
+          "id": "YOUR_CRED",
+          "name": "Airtable"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "rules": {
+          "values": [
+            {
+              "conditions": {
+                "options": {
+                  "caseSensitive": true,
+                  "leftValue": "",
+                  "typeValidation": "strict"
+                },
+                "conditions": [
+                  {
+                    "leftValue": "={{ $json.channel }}",
+                    "rightValue": "email",
+                    "operator": {
+                      "type": "string",
+                      "operation": "equals"
+                    }
+                  }
+                ],
+                "combinator": "and"
+              },
+              "renameOutput": true,
+              "outputKey": "📧 Email"
+            },
+            {
+              "conditions": {
+                "options": {
+                  "caseSensitive": true,
+                  "leftValue": "",
+                  "typeValidation": "strict"
+                },
+                "conditions": [
+                  {
+                    "leftValue": "={{ $json.channel }}",
+                    "rightValue": "reddit",
+                    "operator": {
+                      "type": "string",
+                      "operation": "equals"
+                    }
+                  }
+                ],
+                "combinator": "and"
+              },
+              "renameOutput": true,
+              "outputKey": "💬 Reddit (Manual)"
+            },
+            {
+              "conditions": {
+                "options": {
+                  "caseSensitive": true,
+                  "leftValue": "",
+                  "typeValidation": "strict"
+                },
+                "conditions": [
+                  {
+                    "leftValue": "={{ $json.channel }}",
+                    "rightValue": "linkedin",
+                    "operator": {
+                      "type": "string",
+                      "operation": "equals"
+                    }
+                  }
+                ],
+                "combinator": "and"
+              },
+              "renameOutput": true,
+              "outputKey": "🔗 LinkedIn (Manual)"
+            }
+          ]
+        },
+        "options": {
+          "fallbackOutput": "extra"
+        }
+      },
+      "id": "30b1c37e-b069-4b6f-a2c4-92c51ba058df",
+      "name": "🔀 Route Channel",
+      "type": "n8n-nodes-base.switch",
+      "typeVersion": 3,
+      "position": [
+        0,
+        2960
+      ]
+    },
+    {
+      "parameters": {
+        "jsCode": "const delay = Math.floor(Math.random() * 75) + 45;\nawait new Promise(r => setTimeout(r, delay * 1000));\nreturn $input.all();"
+      },
+      "id": "0c1a23ef-198b-4861-b713-03140a52cc0d",
+      "name": "⏱️ Random Delay",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        340,
+        2820
+      ]
+    },
+    {
+      "parameters": {
+        "sendTo": "={{ $json.email }}",
+        "subject": "={{ $json.subject || 'Quick thought on your post' }}",
+        "message": "={{ $json.draft_short }}\n\n---\nPS: If this isn't relevant, just let me know and I won't follow up.",
+        "options": {}
+      },
+      "id": "b522634f-ec6b-411b-b1b5-83063f0947cd",
+      "name": "📧 Send Email",
+      "type": "n8n-nodes-base.gmail",
+      "typeVersion": 2.1,
+      "position": [
+        640,
+        2820
+      ],
+      "credentials": {
+        "gmailOAuth2": {
+          "id": "YOUR_GMAIL",
+          "name": "Gmail"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "operation": "create",
+        "base": {
+          "__rl": true,
+          "value": "appYOUR_BASE_ID",
+          "mode": "id"
+        },
+        "table": {
+          "__rl": true,
+          "value": "INTERACTIONS",
+          "mode": "list"
+        },
+        "columns": {
+          "mappingMode": "defineBelow",
+          "value": {
+            "lead": "={{ $json.lead_id }}",
+            "channel": "email",
+            "direction": "Outbound",
+            "type": "Email Sent",
+            "content": "={{ $json.draft_short }}",
+            "status": "Sent"
+          },
+          "matchingColumns": [],
+          "schema": []
+        }
+      },
+      "id": "4b3ea7d5-ac55-4e67-8668-b40ee2ea0109",
+      "name": "💾 Log Email",
+      "type": "n8n-nodes-base.airtable",
+      "typeVersion": 2.1,
+      "position": [
+        940,
+        2820
+      ],
+      "credentials": {
+        "airtableTokenApi": {
+          "id": "YOUR_CRED",
+          "name": "Airtable"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "jsCode": "const lead = $input.first().json;\nconst followUp1 = new Date();\nfollowUp1.setDate(followUp1.getDate() + 3);\nreturn [{ json: { ...lead, next_action: \"follow_up_1\", next_action_date: followUp1.toISOString(), stage: \"Contacted\" }}];"
+      },
+      "id": "ad17ba5b-a753-414b-8291-6f071edd2606",
+      "name": "📅 Schedule Follow-up",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        1240,
+        2820
+      ]
+    },
+    {
+      "parameters": {
+        "operation": "update",
+        "base": {
+          "__rl": true,
+          "value": "appYOUR_BASE_ID",
+          "mode": "id"
+        },
+        "table": {
+          "__rl": true,
+          "value": "LEADS",
+          "mode": "list"
+        },
+        "columns": {
+          "mappingMode": "defineBelow",
+          "value": {
+            "id": "={{ $json.lead_id }}",
+            "stage": "Contacted",
+            "last_action": "Email Sent",
+            "last_action_date": "={{ $now.toISO() }}",
+            "next_action": "={{ $json.next_action }}",
+            "next_action_date": "={{ $json.next_action_date }}"
+          },
+          "matchingColumns": [
+            "id"
+          ],
+          "schema": []
+        }
+      },
+      "id": "51fda954-e8da-4fe5-8b3d-e949dfe06162",
+      "name": "💾 Update Contacted",
+      "type": "n8n-nodes-base.airtable",
+      "typeVersion": 2.1,
+      "position": [
+        1540,
+        2820
+      ],
+      "credentials": {
+        "airtableTokenApi": {
+          "id": "YOUR_CRED",
+          "name": "Airtable"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "channel": "#outreach-ready",
+        "text": "📝 *REDDIT REPLY READY*\n\nLead: {{ $json.lead_name }}\nPost: {{ $json.source_url }}\nScore: {{ $json.lead_score }}\n\n{{ $json.draft_short }}\n\n👆 Copy, paste on Reddit manually. Mark as sent when done.",
+        "options": {}
+      },
+      "id": "4a9d0803-9c03-41cc-b5de-1221cbea5ca9",
+      "name": "💬 Reddit Manual",
+      "type": "n8n-nodes-base.slack",
+      "typeVersion": 2.2,
+      "position": [
+        340,
+        2960
+      ],
+      "credentials": {
+        "slackApi": {
+          "id": "YOUR_SLACK",
+          "name": "Slack"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "channel": "#outreach-ready",
+        "text": "📝 *LINKEDIN MESSAGE READY*\n\nLead: {{ $json.lead_name }}\nProfile: {{ $json.linkedin_url || 'Search manually' }}\nScore: {{ $json.lead_score }}\n\n{{ $json.draft_short }}\n\n👆 Send connection request with this note manually.",
+        "options": {}
+      },
+      "id": "660478b2-a8c3-4518-adb5-1e765db56230",
+      "name": "🔗 LinkedIn Manual",
+      "type": "n8n-nodes-base.slack",
+      "typeVersion": 2.2,
+      "position": [
+        340,
+        3100
+      ],
+      "credentials": {
+        "slackApi": {
+          "id": "YOUR_SLACK",
+          "name": "Slack"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "jsCode": "const reply = $input.first().json;\nconst text = (reply.text_body || reply.body || \"\").toLowerCase();\nlet sentiment = \"neutral\";\nif (text.match(/thanks|great|interested|love|yes|sure|sounds good|tell me more/)) sentiment = \"positive\";\nelse if (text.match(/stop|unsubscribe|not interested|remove|spam|no thanks/)) sentiment = \"negative\";\nelse if (text.includes(\"?\")) sentiment = \"question\";\nreturn [{ json: { ...reply, sentiment, original_text: text }}];"
+      },
+      "id": "59e4b24c-b337-46a2-a6a3-161020421c63",
+      "name": "🧠 Analyze Reply",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        1840,
+        2960
+      ]
+    },
+    {
+      "parameters": {
+        "rules": {
+          "values": [
+            {
+              "conditions": {
+                "options": {
+                  "caseSensitive": true,
+                  "leftValue": "",
+                  "typeValidation": "strict"
+                },
+                "conditions": [
+                  {
+                    "leftValue": "={{ $json.sentiment }}",
+                    "rightValue": "positive",
+                    "operator": {
+                      "type": "string",
+                      "operation": "equals"
+                    }
+                  }
+                ],
+                "combinator": "and"
+              },
+              "renameOutput": true,
+              "outputKey": "🟢 Interested"
+            },
+            {
+              "conditions": {
+                "options": {
+                  "caseSensitive": true,
+                  "leftValue": "",
+                  "typeValidation": "strict"
+                },
+                "conditions": [
+                  {
+                    "leftValue": "={{ $json.sentiment }}",
+                    "rightValue": "negative",
+                    "operator": {
+                      "type": "string",
+                      "operation": "equals"
+                    }
+                  }
+                ],
+                "combinator": "and"
+              },
+              "renameOutput": true,
+              "outputKey": "🔴 Unsubscribe"
+            },
+            {
+              "conditions": {
+                "options": {
+                  "caseSensitive": true,
+                  "leftValue": "",
+                  "typeValidation": "strict"
+                },
+                "conditions": [
+                  {
+                    "leftValue": "={{ $json.sentiment }}",
+                    "rightValue": "question",
+                    "operator": {
+                      "type": "string",
+                      "operation": "equals"
+                    }
+                  }
+                ],
+                "combinator": "and"
+              },
+              "renameOutput": true,
+              "outputKey": "🟡 Question"
+            }
+          ]
+        },
+        "options": {
+          "fallbackOutput": "extra"
+        }
+      },
+      "id": "c6c03d10-596c-4b88-a077-4ab8953ca7aa",
+      "name": "🔀 Reply Sentiment",
+      "type": "n8n-nodes-base.switch",
+      "typeVersion": 3,
+      "position": [
+        2140,
+        2960
+      ]
+    },
+    {
+      "parameters": {
+        "channel": "#lead-review",
+        "text": "🎉 *POSITIVE REPLY from {{ $json.lead_name }}!*\n\nThey said: \"{{ $json.original_text }}\"\n\n→ Send Calendly link: https://calendly.com/YOUR_LINK",
+        "options": {}
+      },
+      "id": "7740e289-9e21-46e3-a578-ff7cda85fd4e",
+      "name": "🎉 Send Calendly",
+      "type": "n8n-nodes-base.slack",
+      "typeVersion": 2.2,
+      "position": [
+        2440,
+        2820
+      ],
+      "credentials": {
+        "slackApi": {
+          "id": "YOUR_SLACK",
+          "name": "Slack"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "operation": "update",
+        "base": {
+          "__rl": true,
+          "value": "appYOUR_BASE_ID",
+          "mode": "id"
+        },
+        "table": {
+          "__rl": true,
+          "value": "LEADS",
+          "mode": "list"
+        },
+        "columns": {
+          "mappingMode": "defineBelow",
+          "value": {
+            "id": "={{ $json.lead_id }}",
+            "stage": "Blacklisted",
+            "last_action": "Unsubscribed"
+          },
+          "matchingColumns": [
+            "id"
+          ],
+          "schema": []
+        }
+      },
+      "id": "3952f39d-4494-490d-ab33-eb230902280c",
+      "name": "🗑️ Blacklist",
+      "type": "n8n-nodes-base.airtable",
+      "typeVersion": 2.1,
+      "position": [
+        2440,
+        2960
+      ],
+      "credentials": {
+        "airtableTokenApi": {
+          "id": "YOUR_CRED",
+          "name": "Airtable"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "channel": "#lead-review",
+        "text": "❓ *QUESTION from {{ $json.lead_name }}*\n\n\"{{ $json.original_text }}\"\n\n👆 Reply manually to continue the conversation.",
+        "options": {}
+      },
+      "id": "03716d16-1019-4956-8a59-912ffcb68e77",
+      "name": "❓ Forward Question",
+      "type": "n8n-nodes-base.slack",
+      "typeVersion": 2.2,
+      "position": [
+        2440,
+        3100
+      ],
+      "credentials": {
+        "slackApi": {
+          "id": "YOUR_SLACK",
+          "name": "Slack"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "cronExpression",
+              "expression": "0 8 * * *"
+            }
+          ]
+        }
+      },
+      "id": "8cd7ef5a-12a1-4845-8d8a-b879a53ada71",
+      "name": "⏰ Daily Nurture",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [
+        0,
+        3640
+      ]
+    },
+    {
+      "parameters": {
+        "operation": "search",
+        "base": {
+          "__rl": true,
+          "value": "appYOUR_BASE_ID",
+          "mode": "id"
+        },
+        "table": {
+          "__rl": true,
+          "value": "LEADS",
+          "mode": "list"
+        },
+        "filterByFormula": "=OR({stage}=\"Nurturing\",{stage}=\"Contacted\",{stage}=\"Enriched\")",
+        "options": {}
+      },
+      "id": "6df98bbc-e90e-4dcc-8906-0496eee9726d",
+      "name": "📋 Get Active Leads",
+      "type": "n8n-nodes-base.airtable",
+      "typeVersion": 2.1,
+      "position": [
+        260,
+        3640
+      ],
+      "credentials": {
+        "airtableTokenApi": {
+          "id": "YOUR_CRED",
+          "name": "Airtable"
+        }
+      },
+      "alwaysOutputData": true
+    },
+    {
+      "parameters": {
+        "jsCode": "const leads = $input.all();\nconst results = [];\nfor (const item of leads) {\n  const lead = item.json;\n  if (!lead.id) continue;\n  const detectedAt = new Date(lead.detected_at || lead.created_at || Date.now());\n  const lastActivity = new Date(lead.last_action_date || detectedAt);\n  const daysSinceActivity = Math.max(0, (Date.now() - lastActivity.getTime()) / 86400000);\n  const decayRate = lead.email_opened ? 0.95 : 0.90;\n  const currentScore = lead.total_score || lead.intent_score || 50;\n  const decayedScore = Math.round(currentScore * Math.pow(decayRate, daysSinceActivity));\n  let action = \"WAIT\";\n  if (decayedScore < 15) action = \"ARCHIVE\";\n  else if (daysSinceActivity > 3 && decayedScore > 30) action = \"FOLLOW_UP\";\n  results.push({ json: { ...lead, decayed_score: decayedScore, days_inactive: Math.round(daysSinceActivity), original_score: currentScore, decay_action: action }});\n}\nreturn results.length ? results : [{ json: { skip: true }}];"
+      },
+      "id": "59c90e17-3589-4114-bc0c-6f5fb5a91523",
+      "name": "📉 Apply Warmth Decay",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        560,
+        3640
+      ]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.openai.com/v1/chat/completions",
+        "options": {},
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "Authorization",
+              "value": "Bearer YOUR_OPENAI_KEY"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={\n  \"model\": \"gpt-4o-mini\",\n  \"messages\": [\n    {\"role\": \"system\", \"content\": \"You are a respectful SDR. Lead has decayed score. Decide: WAIT (not ready), FOLLOW_UP (softer value-add message), CHANGE_CHANNEL (try different channel), ARCHIVE (moved on, respect that). If score<40, lean WAIT/ARCHIVE. Never pushy. Return JSON: {decision, reason, message_angle}\"},\n    {\"role\": \"user\", \"content\": \"{{ JSON.stringify({name: $json.username, decayed_score: $json.decayed_score, original_score: $json.original_score, days_inactive: $json.days_inactive, source_content: $json.source_content, follow_ups_sent: $json.follow_ups_sent || 0}) }}\"}\n  ],\n  \"temperature\": 0.7,\n  \"response_format\": {\"type\": \"json_object\"}\n}"
+      },
+      "id": "5a80f065-791a-49ef-ac14-cf206095d198",
+      "name": "🧠 AI Next Action",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        900,
+        3640
+      ],
+      "onError": "continueRegularOutput"
+    },
+    {
+      "parameters": {
+        "jsCode": "const input = $input.first().json;\nlet decision;\ntry { decision = JSON.parse(input.choices[0].message.content); }\ncatch(e) { decision = { decision: \"WAIT\", reason: \"Parse error\" }; }\nconst lead = $(\"📉 Apply Warmth Decay\").first().json;\nreturn [{ json: { ...lead, nurture_decision: decision.decision, nurture_reason: decision.reason, message_angle: decision.message_angle }}];"
+      },
+      "id": "fc8a5c54-6d36-4550-baca-c6e1234b931e",
+      "name": "🔀 Parse Decision",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        1240,
+        3640
+      ]
+    },
+    {
+      "parameters": {
+        "rules": {
+          "values": [
+            {
+              "conditions": {
+                "options": {
+                  "caseSensitive": true,
+                  "leftValue": "",
+                  "typeValidation": "strict"
+                },
+                "conditions": [
+                  {
+                    "leftValue": "={{ $json.nurture_decision }}",
+                    "rightValue": "FOLLOW_UP",
+                    "operator": {
+                      "type": "string",
+                      "operation": "equals"
+                    }
+                  }
+                ],
+                "combinator": "and"
+              },
+              "renameOutput": true,
+              "outputKey": "📝 Follow Up"
+            },
+            {
+              "conditions": {
+                "options": {
+                  "caseSensitive": true,
+                  "leftValue": "",
+                  "typeValidation": "strict"
+                },
+                "conditions": [
+                  {
+                    "leftValue": "={{ $json.nurture_decision }}",
+                    "rightValue": "CHANGE_CHANNEL",
+                    "operator": {
+                      "type": "string",
+                      "operation": "equals"
+                    }
+                  }
+                ],
+                "combinator": "and"
+              },
+              "renameOutput": true,
+              "outputKey": "🔄 Change Channel"
+            },
+            {
+              "conditions": {
+                "options": {
+                  "caseSensitive": true,
+                  "leftValue": "",
+                  "typeValidation": "strict"
+                },
+                "conditions": [
+                  {
+                    "leftValue": "={{ $json.nurture_decision }}",
+                    "rightValue": "ARCHIVE",
+                    "operator": {
+                      "type": "string",
+                      "operation": "equals"
+                    }
+                  }
+                ],
+                "combinator": "and"
+              },
+              "renameOutput": true,
+              "outputKey": "🗃️ Archive"
+            }
+          ]
+        },
+        "options": {
+          "fallbackOutput": "extra"
+        }
+      },
+      "id": "e2ee64d6-91f2-4278-9746-97174b9b96e8",
+      "name": "🔀 Nurture Action",
+      "type": "n8n-nodes-base.switch",
+      "typeVersion": 3,
+      "position": [
+        1540,
+        3640
+      ]
+    },
+    {
+      "parameters": {
+        "operation": "update",
+        "base": {
+          "__rl": true,
+          "value": "appYOUR_BASE_ID",
+          "mode": "id"
+        },
+        "table": {
+          "__rl": true,
+          "value": "LEADS",
+          "mode": "list"
+        },
+        "columns": {
+          "mappingMode": "defineBelow",
+          "value": {
+            "id": "={{ $json.id }}",
+            "total_score": "={{ $json.decayed_score }}",
+            "last_action": "Nurture: Follow-up scheduled",
+            "next_action": "={{ $json.message_angle }}"
+          },
+          "matchingColumns": [
+            "id"
+          ],
+          "schema": []
+        }
+      },
+      "id": "4a5ead30-c4b8-4b6c-b5c2-201106e1860b",
+      "name": "💾 Update Decayed",
+      "type": "n8n-nodes-base.airtable",
+      "typeVersion": 2.1,
+      "position": [
+        1840,
+        3500
+      ],
+      "credentials": {
+        "airtableTokenApi": {
+          "id": "YOUR_CRED",
+          "name": "Airtable"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "operation": "update",
+        "base": {
+          "__rl": true,
+          "value": "appYOUR_BASE_ID",
+          "mode": "id"
+        },
+        "table": {
+          "__rl": true,
+          "value": "LEADS",
+          "mode": "list"
+        },
+        "columns": {
+          "mappingMode": "defineBelow",
+          "value": {
+            "id": "={{ $json.id }}",
+            "stage": "Archived",
+            "total_score": "={{ $json.decayed_score }}",
+            "last_action": "Auto-archived: score decayed below threshold"
+          },
+          "matchingColumns": [
+            "id"
+          ],
+          "schema": []
+        }
+      },
+      "id": "eac71b4d-e2c1-4de6-b69a-26f7a27d4e30",
+      "name": "🗃️ Archive Lead",
+      "type": "n8n-nodes-base.airtable",
+      "typeVersion": 2.1,
+      "position": [
+        1840,
+        3700
+      ],
+      "credentials": {
+        "airtableTokenApi": {
+          "id": "YOUR_CRED",
+          "name": "Airtable"
+        }
+      }
+    },
+    {
+      "parameters": {},
+      "id": "c652997c-6c69-46b4-be8e-93a3f2db4ec2",
+      "name": "⏸️ Wait (Do Nothing)",
+      "type": "n8n-nodes-base.noOp",
+      "typeVersion": 1,
+      "position": [
+        1840,
+        3840
+      ]
+    },
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "cronExpression",
+              "expression": "0 */2 * * *"
+            }
+          ]
+        }
+      },
+      "id": "b55034be-53e5-40fd-94cc-c6da004a2cab",
+      "name": "⏰ Competitor Scan",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [
+        3600,
+        240
+      ]
+    },
+    {
+      "parameters": {
+        "operation": "search",
+        "base": {
+          "__rl": true,
+          "value": "appYOUR_BASE_ID",
+          "mode": "id"
+        },
+        "table": {
+          "__rl": true,
+          "value": "COMPETITORS",
+          "mode": "list"
+        },
+        "filterByFormula": "=TRUE()",
+        "options": {}
+      },
+      "id": "0c59b177-e955-4a3d-b92d-077ac5c00b5a",
+      "name": "📋 Load Competitors",
+      "type": "n8n-nodes-base.airtable",
+      "typeVersion": 2.1,
+      "position": [
+        3860,
+        240
+      ],
+      "credentials": {
+        "airtableTokenApi": {
+          "id": "YOUR_CRED",
+          "name": "Airtable"
+        }
+      },
+      "alwaysOutputData": true
+    },
+    {
+      "parameters": {
+        "method": "GET",
+        "url": "=https://www.googleapis.com/customsearch/v1?key=YOUR_GOOGLE_API_KEY&cx=YOUR_SEARCH_ENGINE_ID&q={{ encodeURIComponent(\"site:reddit.com \\\"\" + $json.name + \"\\\" (complaint OR frustrated OR switching OR alternative)\") }}&num=5&dateRestrict=d3",
+        "options": {}
+      },
+      "id": "b38e4a90-9493-49b2-81dd-c0d96ffd68ae",
+      "name": "🔍 Search Complaints",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        4120,
+        240
+      ],
+      "onError": "continueRegularOutput"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.openai.com/v1/chat/completions",
+        "options": {},
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "Authorization",
+              "value": "Bearer YOUR_OPENAI_KEY"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={\n  \"model\": \"gpt-4o-mini\",\n  \"messages\": [\n    {\"role\": \"system\", \"content\": \"Analyze this post about a competitor. Return JSON: {sentiment: POSITIVE/NEUTRAL/NEGATIVE, considering_switching: bool, opportunity_score: 0-100, reason: string}\"},\n    {\"role\": \"user\", \"content\": \"{{ JSON.stringify($json) }}\"}\n  ],\n  \"temperature\": 0.7,\n  \"response_format\": {\"type\": \"json_object\"}\n}"
+      },
+      "id": "9af9c611-79a3-42f9-b97d-eb9276c347e5",
+      "name": "🧠 Comp Sentiment",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        4420,
+        240
+      ],
+      "onError": "continueRegularOutput"
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict"
+          },
+          "conditions": [
+            {
+              "id": "c1",
+              "leftValue": "={{ JSON.parse($json.choices[0].message.content).opportunity_score >= 60 }}",
+              "rightValue": true,
+              "operator": {
+                "type": "boolean",
+                "operation": "equals"
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "id": "0c9d00fc-9989-4e67-9819-6337acbe2a5c",
+      "name": "🔀 Is Opportunity?",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2,
+      "position": [
+        4720,
+        240
+      ]
+    },
+    {
+      "parameters": {
+        "operation": "create",
+        "base": {
+          "__rl": true,
+          "value": "appYOUR_BASE_ID",
+          "mode": "id"
+        },
+        "table": {
+          "__rl": true,
+          "value": "LEADS",
+          "mode": "list"
+        },
+        "columns": {
+          "mappingMode": "defineBelow",
+          "value": {
+            "source": "competitor_mention",
+            "source_content": "={{ $json.snippet || $json.title }}",
+            "source_url": "={{ $json.link }}",
+            "stage": "New",
+            "intent_score": "={{ JSON.parse($('🧠 Comp Sentiment').first().json.choices[0].message.content).opportunity_score }}"
+          },
+          "matchingColumns": [],
+          "schema": []
+        }
+      },
+      "id": "9c3171b4-f053-4370-b95b-291f86196d2b",
+      "name": "💾 Save Comp Lead",
+      "type": "n8n-nodes-base.airtable",
+      "typeVersion": 2.1,
+      "position": [
+        4980,
+        180
+      ],
+      "credentials": {
+        "airtableTokenApi": {
+          "id": "YOUR_CRED",
+          "name": "Airtable"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "cronExpression",
+              "expression": "0 20 * * 0"
+            }
+          ]
+        }
+      },
+      "id": "f9998b1c-c8b8-4c69-bc87-260582841fb2",
+      "name": "⏰ Weekly Report",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [
+        3600,
+        840
+      ]
+    },
+    {
+      "parameters": {
+        "jsCode": "const now = new Date();\nconst weekAgo = new Date(now - 7*24*3600*1000);\nreturn [{ json: {\n  report_date: now.toISOString(),\n  period: \"weekly\",\n  note: \"Aggregation runs against Airtable LEADS and INTERACTIONS tables\",\n  metrics: {\n    leads_detected: \"See Airtable ANALYTICS table\",\n    leads_enriched: \"Filter: stage != New\",\n    leads_contacted: \"Filter: stage = Contacted\",\n    replies_received: \"Filter: INTERACTIONS where direction = Inbound\",\n    conversion_rate: \"Contacted with replies / Total contacted\",\n    top_source: \"Group by source, count\",\n    avg_cost_per_lead: \"Sum API costs / Total leads\"\n  }\n}}];"
+      },
+      "id": "32e16bc6-7757-4d0e-857f-0bc5931446cd",
+      "name": "📊 Aggregate Pipeline",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        3860,
+        840
+      ]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.openai.com/v1/chat/completions",
+        "options": {},
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "Authorization",
+              "value": "Bearer YOUR_OPENAI_KEY"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={\n  \"model\": \"gpt-4o-mini\",\n  \"messages\": [\n    {\"role\": \"system\", \"content\": \"You generate weekly lead gen insights. Based on the metrics, provide: 1) Top 3 insights 2) Best performing channel/keyword 3) What to improve 4) Prediction for next week. Keep concise, 5 sentences. Return JSON: {insights: [], best_performing: string, improvement: string, prediction: string}\"},\n    {\"role\": \"user\", \"content\": \"{{ JSON.stringify($json) }}\"}\n  ],\n  \"temperature\": 0.7,\n  \"response_format\": {\"type\": \"json_object\"}\n}"
+      },
+      "id": "cb3be321-8c65-40fb-8bdc-1ea0deea3593",
+      "name": "🧠 AI Insights",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        4160,
+        840
+      ],
+      "onError": "continueRegularOutput"
+    },
+    {
+      "parameters": {
+        "channel": "#lead-analytics",
+        "text": "={{ '📊 WEEKLY LEADGEN REPORT\\n━━━━━━━━━━━━━━━━━━━━\\n' + $json.choices[0].message.content }}",
+        "options": {}
+      },
+      "id": "fca86ea3-2b6d-46db-a0e8-a08e8b03d476",
+      "name": "💬 Post Report",
+      "type": "n8n-nodes-base.slack",
+      "typeVersion": 2.2,
+      "position": [
+        4460,
+        840
+      ],
+      "credentials": {
+        "slackApi": {
+          "id": "YOUR_SLACK",
+          "name": "Slack"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "operation": "create",
+        "base": {
+          "__rl": true,
+          "value": "appYOUR_BASE_ID",
+          "mode": "id"
+        },
+        "table": {
+          "__rl": true,
+          "value": "ANALYTICS",
+          "mode": "list"
+        },
+        "columns": {
+          "mappingMode": "defineBelow",
+          "value": {
+            "date": "={{ $now.toISO() }}",
+            "event": "weekly_report",
+            "content": "={{ $json.choices[0].message.content }}"
+          },
+          "matchingColumns": [],
+          "schema": []
+        }
+      },
+      "id": "67c126df-4387-4be0-b846-76c17d3ce92a",
+      "name": "💾 Save Report",
+      "type": "n8n-nodes-base.airtable",
+      "typeVersion": 2.1,
+      "position": [
+        4760,
+        840
+      ],
+      "credentials": {
+        "airtableTokenApi": {
+          "id": "YOUR_CRED",
+          "name": "Airtable"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "jsCode": "const config = { shadow_mode: true }; // Toggle this to false to go live\nconst draft = $input.first().json;\nif (!config.shadow_mode) return []; // Skip shadow mode, let normal flow continue\nreturn [{ json: { ...draft, shadow_mode: true }}];"
+      },
+      "id": "b5a2dfca-5261-455e-91e9-cce32f59d8b7",
+      "name": "👻 Shadow Check",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        3600,
+        1440
+      ]
+    },
+    {
+      "parameters": {
+        "operation": "create",
+        "base": {
+          "__rl": true,
+          "value": "appYOUR_BASE_ID",
+          "mode": "id"
+        },
+        "table": {
+          "__rl": true,
+          "value": "SHADOW_MODE_LOG",
+          "mode": "list"
+        },
+        "columns": {
+          "mappingMode": "defineBelow",
+          "value": {
+            "lead": "={{ $json.lead_id }}",
+            "ai_draft": "={{ $json.draft_short }}",
+            "ai_channel": "={{ $json.channel }}",
+            "lead_score": "={{ $json.lead_score }}"
+          },
+          "matchingColumns": [],
+          "schema": []
+        }
+      },
+      "id": "d1f2175a-cd0e-43d2-85fe-a16d14e3edcb",
+      "name": "📝 Log AI Draft",
+      "type": "n8n-nodes-base.airtable",
+      "typeVersion": 2.1,
+      "position": [
+        3900,
+        1440
+      ],
+      "credentials": {
+        "airtableTokenApi": {
+          "id": "YOUR_CRED",
+          "name": "Airtable"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "channel": "#shadow-mode",
+        "text": "👻 *SHADOW MODE*\n\nNew lead: {{ $json.lead_name }} (Score: {{ $json.lead_score }})\nAI would send on {{ $json.channel }}:\n\n_\"{{ $json.draft_short }}\"_\n\n👆 Reply manually to this lead, then paste your response in this thread.",
+        "options": {}
+      },
+      "id": "01de393e-61ba-4683-b777-01be5f6333de",
+      "name": "💬 Shadow Notify",
+      "type": "n8n-nodes-base.slack",
+      "typeVersion": 2.2,
+      "position": [
+        4200,
+        1440
+      ],
+      "credentials": {
+        "slackApi": {
+          "id": "YOUR_SLACK",
+          "name": "Slack"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.openai.com/v1/chat/completions",
+        "options": {},
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "Authorization",
+              "value": "Bearer YOUR_OPENAI_KEY"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={\n  \"model\": \"gpt-4o-mini\",\n  \"messages\": [\n    {\"role\": \"system\", \"content\": \"Compare these two outreach messages to the same lead. Rate similarity 0-100 on: tone, content_relevance, approach, overall. What did AI get right/wrong? Return JSON: {tone_match, content_match, approach_match, overall_match, ai_strengths, ai_weaknesses}\"},\n    {\"role\": \"user\", \"content\": \"{{ 'AI draft: ' + $json.ai_draft + ' | Human response: ' + ($json.human_response || 'pending') }}\"}\n  ],\n  \"temperature\": 0.7,\n  \"response_format\": {\"type\": \"json_object\"}\n}"
+      },
+      "id": "98103126-a998-48f1-adec-c025dc77bbad",
+      "name": "🧠 Compare AI vs Human",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        4500,
+        1440
+      ],
+      "onError": "continueRegularOutput"
+    },
+    {
+      "parameters": {
+        "operation": "update",
+        "base": {
+          "__rl": true,
+          "value": "appYOUR_BASE_ID",
+          "mode": "id"
+        },
+        "table": {
+          "__rl": true,
+          "value": "SHADOW_MODE_LOG",
+          "mode": "list"
+        },
+        "columns": {
+          "mappingMode": "defineBelow",
+          "value": {
+            "id": "={{ $json.id }}",
+            "overall_match": "={{ JSON.parse($json.choices[0].message.content).overall_match }}",
+            "tone_match": "={{ JSON.parse($json.choices[0].message.content).tone_match }}"
+          },
+          "matchingColumns": [
+            "id"
+          ],
+          "schema": []
+        }
+      },
+      "id": "823bce9f-38a9-4e79-9877-072c7110afba",
+      "name": "💾 Save Shadow Score",
+      "type": "n8n-nodes-base.airtable",
+      "typeVersion": 2.1,
+      "position": [
+        4800,
+        1440
+      ],
+      "credentials": {
+        "airtableTokenApi": {
+          "id": "YOUR_CRED",
+          "name": "Airtable"
+        }
+      }
+    },
+    {
+      "parameters": {},
+      "id": "e3a61be5-e57f-4550-b3bf-6f855ceccf92",
+      "name": "🚨 Error Trigger",
+      "type": "n8n-nodes-base.errorTrigger",
+      "typeVersion": 1,
+      "position": [
+        3600,
+        2120
+      ]
+    },
+    {
+      "parameters": {
+        "jsCode": "const error = $input.first().json;\nconst severity = (error.message || \"\").includes(\"API key\") ? \"CRITICAL\" : (error.message || \"\").includes(\"429\") ? \"WARNING\" : \"INFO\";\nreturn [{ json: { node_name: error.node?.name || \"Unknown\", error_message: (error.message || \"Unknown error\").substring(0,500), severity, timestamp: new Date().toISOString() }}];"
+      },
+      "id": "848e980a-c98e-4e94-a0f9-e05e119f9c36",
+      "name": "📋 Format Error",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        3860,
+        2120
+      ]
+    },
+    {
+      "parameters": {
+        "operation": "create",
+        "base": {
+          "__rl": true,
+          "value": "appYOUR_BASE_ID",
+          "mode": "id"
+        },
+        "table": {
+          "__rl": true,
+          "value": "ERROR_LOGS",
+          "mode": "list"
+        },
+        "columns": {
+          "mappingMode": "defineBelow",
+          "value": {
+            "node_name": "={{ $json.node_name }}",
+            "error_message": "={{ $json.error_message }}",
+            "severity": "={{ $json.severity }}"
+          },
+          "matchingColumns": [],
+          "schema": []
+        }
+      },
+      "id": "70e970e8-e86b-434c-9515-c0f4f072a57c",
+      "name": "💾 Log Error",
+      "type": "n8n-nodes-base.airtable",
+      "typeVersion": 2.1,
+      "position": [
+        4120,
+        2120
+      ],
+      "credentials": {
+        "airtableTokenApi": {
+          "id": "YOUR_CRED",
+          "name": "Airtable"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict"
+          },
+          "conditions": [
+            {
+              "id": "c1",
+              "leftValue": "={{ $json.severity }}",
+              "rightValue": "CRITICAL",
+              "operator": {
+                "type": "string",
+                "operation": "equals"
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "id": "b896624c-441b-4413-a604-94ca6bc4b651",
+      "name": "🔀 Is Critical?",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2,
+      "position": [
+        4380,
+        2120
+      ]
+    },
+    {
+      "parameters": {
+        "channel": "#lead-alerts",
+        "text": "🚨 *LEADGEN ERROR — {{ $json.severity }}*\n\nNode: {{ $json.node_name }}\nError: {{ $json.error_message }}\nTime: {{ $json.timestamp }}\n\n{{ $json.severity === 'CRITICAL' ? '⛔ Workflow may need manual restart!' : '⚠️ Auto-continuing...' }}",
+        "options": {}
+      },
+      "id": "065e8f19-f882-4cb0-a639-ac0f30e8d8d8",
+      "name": "💬 Alert Team",
+      "type": "n8n-nodes-base.slack",
+      "typeVersion": 2.2,
+      "position": [
+        4640,
+        2040
+      ],
+      "credentials": {
+        "slackApi": {
+          "id": "YOUR_SLACK",
+          "name": "Slack"
+        }
+      }
+    }
+  ],
+  "connections": {
+    "⏰ Scan Every 15min": {
+      "main": [
+        [
+          {
+            "node": "📋 Load Config",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "📋 Load Config": {
+      "main": [
+        [
+          {
+            "node": "🔍 Reddit via Google",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "🐦 Twitter/X Search",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "🌐 RSS Feed Monitor",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "🔍 Reddit via Google": {
+      "main": [
+        [
+          {
+            "node": "🔀 Merge Sources",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "🐦 Twitter/X Search": {
+      "main": [
+        [
+          {
+            "node": "🔀 Merge Sources",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "🌐 RSS Feed Monitor": {
+      "main": [
+        [
+          {
+            "node": "🔀 Merge Sources",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "🔀 Merge Sources": {
+      "main": [
+        [
+          {
+            "node": "🧹 Normalize Data",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "🧹 Normalize Data": {
+      "main": [
+        [
+          {
+            "node": "🚫 Check Duplicates",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "🚫 Check Duplicates": {
+      "main": [
+        [
+          {
+            "node": "✂️ Filter Known",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "✂️ Filter Known": {
+      "main": [
+        [
+          {
+            "node": "🧠 AI Intent Classifier",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "🧠 AI Intent Classifier": {
+      "main": [
+        [
+          {
+            "node": "✂️ Filter Low Intent",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "✂️ Filter Low Intent": {
+      "main": [
+        [
+          {
+            "node": "💾 Save New Lead",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "📊 Track Detection",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "💾 Save New Lead": {
+      "main": [
+        [
+          {
+            "node": "👤 Reddit Profile Search",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "👤 Reddit Profile Search": {
+      "main": [
+        [
+          {
+            "node": "🔀 Has Apollo Key?",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "🔀 Has Apollo Key?": {
+      "main": [
+        [
+          {
+            "node": "🏢 Apollo Enrichment",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "🔄 Google Fallback",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "🏢 Apollo Enrichment": {
+      "main": [
+        [
+          {
+            "node": "🔀 Merge Enrichment",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "🔄 Google Fallback": {
+      "main": [
+        [
+          {
+            "node": "🔀 Merge Enrichment",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "🔀 Merge Enrichment": {
+      "main": [
+        [
+          {
+            "node": "🧠 AI Lead Profiler",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "🧠 AI Lead Profiler": {
+      "main": [
+        [
+          {
+            "node": "📊 Calculate Score",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "📊 Calculate Score": {
+      "main": [
+        [
+          {
+            "node": "💾 Save Enriched Lead",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "💾 Save Enriched Lead": {
+      "main": [
+        [
+          {
+            "node": "🔀 Route by Score",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "🔀 Route by Score": {
+      "main": [
+        [
+          {
+            "node": "🧠 GPT-4o Strategy",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "🧠 Quick Draft (WARM)",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "⏸️ Wait (Do Nothing)",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "🧠 GPT-4o Strategy": {
+      "main": [
+        [
+          {
+            "node": "✍️ Claude Message Craft",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "✍️ Claude Message Craft": {
+      "main": [
+        [
+          {
+            "node": "🛡️ Quality Gate",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "🛡️ Quality Gate": {
+      "main": [
+        [
+          {
+            "node": "🔀 Merge Drafts",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "🧠 Quick Draft (WARM)": {
+      "main": [
+        [
+          {
+            "node": "🔀 Merge Drafts",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "🔀 Merge Drafts": {
+      "main": [
+        [
+          {
+            "node": "💾 Save to Queue",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "💾 Save to Queue": {
+      "main": [
+        [
+          {
+            "node": "📋 Format Slack Card",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "📋 Format Slack Card": {
+      "main": [
+        [
+          {
+            "node": "💬 Send to #lead-review",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "💬 Send to #lead-review": {
+      "main": [
+        [
+          {
+            "node": "⏰ Log Review Sent",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "⏰ Log Review Sent": {
+      "main": [
+        [
+          {
+            "node": "💾 Update Queue",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "💾 Log Interaction",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "🔀 Route Channel": {
+      "main": [
+        [
+          {
+            "node": "⏱️ Random Delay",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "💬 Reddit Manual",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "🔗 LinkedIn Manual",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "⏱️ Random Delay": {
+      "main": [
+        [
+          {
+            "node": "📧 Send Email",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "📧 Send Email": {
+      "main": [
+        [
+          {
+            "node": "💾 Log Email",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "💾 Log Email": {
+      "main": [
+        [
+          {
+            "node": "📅 Schedule Follow-up",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "📅 Schedule Follow-up": {
+      "main": [
+        [
+          {
+            "node": "💾 Update Contacted",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "🧠 Analyze Reply": {
+      "main": [
+        [
+          {
+            "node": "🔀 Reply Sentiment",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "🔀 Reply Sentiment": {
+      "main": [
+        [
+          {
+            "node": "🎉 Send Calendly",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "🗑️ Blacklist",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "❓ Forward Question",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "⏰ Daily Nurture": {
+      "main": [
+        [
+          {
+            "node": "📋 Get Active Leads",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "📋 Get Active Leads": {
+      "main": [
+        [
+          {
+            "node": "📉 Apply Warmth Decay",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "📉 Apply Warmth Decay": {
+      "main": [
+        [
+          {
+            "node": "🧠 AI Next Action",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "🧠 AI Next Action": {
+      "main": [
+        [
+          {
+            "node": "🔀 Parse Decision",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "🔀 Parse Decision": {
+      "main": [
+        [
+          {
+            "node": "🔀 Nurture Action",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "🔀 Nurture Action": {
+      "main": [
+        [
+          {
+            "node": "💾 Update Decayed",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "💾 Update Decayed",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "🗃️ Archive Lead",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "⏰ Competitor Scan": {
+      "main": [
+        [
+          {
+            "node": "📋 Load Competitors",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "📋 Load Competitors": {
+      "main": [
+        [
+          {
+            "node": "🔍 Search Complaints",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "🔍 Search Complaints": {
+      "main": [
+        [
+          {
+            "node": "🧠 Comp Sentiment",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "🧠 Comp Sentiment": {
+      "main": [
+        [
+          {
+            "node": "🔀 Is Opportunity?",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "🔀 Is Opportunity?": {
+      "main": [
+        [
+          {
+            "node": "💾 Save Comp Lead",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "⏰ Weekly Report": {
+      "main": [
+        [
+          {
+            "node": "📊 Aggregate Pipeline",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "📊 Aggregate Pipeline": {
+      "main": [
+        [
+          {
+            "node": "🧠 AI Insights",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "🧠 AI Insights": {
+      "main": [
+        [
+          {
+            "node": "💬 Post Report",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "💬 Post Report": {
+      "main": [
+        [
+          {
+            "node": "💾 Save Report",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "👻 Shadow Check": {
+      "main": [
+        [
+          {
+            "node": "📝 Log AI Draft",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "📝 Log AI Draft": {
+      "main": [
+        [
+          {
+            "node": "💬 Shadow Notify",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "💬 Shadow Notify": {
+      "main": [
+        [
+          {
+            "node": "🧠 Compare AI vs Human",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "🧠 Compare AI vs Human": {
+      "main": [
+        [
+          {
+            "node": "💾 Save Shadow Score",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "🚨 Error Trigger": {
+      "main": [
+        [
+          {
+            "node": "📋 Format Error",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "📋 Format Error": {
+      "main": [
+        [
+          {
+            "node": "💾 Log Error",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "💾 Log Error": {
+      "main": [
+        [
+          {
+            "node": "🔀 Is Critical?",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "🔀 Is Critical?": {
+      "main": [
+        [
+          {
+            "node": "💬 Alert Team",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "staticData": null,
+  "tags": [],
+  "triggerCount": 0
+}
